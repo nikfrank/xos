@@ -1,0 +1,345 @@
+Abstract:
+
+To take students from no coding experience to productive programmers, we need a curriculum focused on language skills.
+Clouding the student's mind with anything other than code is counterproductive while the language skills are still nascent.
+Furthermore, keeping the variety of languages covered to a minimum will avoid spreading the learning across too many topics at once.
+This can be achieved by creating a standard javascript development environment on each student's computer
+and providing learning materials which allow focus on just the code tactics being studied.
+
+as Linus says 'talk is cheap - show me the code!'
+
+ I've split the curriculum into four sections as follows:
+1: making simple webpages (HTML, CSS, JS)
+2: making active webpages (angularjs)
+3: making simple servers (nodejs)
+4: using the newest browser modules (plethora JS modules, libraries and sdks)
+
+extra classes may be added to cover non-core frameworks (bootstrap, jQuery, d3, rawJS, paypal, ... ) which have marginal use or remain popular,
+as well as sub topics in computer science (sorting, regexps, indexing things, thinking about efficiency, ...) or math (as needed)
+
+Each section will consist of single-tactic lessons combining to build larger solutions. Each tactic lesson will come with instructions
+on how to "check out" the code which the student will start from (think of "checking out" like photocopying something from a library book).
+The lesson will self-confirm it's completion (by running tests written into it).
+
+The course is designed to be worked through at the pace of the learner, with most work done individually and unilaterally -
+with group activity purposed more towards cultural and social aspects of programming.
+However, it can be condensed by replacing "on his own" time with group tutorial time as the organizer sees fit.
+
+
+Draft curriculum:: (more technical version)
+
+Section 1: the browser and the DOM (novice browser code-monkeying)
+Section 2: angularjs framework (intermediate browser code-monkeying)
+Section 3: nodejs framework (novice server code-monkeying)
+Section 4: topics in browser hi tech (advanced browser code-monkeying)
+
+Preamble:
+
+The student's computer is prepared with emacs (text editor) nodejs (server software) chrome (browser) and git (source control).
+During the first lesson he will be familiarized with the parts of each he will use (read: a limited set of commands in order to work),
+and be issued cheat sheets for each. He will be instructed to jump into an existing project using git, browse and edit the project with emacs,
+run the project using node, and view the result in chrome. This will be the primary workflow throughout the novice and intermediate parts of the course.
+
+Further, a culture focusing on the philosophy of clean maintainable code (aka the "we're not animals" philosophy)
+is cultivated while exposing students to the wisdom and anti-wisdom of various figures in the hitech industry.
+
+Students to learn at their pace, code at my pace, exercise regularly and get plenty of sleep.
+
+The focus is on language skills in JavaScript. By the end of he course a student should be able to teach about concepts such as:
+
+the dom and browser runtime,
+the javascript language - it's super awesome features and it's quirks,
+popular frameworks and their usefulness-domains,
+importing modules into the server or client,
+the angularjs framework and why it's so amazing,
+the nodejs framework and when it's so amazing,
+async/nonblocking code,
+common mistakes on the internet regarding security,
+leveraging new and useful libraries to build lightweight webapps.
+
+Among a zillion other things (like how 'The Matrix' is really about the zen of code and how emacs was named for a hobo)
+
+---------------------
+Section 1 overview:
+---------------------
+
+At this point we can begin studying HTML/CSS/JS runtime document structure (aka the DOM).
+
+The student will be presented with three projects which have been structured for him to attempt each new tactic as he pleases,
+then move to the next via git checkout (with best practice code filled in for the previous). If he wants to save something he's done,
+there's a way to do that with git and he can learn that if he pleases.
+
+The projects will be fairly simple examples of Angularjs based webapps (a mortgage calculator, shopping + cart, calculus checker)
+
+In person lessons will walk through the workflow process, the basics of each language (HTML tag/element/attribute, CSS import/selector/property, JS import/runtime/syntax)
+
+Most of the code is expected to be written on his own time or right after the lesson (while I'm around to direct work).
+Also I'll be available on email as a resource, although my responses will usually be google search term links.
+
+The goal for Section 1 is to have the student understand how the page loads, decides how to look and what to do.
+He should know the minimum viable set of HTML and CSS (more importantly know how to google what he doesn't know)
+and be comfortable with the basics of JavaScript syntax (var, JSON, functions), as well as the first few angularjs directives linked to controllers.
+
+Also, he will learn what stackoverflow.com is and never go there except from google searches.
+
+Students will be assigned 'JavaScript the good parts' as reading and primarily be writing small components or fixing bugs to learn.
+Quirkier parts of the language will have to wait.
+
+---------------------
+Section 2 overview:
+---------------------
+
+This section is primarily concerned with using other peoples code (quickstart -> import -> poc -> study docs)
+
+The student will use bootstrap (CSS & JS), angular's $http and $routeParams services + custom made services in addition to expanding his vocabulary of directives.
+
+Lessons will revolve around using the various angular directives and services, while introducing more advanced features in HTML, CSS and JS.
+
+Students will start their own project (I have a bunch they can work on if they have no fully formed ideas)
+
+Through angular's built in $http service, students will be exposed to asynchronous programming, which is far less scary than that there big city word for it.
+
+The final project for section 2 is to use angular's (albethey shitty) docs to write his own directive and service.
+His markup will progress to comfortable use as he practices.
+
+The goal for section 2 is for the student to have a working knowledge of all the moving parts on the client. He will by this point be expected to
+google his questions about html, css, and built in javascript functions before bothering me with them.
+
+We can also sneak in primers for server routes in the $http material.
+
+---------------------
+Section 3 overview:
+---------------------
+
+Section 3 is where the student is introduced to the node runtime. Earlier he was simply booting node ($$ node start) and using routes served from his local node instance.
+
+Here we'll work from docs (& tests) to fill in an API.
+
+He will learn the request response pattern and the concept of the crud server. The concept of cross origin request blocking and basic security will be introduced.
+
+This will require the student to learn to use npm, and review the structure of the node server.
+We can use pgx to avoid learning SQL, the student can go ahead and learn that himself though.
+
+During this section we'll introduce the student to grunt.
+
+The goal of section 3 is for the student to understand what the server does and be comfortable within it.
+
+The curious may at this time wish to learn to use heroku (advised as a free cloud hosting platform) and show off their work on the open web.
+
+Students interested in developing on the server further will be told they are insane, and encouraged to do so.
+
+---------------------
+Section 4 overview:
+---------------------
+
+Here the student will learn to use client side modules to leverage cutting edge browser tech to build lightweight applications.
+
+Facebook auth, Q (promises), webrtc, indexeddb, AWS, webaudio, google maps ... If he is so inclined, a student may wish to write a chrome plugin. That's cool too eh.
+
+By this time the student will start to be given assignments pushing his boundaries with previous topics, and will be expected to find somewhere to work these modules.
+
+Excelling students may be issued work for cash; those interested in developing open source modules with me will be issued sandwiches of their choice.
+
+
+---------------------------------------------------------------------------------------------------------
+
+lesson detail for::
+
+Section 1:
+
+lesson 1 - html doc structure tags + elements, simple css + simple selectors
+
+task: make a table of some items for the store/charts whatever
+
+lesson 2 - box model, how to google for css stuff, chrome developer panel, self closing tags
+
+task: style our table from a css
+
+assign a bunch of styles to mimic
+
+reqd to start javascript the good parts book
+
+lesson 3 - javascript var (number/string), JSON stuff (two way binding magically)
+
+task: fill our table with data from a controller (markup provided)
+
+lesson 4 - input elements, html attributes -> ng-model, two way binding with less magic {{}}
+
+task: use ng-directives to fill our view code from the controller (and bind an input back to the controller)
+
+lesson 5 - importing bootstrap and using a few useful things from it
+
+task: make a bootstrap modal which saves data back to the controller
+
+lesson 6 - review the boot process for angular, client side routing/hash links
+
+task: duplicate a view from the project, dump our code into it
+
+lessons 7-10 - moving through the projects (javascript functions, ng-click, javascript loops)
+
+-------------------------
+total:  10 hrs class time
+       35-55 hrs own time
+
+condensed version can be
+fit into one week with
+'own time' hours as
+tutorials mostly
+-------------------------
+
+Section 2:
+
+lesson 1 - lots of directives (ng-hide/show, ng-options, ng-class, ng-repeat) + some js built-ins
+
+lesson 2 - the $http service (injector basics), ng-src/href + some js built-ins
+
+lesson 3 - the $routeParams service / advanced client side routing
+
+lesson 4 - the directive's controller
+
+lesson 5 - defining and importing directives
+
+lesson 6 - transcluded directives, discussion on scopes & $rootScope
+
+lesson 7 - services (easier than directives!)
+
+lesson 8-10 - writing a directive and service usefully for our app
+
+-------------------------
+total:  10 hrs class time
+       35-55 hrs own time
+
+condensed version can be
+fit into one week with
+'own time' hours as
+tutorials mostly
+-------------------------
+
+Section 3:
+
+lesson 1 - app.get(function(req, res){ return res.end('hello node'); } );// what is that?
+
+lesson 2 - get/post, request body, and responses
+
+lesson 3 - calling the db with pgx (and non-blocking operations)
+
+lesson 4 - using grunt to make our lives easier
+
+lesson 5 - testing our code automatically with mocha + grunt
+
+lesson 6 - writing our own data schemae
+
+lessons 7++ - studying the features of node+express (npm modules, middlewares, auth, connecting to webservices)
+
+-------------------------
+total: 7++ hrs class time
+       35-55 hrs own time
+
+condensed version can be
+fit into one week with
+'own time' hours as
+tutorials mostly
+-------------------------
+
+Section 4: (not in any order)
+
+each lesson will cover booting into a web tech module
+
+some of them will probably be canijs modules which I am authoring
+
+students interested will be brought through the module development process and encouraged to contribute.
+
+-------------------------
+
+Section 0:
+
+one off lessons - topics in computer science
+
+naming variables
+
+escape chars
+
+typeof and constructors
+
+javascript date objects
+
+hash functions
+
+regexps
+
+sorting
+
+indexes
+
+efficiency
+
+crypto & security
+
+audio streams
+
+video streams
+
+fourier transforms
+
+idempotency
+
+documentation
+
+bash & processes
+
+other linux topics
+
+phonegap
+
+vps, ssh
+
+cloud services
+
+making up data (aka facade)
+
+git branches, submodules, pull requests
+
+-------------------------
+
+Section 5:
+
+one off lessons - marginally useful web modules
+
+fontawesome
+
+jquery
+
+paypal
+
+google maps
+
+(other google apis)
+
+chrome plugins
+
+d3
+
+raw javascript
+
+xml, csv, and other stupid data formats
+
+psql
+
+-------------------------
+
+
+Todo::
+
+fill in tasks for section 2 as current class progresses through it
+
+fill in assignments for section 1 and 2
+
+Write boot script for Linux
+Write cheat sheets for git, emacs, node/npm, chrome.
+Prepare lesson materials in checkout-git format for novice lessons and write documentation/tests for each tactic.
+Prepare looser feel lesson materials for more advanced topics, and compile sources for further reading.
+Collect cultural materials regarding important and useful thoughts.
+
+look into http://campus.codeschool.com/courses/shaping-up-with-angular-js/intro to see if it's worth assigning
+
+write an example of a git-checkout lesson path.
