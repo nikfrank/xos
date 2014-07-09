@@ -6,21 +6,23 @@
 </p>
 <p>
   what's happening is the "+" operator has a different meaning for numbers as for strings
-  ((code blurb here))
 </p>
 <p>
-  and since we aren't telling angular what type to expect, it guesses wrong
+  in our add function, we have::
+</p>
+<p>
+  $scope.ans = $scope.num1 + $scope.num2;
+</p>
+<p>
+  which would be fine as long as num1 and num2 are both numbers
+</p>
+<p>
+  buuuut, if they're strings, the "+" will act as a string concatenator instead of adiition
+</p>
+<p>
+  and since we aren't telling angular what type to expect, it uses what it sees default from the input box (string)
 </p>
 <p>
   the other operators work because they're only defined for numbers.
 </p>
 <hr>
-<p>
-  so there's two ways of fixing this:: from the view or the controller
-</p>
-<p>
-  we can either put a type="number" attribute on the input boxes
-</p>
-<p>
-  or we can parse the input into an integer in the add function
-</p>
