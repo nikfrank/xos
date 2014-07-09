@@ -6,11 +6,32 @@
     <title>Lesson 1 Calculator</title>
 
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../vendor/bootstrap.css">
 
   </head>
   <body data-ng-app="calculator">
 
-    <div data-ng-view></div>
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container-fluid">
+          <a class="brand" href="#">Nik's Web Lessons</a>
+          <div class="nav-collapse collapse">
+            <ul class="nav">
+	      <li>
+		<a href="#/calculator">Calculator</a>
+	      </li>
+	      <li>
+		<a href="#/walkthrough">Walkthrough</a>
+	      </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="ng-view-container">
+      <div data-ng-view></div>
+    </div>
 
     <script src="../vendor/angular.min.js"></script>
     <script src="../vendor/angular-route.min.js"></script>

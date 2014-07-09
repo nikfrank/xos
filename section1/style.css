@@ -1,3 +1,8 @@
+.ng-view-container {
+    margin-top:40px;
+    padding:12px;
+}
+
 hr {
     background-color:red;
     width:60%;
