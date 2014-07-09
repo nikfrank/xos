@@ -1,0 +1,26 @@
+<p>
+  here's a demo lesson on a super simple app I just wrote
+</p>
+<p>
+  there's a bug in the calculator! it works for - / and *, but adding is crazy!
+</p>
+<p>
+  what's happening is the "+" operator has a different meaning for numbers as for strings
+  ((code blurb here))
+</p>
+<p>
+  and since we aren't telling angular what type to expect, it guesses wrong
+</p>
+<p>
+  the other operators work because they're only defined for numbers.
+</p>
+<hr>
+<p>
+  so there's two ways of fixing this:: from the view or the controller
+</p>
+<p>
+  we can either put a type="number" attribute on the input boxes
+</p>
+<p>
+  or we can parse the input into an integer in the add function
+</p>
