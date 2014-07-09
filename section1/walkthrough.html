@@ -5,24 +5,9 @@
   there's a bug in the calculator! it works for - / and *, but adding is crazy!
 </p>
 <p>
-  what's happening is the "+" operator has a different meaning for numbers as for strings
-</p>
-<p>
-  in our add function, we have::
-</p>
-<p>
-  $scope.ans = $scope.num1 + $scope.num2;
-</p>
-<p>
-  which would be fine as long as num1 and num2 are both numbers
-</p>
-<p>
-  buuuut, if they're strings, the "+" will act as a string concatenator instead of adiition
-</p>
-<p>
-  and since we aren't telling angular what type to expect, it uses what it sees default from the input box (string)
-</p>
-<p>
-  the other operators work because they're only defined for numbers.
+  see if you can figure it out! if not,
+  <code>git checkout hint1</code> for a hint
+  or
+  <code>git checkout step2</code> for the soln
 </p>
 <hr>
