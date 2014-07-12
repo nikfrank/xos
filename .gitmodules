@@ -1,0 +1,15 @@
+[submodule "section4"]
+	path = section4
+	url = https://github.com/nikfrank/xosS4.git
+[submodule "section3"]
+	path = section3
+	url = https://github.com/nikfrank/xosS3.git
+[submodule "section2"]
+	path = section2
+	url = https://github.com/nikfrank/xosS2.git
+[submodule "section1"]
+	path = section1
+	url = https://github.com/nikfrank/xosS1.git
+[submodule "section0"]
+	path = section0
+	url = https://github.com/nikfrank/xosS0.git
