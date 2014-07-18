@@ -8,13 +8,19 @@ var app = express();
 var MemoryStore = require('connect').session.MemoryStore;
 
 app.configure(function(){
-  app.set('port', process.env.PORT || 8118);
-  app.set('view engine', 'ejs');
-  app.use(express.favicon('./app/favicon.ico'));
-  app.use(express.logger('dev'));
-  app.use(express.bodyParser());
-  app.use(express.methodOverride());
-  app.use(express.cookieParser('mm hmm?'));
+    app.set('port', process.env.PORT || 8118);
+    app.set('view engine', 'ejs');
+    app.use(express.favicon('./app/favicon.ico'));
+    app.use(express.logger('dev'));
+    app.use(express.bodyParser());
+    app.use(express.methodOverride());
+    app.use(express.cookieParser('mm hmm?'));
+
+    app.use(function(req, res, next){
+	res.header('Access-Control-Allow-Headers', 'content-type');
+	res.header('Access-Control-Allow-Origin', '*');
+	next();
+    });
   
   app.use(express.session({ secret:"mm hmm?", store: new MemoryStore({reapInterval:600000})}));
   app.use(app.router);
@@ -38,21 +44,18 @@ app.post('/command', function(req, res){
 	    console.log('Signal received: '+error.signal);
 	}
 
-	console.log('Child Process STDOUT: '+stdout);
-	ret += stdout;
-	console.log('Child Process STDERR: '+stderr);
-	res.json({stdout:ret});
+	res.json({stdout:stdout, stderr:stderr});
     });
 
     ls.on('exit', function (code) {
-	console.log('Child process exited with exit code '+code);
+//	console.log('Child process exited with exit code '+code);
     });
 
 });
 
 app.get('*', function(req, res){
     var cleanurl = req.url.split('?')[0];
-    res.sendfile('./app'+cleanurl);
+    res.sendfile('.'+cleanurl);
 });
 
 app.listen(process.env.PORT||8118, function(){

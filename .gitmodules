@@ -13,3 +13,6 @@
 [submodule "section0"]
 	path = section0
 	url = https://github.com/nikfrank/xosS0.git
+[submodule "angular"]
+	path = angular
+	url = https://github.com/nikfrank/xosS1.git
