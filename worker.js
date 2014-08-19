@@ -2,10 +2,17 @@ var express = require('express')
   , http = require('http')
   , path = require('path');
 
+var fs = require('fs');
+
 var childProcess = require('child_process');
 
 var app = express();
 var MemoryStore = require('connect').session.MemoryStore;
+
+var origins = ['http://www.thatscope.com', 'http://localhost:8117',
+	       'http://thatscope.herokuapp.com'];
+
+console.log('allowing from '+origins[process.argv[2]||0]);
 
 app.configure(function(){
     app.set('port', process.env.PORT || 8118);
@@ -18,7 +25,7 @@ app.configure(function(){
 
     app.use(function(req, res, next){
 	res.header('Access-Control-Allow-Headers', 'content-type');
-	res.header('Access-Control-Allow-Origin', '*');
+	res.header('Access-Control-Allow-Origin', origins[process.argv[2]||0]);
 	next();
     });
   
@@ -27,12 +34,31 @@ app.configure(function(){
 
 });
 
-app.get('/', function(req, res){
-    res.sendfile('./app/index.html');
+
+app.post('/file', function(req, res){
+    // pipe req.body.file to the client
+
+console.log(req.body);
+    // do this from the browser
+
+    fs.readFile(req.body.filename, function(err, original_data){
+
+	res.end(new Buffer(original_data, 'binary').toString('base64'));
+
+	fs.unlink(req.body.filename);
+    });
+
+
+
 });
 
 app.post('/command', function(req, res){
 
+// this should block a set of security commands, pretty much anything with [*, " /", ^"/"] in it
+
+// idk what those are in windows. ugh. someone is not going to enjoy securing this for \cmd
+
+    console.log(req.body.command);
     var ls;
 
     var ret = '';
@@ -48,14 +74,13 @@ app.post('/command', function(req, res){
     });
 
     ls.on('exit', function (code) {
-//	console.log('Child process exited with exit code '+code);
+	console.log('Child process exited with exit code '+code);
     });
-
 });
 
-app.get('*', function(req, res){
-    var cleanurl = req.url.split('?')[0];
-    res.sendfile('.'+cleanurl);
+app.get('/topic/*', function(req, res){
+    var cleanurl = req.url.split('?')[0].split('topic')[1];
+    return res.sendfile('.'+cleanurl);
 });
 
 app.listen(process.env.PORT||8118, function(){
