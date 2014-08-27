@@ -30,6 +30,9 @@ phantom.create(function(ph) {
 		if(hassent) return;
 		hassent = true;
 
+
+//perhaps use request to grab the DOM and save that as well.
+
 		var md5sum = crypto.createHash('md5');
 
 		var s = fs.ReadStream(filename);
@@ -52,8 +55,10 @@ phantom.create(function(ph) {
 
   ph.createPage(function(page) {
 
-    page.open("http://localhost:8118/topic/xos-angular/index.html", function(status) {
-	page.includeJs("http://localhost:8118/topic/xos-angular/vendor/jquery-1.6.1.min.js", function() {
+      var topic = process.argv[2].split('/')[0];
+
+    page.open('http://localhost:8118/topic/'+topic+'/index.html', function(status) {
+	page.includeJs('http://localhost:8118/topic/'+topic+'/vendor/jquery-1.6.1.min.js', function() {
 //	page.includeJs("http://thatscope.com/test/"+process.argv[2], function() {
 	page.includeJs("http://localhost:8117/test/"+process.argv[2], function() {
 
@@ -84,12 +89,15 @@ phantom.create(function(ph) {
 
 		page.evaluate(function() {
 
-		    var scope = angular.element(
-			document.getElementsByClassName('ng-view-instance')[0]).scope();
+		    var scope;
 
-		    // run lesson specific tests here
+		    if(window.angular){
 
-		    //$($('button')[0]).trigger('click');
+			scope = angular.element(
+			    document.getElementsByClassName('ng-view-instance')[0]).scope();
+		    }else{
+			scope = window.scope;
+		    }
 
 		    var ret = [];
 
@@ -108,7 +116,10 @@ phantom.create(function(ph) {
 			outof++;
 		    }
 
-		    return {tests:ret, total:total, outof:outof};
+		    return {
+			tests:ret, total:total, outof:outof, testversion:window.__testversion,
+			logs:window.scope.logs
+		    };
 
 		}, function(result){
 

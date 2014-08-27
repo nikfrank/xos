@@ -70,6 +70,7 @@ app.post('/command', function(req, res){
 	    console.log('Signal received: '+error.signal);
 	}
 
+console.log(stdout);
 	res.json({stdout:stdout, stderr:stderr});
     });
 
