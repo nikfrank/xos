@@ -117,8 +117,7 @@ phantom.create(function(ph) {
 		    }
 
 		    return {
-			tests:ret, total:total, outof:outof, testversion:window.__testversion,
-			logs:window.scope.logs
+			tests:ret, total:total, outof:outof, testversion:window.__testversion
 		    };
 
 		}, function(result){

@@ -38,18 +38,12 @@ app.configure(function(){
 app.post('/file', function(req, res){
     // pipe req.body.file to the client
 
-console.log(req.body);
-    // do this from the browser
-
     fs.readFile(req.body.filename, function(err, original_data){
 
-	res.end(new Buffer(original_data, 'binary').toString('base64'));
-
-	fs.unlink(req.body.filename);
+	fs.unlink(req.body.filename, function(err){
+	    res.end(new Buffer(original_data, 'binary').toString('base64'));
+	});
     });
-
-
-
 });
 
 app.post('/command', function(req, res){
@@ -70,7 +64,6 @@ app.post('/command', function(req, res){
 	    console.log('Signal received: '+error.signal);
 	}
 
-console.log(stdout);
 	res.json({stdout:stdout, stderr:stderr});
     });
 
