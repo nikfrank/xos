@@ -4,7 +4,7 @@ var fs = require('fs');
 
 var crypto = require('crypto');
 
-// process.argv[2] is the :topic/:lesson urlpart
+// process.argv[2] is the :topic/:lesson/:otu urlpart
 
 phantom.create(function(ph) {
 
@@ -55,11 +55,10 @@ phantom.create(function(ph) {
 
   ph.createPage(function(page) {
 
-      var topic = process.argv[2].split('/')[0];
+    var topic = process.argv[2].split('/')[0];
 
     page.open('http://localhost:8118/topic/'+topic+'/index.html', function(status) {
 	page.includeJs('http://localhost:8118/topic/'+topic+'/vendor/jquery-1.6.1.min.js', function() {
-//	page.includeJs("http://thatscope.com/test/"+process.argv[2], function() {
 	page.includeJs("http://localhost:8117/test/"+process.argv[2], function() {
 
 	    page.evaluate((function() {

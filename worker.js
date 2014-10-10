@@ -14,8 +14,10 @@ var origins = ['http://www.thatscope.com', 'http://localhost:8117',
 
 console.log('allowing from '+origins[process.argv[2]||0]);
 
+var port = process.argv[3]? 8119:8118;
+
 app.configure(function(){
-    app.set('port', process.env.PORT || 8118);
+    app.set('port', port);
     app.set('view engine', 'ejs');
     app.use(express.favicon('./app/favicon.ico'));
     app.use(express.logger('dev'));
@@ -37,13 +39,26 @@ app.configure(function(){
 
 app.post('/file', function(req, res){
     // pipe req.body.file to the client
-
     fs.readFile(req.body.filename, function(err, original_data){
-
 	fs.unlink(req.body.filename, function(err){
 	    res.end(new Buffer(original_data, 'binary').toString('base64'));
 	});
     });
+});
+
+app.post('/files', function(req, res){
+
+    var rem = req.body.filenames.length;
+    var pack = {};
+
+    for(var i=rem; i-->0;){
+	(function(fn){
+	    fs.readFile(fn, function(err, original_data){
+		pack[fn] = (new Buffer(original_data, 'binary').toString('utf8'));
+		if(!--rem) return res.json(pack);
+	    });
+	})(req.body.dir+'/'+req.body.filenames[i]);
+    }
 });
 
 app.post('/command', function(req, res){
@@ -77,6 +92,6 @@ app.get('/topic/*', function(req, res){
     return res.sendfile('.'+cleanurl);
 });
 
-app.listen(process.env.PORT||8118, function(){
-  console.log("Express server listening on port " + app.get('port'));
+app.listen(port, function(){
+  console.log("Express server listening on port " + port);
 });
