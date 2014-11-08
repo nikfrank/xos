@@ -59,7 +59,8 @@ phantom.create(function(ph) {
 
     page.open('http://localhost:8118/topic/'+topic+'/index.html', function(status) {
 	page.includeJs('http://localhost:8118/topic/'+topic+'/vendor/jquery-1.6.1.min.js', function() {
-	page.includeJs("http://localhost:8117/test/"+process.argv[2], function() {
+//	page.includeJs("http://localhost:8117/test/"+process.argv[2], function() {
+	page.includeJs("http://thatscope.com/test/"+process.argv[2], function() {
 
 	    page.evaluate((function() {
 		return __phantomCommands;
