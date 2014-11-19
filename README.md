@@ -34,22 +34,21 @@ project structure::
 
 fix:
 
-  ((check git status inside folders))
-  install/update topic
-
 todo:
 
-  onboard process for test users
+  (commands for windows)
   batch import tests/walkthrough
-  chat, usrs, topics, cmd services (commands for windows)
-  js-lang lessons
-  angular lessons to build finance & business app
+  angular lessons to build finance & business app // exercise schedule
+  replace save with diffsave, chat diff passing
+  teacher view (view domsnap in chat)
   check test sha1sum on upload
  
+doing:
+
+  js-lang lessons
 
 done:
 
-  teacher view (view domsnap in chat)
   new thread, list students, live chat
   list topics, list branches (lessons) per topic, pick lesson, render walkthrough, open local copy
   work branches, save copy, revert lesson, load copy, download topic
@@ -57,3 +56,10 @@ done:
   upload test result before snap
   update topic, login w fb, chat with teacher (rough)
   threads by topic/lesson
+  install/update topic
+  ((check git status inside folders))
+  onboard process for test users
+  chat, usrs, topics, cmd service
+  display names on work screen
+
+  dup usr bug
