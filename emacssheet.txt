@@ -1,0 +1,93 @@
+This here is your emacs cheet sheet. It covers basic key bindings which you will use.
+
+Note on reading key bindings: C is the ctrl key (even for mac users) S is shift, M is alt
+
+C-x C-s means "hold ctrl - hit x, hold ctrl - hit s", holding ctrl the whole time is cool
+
+incidentally, that's how you save your work, so feel free to develop trigger finger on C-x C-s
+
+Note on undo/cut/copy/paste:
+
+emacs predates the invention of C-z = undo, C-x = cut, C-c = copy, C-v = paste and thus doesn't use them.
+There's a setting in one of the menus that you can turn those on, I use the emacs key bindings, nbd.
+
+
+BASICS::
+
+C-w          "wipe"           equivalent to cut
+C-y          "yank"           equivalent to paste
+M-w                           equivalent to copy
+C-w C-y     "wipe","yank"     also the same as copy, doesn't use M
+C-_                           undo
+
+C-x d            using the minibuffer (bottom bar) opens directory listing (hit enter)
+                 while in the directory listing, hit RET (the enter key) to go into a file
+		 .. means "up" one directory (as is standard in unix)
+		 hit g to refersh the listing
+		 the files that end in ~ are buffer files emacs uses. feel free to ignore them
+		                         so long as you save your work all the time.
+
+
+C-g            cancels current operation, reverses direction of undo -> redo, redo -> undo.
+
+C-k            cuts the rest of the line
+C-a            moves cursor to beginning of line
+
+C-<left>       moves cursor left one word
+C-<right>      moves cursor right one word
+
+C-<up>	       move cursor up one paragraph
+C-<down>       move cursor down one paragraph
+
+C-<home>       move cursor to beginning of file
+C-<end>	       move cursor to end of file
+
+<tab>	       properly indents current line/selected lines (super useful. hit it often)
+
+C-s	       search -> type into minibuffer, continue hitting C-s
+C-r	       reverse search, same as search (can be used with C-s to search back and forth)
+
+C-<backspace>  cut beginning of or previous word (" " , . / () {} [] ; and some other stuff end words)
+C-<delete>     cut rest of or next word
+
+MULTIBUFFER::
+
+These key bindings let you split your screen, in order to have many files open at once
+
+C-x 2          Split buffer vertically
+C-x 3	       Split buffer horizontally
+
+C-x o	       move cursor to next buffer
+
+C-x 0	       close current buffer
+C-x 1	       make this buffer the only one (close all other buffers in this window)
+
+C-x 5 2	       open another window
+
+C-x C--     (that's ctrl-minusSign) shrink text size. (can repeat C-- without repeating C-x)
+C-x C-+	    grow tex size (can repeat C-- C-+ at will to fiddle text size)
+
+
+There are a bazillion more functions and key bindings built into emacs, google away.
+One that I find useful is called "replace-regexp" and is available from M-x -> (name of function)
+
+
+MY CUSTOM KEY BINDINGS::
+
+these are mostly useful for writing javascript, feel free to go into the .emacs file and edit them
+
+C-S-<return>   duplicate current line
+
+C-<tab>        console.log(); move cursor into parens
+C-f	       open a function with parens and curlies, move cursor into parens
+C-{	       open spaced curlies {
+	       	    // moves rest of line into curlies (to convert inline if/for into block
+}	       
+
+	      
+C-$	      $scope.     (for angularjs)
+
+C-!	      turn html tag into comment
+C-~	      turn html comment into tag
+C-<	      open new html comment
+C->	      turn text on line into open and close tag (div -> <div>\n\n</div>)

@@ -1,0 +1,59 @@
+Pilot nought-to-angular Curriculum
+
+To take students from no coding experience to productive programmers, we need a curriculum focused on language skills.
+Clouding the student's mind with anything other than code is counterproductive while the language skills are still nascent.
+Furthermore, keeping the variety of languages covered to a minimum will avoid spreading learning across too many topics at once.
+This can be achieved by creating a standard independent development environment on each student's computer
+and providing learning materials which allow focus on just the code tactics being studied.
+
+As the course progresses the student will become more independent in their learning, in order that they be able to continue
+improving on their own after completing the curriculum.
+
+Each section will consist of short but thorough lessons combining to build larger solutions and skills.
+The website loads the necessary lesson code on one click and the student begins working in a conventional independent
+development environment (IDE). On one click, the website will test the student's code and confirm proper completion.
+
+It is important to note that the student conducts his work in a conventional IDE, as he will be able to continue using
+the exact same workflow once he has completed the course and begins his own projects.
+
+
+The course will comprise of two main sections:
+
+1. Javascript in the browser environment
+
+   -- variables of all types & common data patterns, basic document (DOM) structure & interactions/events, raw ajax
+
+   The student will at first be reliant on the learning materials provided through the website to complete the lessons.
+   As he progresses, he will learn to find & read documentation available online to complete more complicated/specific tasks.
+
+   By completion, he will be comfortable running and debugging code in the browser, and be able to write gadgets into websites.
+
+
+2. The Angular.js browser framework
+
+   -- templating, binding, user-events, "Single Page Apps", writing modular (reusable, testable) code with Angular
+
+   The student will learn the parts of Angular and how they fit together to make web applications. He will learn how using the
+   existing directives and services makes completing the tasks from Section 1 trivial. He will also learn to make custom behaviour
+   by writing his own controllers directives and services, as well as the fundamentals of reusable, testable code (DRY, TDD).
+
+in addition to lessons on publishing code, basic web security, and team workflows.
+
+
+Augmenting the lessons is a website which has the following features:
+
+One-click loading of lesson code (ability to save/revert code)
+One-click testing of completed work (saves work to the cloud)
+Lesson specific chat to teachers, with ability to share code/links back and forth
+Progress tracking
+
+The website functions via a program downloaded and run on the student's computer (this is done while downloading everything else).
+
+Additional features - such as posting enlightening chat threads to a class-wide forum - are under development.
+
+
+If time permits, by the end of the course the student will have written a simple exercise planner app, and hosted it for free on the cloud.
+
+They will show all their friends and family how cool they are by sending a link to their work, which is available online.
+
+This course will not teach students how to politely refuse to fix their friends and family's computers now that the student is so cool.
