@@ -46,6 +46,7 @@ phantom.create(function(ph) {
 		    var d = md5sum.digest('hex');
 		    out.md5 = d;
 
+		    console.log('\n');
 		    console.log(JSON.stringify(out));
 		    process.exit();
 
@@ -61,45 +62,27 @@ phantom.create(function(ph) {
 
     page.open('http://localhost:8118/topic/'+topic+'/index.html', function(status) {
 	page.includeJs('http://localhost:8118/topic/'+topic+'/vendor/jquery-1.6.1.min.js', function() {
-//	page.includeJs("http://localhost:8117/test/"+process.argv[2], function() {
 	page.includeJs('http://'+(process.argv[3]||'thatscope.com')+'/test/'+process.argv[2], function() {
 
 	    page.evaluate((function() {
 		return __phantomCommands;
 	    }), function(cmds){
-
 		var tres = {};
 
 		for(var i=0; i<cmds.length; ++i){
-		    if(cmds[i].type === 'eval'){
-			
-			// grab the value out of the page in the middle of whatever
+		    if(cmds[i].type === 'eval'){ // grab the value out of the page during process
 			tres[cmds[i].res] = page.evaluate(tres[cmds[i].eval]);
 
-		    }else{
-			page.sendEvent(cmds[i].type, cmds[i].p0, cmds[i].p1, cmds[i].p2,
-				       cmds[i].p3, cmds[i].p4);
-		    }
+		    }else page.sendEvent(cmds[i].type, cmds[i].p0, cmds[i].p1, cmds[i].p2,
+					 cmds[i].p3, cmds[i].p4);
 		}
-
-// loop over the events returned from the client script
-//		page.sendEvent('click', offsets[0].left + 4, offsets[0].top + 4);
-//		page.sendEvent('keypress', '2');
-//
-//		page.sendEvent('click', offsets[1].left + 4, offsets[1].top + 4);
-//		page.sendEvent('keypress', '3');
-
 		page.evaluate(function() {
-
 		    var scope;
 
 		    if(window.angular){
-
 			scope = angular.element(
 			    document.getElementsByClassName('ng-view-instance')[0]).scope();
-		    }else{
-			scope = window.scope;
-		    }
+		    }else scope = window.scope;
 
 		    var ret = [];
 
@@ -108,10 +91,16 @@ phantom.create(function(ph) {
 
 		    for(var ff in __exp){
 			var pass = (scope[ff] === __exp[ff].val);
+			
+			// pull comment from string or function
+			var comment = __exp[ff].comment;
+			var msg = '';
+			if(typeof comment === 'function') msg = comment(scope[ff]);
+			else if(typeof comment === 'object') msg = comment[scope[ff]];
 
 			ret.push({
 			    field:ff, val:scope[ff], exp:__exp[ff].val,
-			    score:pass, comment:__exp[ff][pass?'success':'failure']
+			    score:pass, comment:msg
 			});
 
 			total += pass?1:0;
@@ -119,7 +108,8 @@ phantom.create(function(ph) {
 		    }
 
 		    return {
-			tests:ret, total:total, outof:outof, testversion:window.__testversion
+			results:ret, total:total, outof:outof, testversion:window.__testversion,
+			feedback:window.__feedback
 		    };
 
 		}, function(result){
@@ -142,3 +132,12 @@ phantom.create(function(ph) {
     });
   });
 });
+
+// loop over the events returned from the client script
+//		page.sendEvent('click', offsets[0].left + 4, offsets[0].top + 4);
+//		page.sendEvent('keypress', '2');
+//
+//		page.sendEvent('click', offsets[1].left + 4, offsets[1].top + 4);
+//		page.sendEvent('keypress', '3');
+
+// an example of this is in the xos-angular calculator test.
