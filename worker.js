@@ -10,7 +10,7 @@ var app = express();
 var MemoryStore = require('connect').session.MemoryStore;
 
 var origins = ['http://www.thatscope.com', 'http://localhost:8117',
-	       'http://thatscope.herokuapp.com'];
+	       'http://tht-staging.herokuapp.com'];
 
 console.log('allowing from '+origins[process.argv[2]||0]);
 
