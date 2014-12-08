@@ -36,7 +36,8 @@ fix:
 
 todo:
 
-  (commands for windows)
+  chat topic-scratch
+
   batch import tests/walkthrough
   angular lessons to build finance & business app // exercise schedule
   replace save with diffsave, chat diff passing
@@ -48,6 +49,8 @@ doing:
   js-lang lessons
 
 done:
+
+  (commands for windows)
 
   new thread, list students, live chat
   list topics, list branches (lessons) per topic, pick lesson, render walkthrough, open local copy
