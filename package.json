@@ -4,6 +4,7 @@
   "dependencies": {
     "express": "3.4.x",
     "connect":"2.7.2",
+      "request":"latest",
       "phantom":"latest"
   },
   "engines": {
