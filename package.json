@@ -5,7 +5,8 @@
     "express": "3.4.x",
     "connect":"2.7.2",
       "request":"latest",
-      "phantom":"latest"
+      "phantom":"latest",
+      "jquery":"latest"
   },
   "engines": {
     "node": "0.10.x",
