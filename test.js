@@ -61,7 +61,7 @@ phantom.create(function(ph) {
     var topic = process.argv[2].split('/')[0];
 
     page.open('http://localhost:8118/topic/'+topic+'/index.html', function(status) {
-	page.includeJs('http://localhost:8118/topic/'+topic+'/vendor/jquery-1.6.1.min.js', function() {
+	page.includeJs('http://localhost:8118/jquery', function() {
 	page.includeJs('http://'+(process.argv[3]||'thatscope.com')+'/test/'+process.argv[2], function() {
 
 	    page.evaluate((function() {
@@ -127,7 +127,7 @@ phantom.create(function(ph) {
 		});
 	    });
 	});
-	});
+	}); // commented for inject
 
     });
   });

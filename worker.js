@@ -94,6 +94,10 @@ app.get('/topic/*', function(req, res){
     return res.sendfile('.'+cleanurl);
 });
 
+app.get('/jquery', function(req, res){
+    return res.sendfile('./node_modules/jquery/dist/jquery.min.js');
+});
+
 app.listen(port, function(){
   console.log("Express server listening on port " + port);
 });
