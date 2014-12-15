@@ -7,10 +7,15 @@ project structure::
 /xos
   /xos-topic-name
    - git repo for topic
-   + /tests .gitignored
+   + /tests .gitignored (also /talks if present)
+   /tests
+    - private repo of l-#-lname/t-#-tname/ [test.js, walkthrough.html]
   
   /app
-   - publicly available angular application
+   - publicly available angular application (uncompiled)
+
+  /prod
+   - compiled by gulp production copy (linked to heroku)
 
    worker.js
     - local drone for commands and file xfer from website
@@ -30,6 +35,8 @@ project structure::
   test.js
    - phantom testrunner (symlink in dev)
 
+  node_modules from install
+
 ====
 
 fix:
@@ -39,7 +46,6 @@ todo:
   chat topic-scratch
 
   batch import tests/walkthrough
-  angular lessons to build finance & business app // exercise schedule
   replace save with diffsave, chat diff passing
   teacher view (view domsnap in chat)
   check test sha1sum on upload
@@ -47,6 +53,9 @@ todo:
 doing:
 
   js-lang lessons
+  html lessons
+
+  angular app (exercise scheduler)
 
 done:
 
