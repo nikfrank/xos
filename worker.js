@@ -69,7 +69,7 @@ app.post('/command', function(req, res){
 
 // block anything with a backtick in it (except for git branch -r | grep -v \'\\->\')
 
-//    console.log(req.body.command);
+    console.log(req.body.command);
     var ls;
 
     var ret = '';

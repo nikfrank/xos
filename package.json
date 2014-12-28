@@ -1,19 +1,26 @@
- {
+{
   "name": "code",
   "version": "0.0.1",
   "dependencies": {
     "express": "3.4.x",
-    "connect":"2.7.2",
-      "request":"latest",
-      "phantom":"latest",
-      "jquery":"latest"
+    "connect": "2.7.2",
+    "request": "latest",
+    "phantom": "latest",
+    "jquery": "latest"
   },
   "engines": {
     "node": "0.10.x",
-    "npm":  "1.3.x"
+    "npm": "1.3.x"
   },
   "scripts": {
     "test": "grunt test",
     "start": "node static"
+  },
+  "devDependencies": {
+    "jasmine-core": "^2.1.3",
+    "karma": "^0.12.28",
+    "karma-chrome-launcher": "^0.1.7",
+    "karma-firefox-launcher": "^0.1.3",
+    "karma-jasmine": "^0.3.3"
   }
 }

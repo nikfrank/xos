@@ -1,0 +1,3185 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node',
+1 verbose cli   '/usr/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'karma-phantomjs-launcher',
+1 verbose cli   '--save-dev' ]
+2 info using npm@1.4.14
+3 info using node@v0.10.29
+4 verbose node symlink /usr/bin/node
+5 warn package.json code@0.0.1 No repository field.
+6 warn package.json karma-chrome-launcher@0.1.7 No README data
+7 verbose readDependencies using package.json deps
+8 verbose cache add [ 'karma-phantomjs-launcher', null ]
+9 verbose cache add name=undefined spec="karma-phantomjs-launcher" args=["karma-phantomjs-launcher",null]
+10 verbose parsed url { protocol: null,
+10 verbose parsed url   slashes: null,
+10 verbose parsed url   auth: null,
+10 verbose parsed url   host: null,
+10 verbose parsed url   port: null,
+10 verbose parsed url   hostname: null,
+10 verbose parsed url   hash: null,
+10 verbose parsed url   search: null,
+10 verbose parsed url   query: null,
+10 verbose parsed url   pathname: 'karma-phantomjs-launcher',
+10 verbose parsed url   path: 'karma-phantomjs-launcher',
+10 verbose parsed url   href: 'karma-phantomjs-launcher' }
+11 silly lockFile e0cbf986-karma-phantomjs-launcher karma-phantomjs-launcher
+12 verbose lock karma-phantomjs-launcher /home/nik/.npm/e0cbf986-karma-phantomjs-launcher.lock
+13 silly lockFile e0cbf986-karma-phantomjs-launcher karma-phantomjs-launcher
+14 silly lockFile e0cbf986-karma-phantomjs-launcher karma-phantomjs-launcher
+15 verbose addNamed [ 'karma-phantomjs-launcher', '' ]
+16 verbose addNamed [ null, '*' ]
+17 silly lockFile cdd40d81-karma-phantomjs-launcher karma-phantomjs-launcher@
+18 verbose lock karma-phantomjs-launcher@ /home/nik/.npm/cdd40d81-karma-phantomjs-launcher.lock
+19 silly addNameRange { name: 'karma-phantomjs-launcher', range: '*', hasData: false }
+20 verbose url raw karma-phantomjs-launcher
+21 verbose url resolving [ 'https://registry.npmjs.org/', './karma-phantomjs-launcher' ]
+22 verbose url resolved https://registry.npmjs.org/karma-phantomjs-launcher
+23 info trying registry request attempt 1 at 03:14:36
+24 http GET https://registry.npmjs.org/karma-phantomjs-launcher
+25 http 200 https://registry.npmjs.org/karma-phantomjs-launcher
+26 silly registry.get cb [ 200,
+26 silly registry.get   { date: 'Sun, 28 Dec 2014 01:14:37 GMT',
+26 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R14B04)',
+26 silly registry.get     etag: '"66UFY5MR6A83JYRYD5F5XPBQP"',
+26 silly registry.get     'content-type': 'application/json',
+26 silly registry.get     'cache-control': 'max-age=60',
+26 silly registry.get     'content-length': '12786',
+26 silly registry.get     'accept-ranges': 'bytes',
+26 silly registry.get     via: '1.1 varnish',
+26 silly registry.get     age: '0',
+26 silly registry.get     'x-served-by': 'cache-lhr6323-LHR',
+26 silly registry.get     'x-cache': 'HIT',
+26 silly registry.get     'x-cache-hits': '1',
+26 silly registry.get     'x-timer': 'S1419729277.246665,VS0,VE83',
+26 silly registry.get     vary: 'Accept',
+26 silly registry.get     'keep-alive': 'timeout=10, max=50',
+26 silly registry.get     connection: 'Keep-Alive' } ]
+27 silly addNameRange number 2 { name: 'karma-phantomjs-launcher', range: '*', hasData: true }
+28 silly addNameRange versions [ 'karma-phantomjs-launcher',
+28 silly addNameRange   [ '0.0.1',
+28 silly addNameRange     '0.0.2',
+28 silly addNameRange     '0.0.3',
+28 silly addNameRange     '0.1.0',
+28 silly addNameRange     '0.1.1',
+28 silly addNameRange     '0.1.2',
+28 silly addNameRange     '0.1.3',
+28 silly addNameRange     '0.1.4' ] ]
+29 verbose addNamed [ 'karma-phantomjs-launcher', '0.1.4' ]
+30 verbose addNamed [ '0.1.4', '0.1.4' ]
+31 silly lockFile 5b4ecc13-karma-phantomjs-launcher-0-1-4 karma-phantomjs-launcher@0.1.4
+32 verbose lock karma-phantomjs-launcher@0.1.4 /home/nik/.npm/5b4ecc13-karma-phantomjs-launcher-0-1-4.lock
+33 silly lockFile 6f63103b-rma-phantomjs-launcher-0-1-4-tgz https://registry.npmjs.org/karma-phantomjs-launcher/-/karma-phantomjs-launcher-0.1.4.tgz
+34 verbose lock https://registry.npmjs.org/karma-phantomjs-launcher/-/karma-phantomjs-launcher-0.1.4.tgz /home/nik/.npm/6f63103b-rma-phantomjs-launcher-0-1-4-tgz.lock
+35 verbose addRemoteTarball [ 'https://registry.npmjs.org/karma-phantomjs-launcher/-/karma-phantomjs-launcher-0.1.4.tgz',
+35 verbose addRemoteTarball   '4ef96e4322ff63ae5d918e51c25b213723238f30' ]
+36 info retry fetch attempt 1 at 03:14:37
+37 verbose fetch to= /home/nik/tmp/npm-8154-Eu97Y2jN/registry.npmjs.org/karma-phantomjs-launcher/-/karma-phantomjs-launcher-0.1.4.tgz
+38 http GET https://registry.npmjs.org/karma-phantomjs-launcher/-/karma-phantomjs-launcher-0.1.4.tgz
+39 http 200 https://registry.npmjs.org/karma-phantomjs-launcher/-/karma-phantomjs-launcher-0.1.4.tgz
+40 silly lockFile 6f63103b-rma-phantomjs-launcher-0-1-4-tgz https://registry.npmjs.org/karma-phantomjs-launcher/-/karma-phantomjs-launcher-0.1.4.tgz
+41 silly lockFile 6f63103b-rma-phantomjs-launcher-0-1-4-tgz https://registry.npmjs.org/karma-phantomjs-launcher/-/karma-phantomjs-launcher-0.1.4.tgz
+42 silly lockFile 5b4ecc13-karma-phantomjs-launcher-0-1-4 karma-phantomjs-launcher@0.1.4
+43 silly lockFile 5b4ecc13-karma-phantomjs-launcher-0-1-4 karma-phantomjs-launcher@0.1.4
+44 silly lockFile cdd40d81-karma-phantomjs-launcher karma-phantomjs-launcher@
+45 silly lockFile cdd40d81-karma-phantomjs-launcher karma-phantomjs-launcher@
+46 silly resolved [ { name: 'karma-phantomjs-launcher',
+46 silly resolved     version: '0.1.4',
+46 silly resolved     description: 'A Karma plugin. Launcher for PhantomJS.',
+46 silly resolved     main: 'index.js',
+46 silly resolved     scripts: { test: 'echo "Error: no test specified" && exit 1' },
+46 silly resolved     repository:
+46 silly resolved      { type: 'git',
+46 silly resolved        url: 'git://github.com/karma-runner/karma-phantomjs-launcher.git' },
+46 silly resolved     keywords: [ 'karma-plugin', 'karma-launcher', 'phantomjs' ],
+46 silly resolved     author: { name: 'Vojta Jina', email: 'vojta.jina@gmail.com' },
+46 silly resolved     dependencies: { phantomjs: '~1.9' },
+46 silly resolved     peerDependencies: { karma: '>=0.9' },
+46 silly resolved     license: 'MIT',
+46 silly resolved     devDependencies:
+46 silly resolved      { grunt: '~0.4.1',
+46 silly resolved        'grunt-npm': '~0.0.2',
+46 silly resolved        'grunt-bump': '~0.0.7',
+46 silly resolved        'grunt-auto-release': '~0.0.2' },
+46 silly resolved     contributors:
+46 silly resolved      [ [Object],
+46 silly resolved        [Object],
+46 silly resolved        [Object],
+46 silly resolved        [Object],
+46 silly resolved        [Object],
+46 silly resolved        [Object],
+46 silly resolved        [Object],
+46 silly resolved        [Object],
+46 silly resolved        [Object],
+46 silly resolved        [Object] ],
+46 silly resolved     bugs: { url: 'https://github.com/karma-runner/karma-phantomjs-launcher/issues' },
+46 silly resolved     homepage: 'https://github.com/karma-runner/karma-phantomjs-launcher',
+46 silly resolved     _id: 'karma-phantomjs-launcher@0.1.4',
+46 silly resolved     dist:
+46 silly resolved      { shasum: '4ef96e4322ff63ae5d918e51c25b213723238f30',
+46 silly resolved        tarball: 'http://registry.npmjs.org/karma-phantomjs-launcher/-/karma-phantomjs-launcher-0.1.4.tgz' },
+46 silly resolved     _from: 'karma-phantomjs-launcher@',
+46 silly resolved     _npmVersion: '1.4.4',
+46 silly resolved     _npmUser: { name: 'vojtajina', email: 'vojta.jina@gmail.com' },
+46 silly resolved     maintainers: [ [Object] ],
+46 silly resolved     directories: {},
+46 silly resolved     _shasum: '4ef96e4322ff63ae5d918e51c25b213723238f30',
+46 silly resolved     _resolved: 'https://registry.npmjs.org/karma-phantomjs-launcher/-/karma-phantomjs-launcher-0.1.4.tgz' } ]
+47 info install karma-phantomjs-launcher@0.1.4 into /home/nik/code/xos
+48 info installOne karma-phantomjs-launcher@0.1.4
+49 info /home/nik/code/xos/node_modules/karma-phantomjs-launcher unbuild
+50 verbose tar unpack /home/nik/.npm/karma-phantomjs-launcher/0.1.4/package.tgz
+51 silly lockFile d485dc2a-modules-karma-phantomjs-launcher tar:///home/nik/code/xos/node_modules/karma-phantomjs-launcher
+52 verbose lock tar:///home/nik/code/xos/node_modules/karma-phantomjs-launcher /home/nik/.npm/d485dc2a-modules-karma-phantomjs-launcher.lock
+53 silly lockFile 4bd5c06c-tomjs-launcher-0-1-4-package-tgz tar:///home/nik/.npm/karma-phantomjs-launcher/0.1.4/package.tgz
+54 verbose lock tar:///home/nik/.npm/karma-phantomjs-launcher/0.1.4/package.tgz /home/nik/.npm/4bd5c06c-tomjs-launcher-0-1-4-package-tgz.lock
+55 silly gunzTarPerm modes [ '755', '644' ]
+56 silly gunzTarPerm extractEntry package.json
+57 silly gunzTarPerm extractEntry LICENSE
+58 silly gunzTarPerm extractEntry index.js
+59 silly lockFile d485dc2a-modules-karma-phantomjs-launcher tar:///home/nik/code/xos/node_modules/karma-phantomjs-launcher
+60 silly lockFile d485dc2a-modules-karma-phantomjs-launcher tar:///home/nik/code/xos/node_modules/karma-phantomjs-launcher
+61 silly lockFile 4bd5c06c-tomjs-launcher-0-1-4-package-tgz tar:///home/nik/.npm/karma-phantomjs-launcher/0.1.4/package.tgz
+62 silly lockFile 4bd5c06c-tomjs-launcher-0-1-4-package-tgz tar:///home/nik/.npm/karma-phantomjs-launcher/0.1.4/package.tgz
+63 info preinstall karma-phantomjs-launcher@0.1.4
+64 verbose readDependencies using package.json deps
+65 verbose readDependencies using package.json deps
+66 verbose cache add [ 'phantomjs@~1.9', null ]
+67 verbose cache add name=undefined spec="phantomjs@~1.9" args=["phantomjs@~1.9",null]
+68 verbose parsed url { protocol: null,
+68 verbose parsed url   slashes: null,
+68 verbose parsed url   auth: null,
+68 verbose parsed url   host: null,
+68 verbose parsed url   port: null,
+68 verbose parsed url   hostname: null,
+68 verbose parsed url   hash: null,
+68 verbose parsed url   search: null,
+68 verbose parsed url   query: null,
+68 verbose parsed url   pathname: 'phantomjs@~1.9',
+68 verbose parsed url   path: 'phantomjs@~1.9',
+68 verbose parsed url   href: 'phantomjs@~1.9' }
+69 verbose cache add name="phantomjs" spec="~1.9" args=["phantomjs","~1.9"]
+70 verbose parsed url { protocol: null,
+70 verbose parsed url   slashes: null,
+70 verbose parsed url   auth: null,
+70 verbose parsed url   host: null,
+70 verbose parsed url   port: null,
+70 verbose parsed url   hostname: null,
+70 verbose parsed url   hash: null,
+70 verbose parsed url   search: null,
+70 verbose parsed url   query: null,
+70 verbose parsed url   pathname: '~1.9',
+70 verbose parsed url   path: '~1.9',
+70 verbose parsed url   href: '~1.9' }
+71 verbose addNamed [ 'phantomjs', '~1.9' ]
+72 verbose addNamed [ null, '>=1.9.0-0 <1.10.0-0' ]
+73 silly lockFile 472de541-phantomjs-1-9 phantomjs@~1.9
+74 verbose lock phantomjs@~1.9 /home/nik/.npm/472de541-phantomjs-1-9.lock
+75 silly addNameRange { name: 'phantomjs',
+75 silly addNameRange   range: '>=1.9.0-0 <1.10.0-0',
+75 silly addNameRange   hasData: false }
+76 verbose url raw phantomjs
+77 verbose url resolving [ 'https://registry.npmjs.org/', './phantomjs' ]
+78 verbose url resolved https://registry.npmjs.org/phantomjs
+79 info trying registry request attempt 1 at 03:14:38
+80 http GET https://registry.npmjs.org/phantomjs
+81 http 200 https://registry.npmjs.org/phantomjs
+82 silly registry.get cb [ 200,
+82 silly registry.get   { date: 'Sun, 28 Dec 2014 01:14:38 GMT',
+82 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+82 silly registry.get     etag: '"BP25I2XDD7HG8FO3MYS5P6JT2"',
+82 silly registry.get     'content-type': 'application/json',
+82 silly registry.get     'cache-control': 'max-age=60',
+82 silly registry.get     'content-length': '91067',
+82 silly registry.get     'accept-ranges': 'bytes',
+82 silly registry.get     via: '1.1 varnish',
+82 silly registry.get     age: '0',
+82 silly registry.get     'x-served-by': 'cache-lhr6327-LHR',
+82 silly registry.get     'x-cache': 'HIT',
+82 silly registry.get     'x-cache-hits': '1',
+82 silly registry.get     'x-timer': 'S1419729278.427666,VS0,VE83',
+82 silly registry.get     vary: 'Accept',
+82 silly registry.get     'keep-alive': 'timeout=10, max=50',
+82 silly registry.get     connection: 'Keep-Alive' } ]
+83 silly addNameRange number 2 { name: 'phantomjs',
+83 silly addNameRange   range: '>=1.9.0-0 <1.10.0-0',
+83 silly addNameRange   hasData: true }
+84 silly addNameRange versions [ 'phantomjs',
+84 silly addNameRange   [ '0.0.1',
+84 silly addNameRange     '0.0.2',
+84 silly addNameRange     '0.0.3',
+84 silly addNameRange     '0.0.4',
+84 silly addNameRange     '0.0.5',
+84 silly addNameRange     '0.0.6',
+84 silly addNameRange     '0.0.7',
+84 silly addNameRange     '0.0.8',
+84 silly addNameRange     '0.0.9',
+84 silly addNameRange     '0.1.0',
+84 silly addNameRange     '0.1.1',
+84 silly addNameRange     '0.2.0',
+84 silly addNameRange     '0.2.1',
+84 silly addNameRange     '0.2.2',
+84 silly addNameRange     '0.2.3',
+84 silly addNameRange     '0.2.4',
+84 silly addNameRange     '0.2.5',
+84 silly addNameRange     '0.2.6',
+84 silly addNameRange     '1.8.0-1',
+84 silly addNameRange     '1.8.1-1',
+84 silly addNameRange     '1.8.1-2',
+84 silly addNameRange     '1.8.1-3',
+84 silly addNameRange     '1.8.2-0',
+84 silly addNameRange     '1.8.2-1',
+84 silly addNameRange     '1.8.2-2',
+84 silly addNameRange     '1.9.0-0',
+84 silly addNameRange     '1.9.0-1',
+84 silly addNameRange     '1.9.0-2',
+84 silly addNameRange     '1.9.0-3',
+84 silly addNameRange     '1.9.0-4',
+84 silly addNameRange     '1.9.0-5',
+84 silly addNameRange     '1.9.0-6',
+84 silly addNameRange     '1.9.1-0',
+84 silly addNameRange     '1.9.1-2',
+84 silly addNameRange     '1.9.1-3',
+84 silly addNameRange     '1.9.1-4',
+84 silly addNameRange     '1.9.1-5',
+84 silly addNameRange     '1.9.1-6',
+84 silly addNameRange     '1.9.1-7',
+84 silly addNameRange     '1.9.1-8',
+84 silly addNameRange     '1.9.1-9',
+84 silly addNameRange     '1.9.2-0',
+84 silly addNameRange     '1.9.2-1',
+84 silly addNameRange     '1.9.2-2',
+84 silly addNameRange     '1.9.2-3',
+84 silly addNameRange     '1.9.2-4',
+84 silly addNameRange     '1.9.2-5',
+84 silly addNameRange     '1.9.2-6',
+84 silly addNameRange     '1.9.6-0',
+84 silly addNameRange     '1.9.7-1',
+84 silly addNameRange     '1.9.7-3',
+84 silly addNameRange     '1.9.7-4',
+84 silly addNameRange     '1.9.7-5',
+84 silly addNameRange     '1.9.7-6',
+84 silly addNameRange     '1.9.7-7',
+84 silly addNameRange     '1.9.7-8',
+84 silly addNameRange     '1.9.7-9',
+84 silly addNameRange     '1.9.7-10',
+84 silly addNameRange     '1.9.7-11',
+84 silly addNameRange     '1.9.7-12',
+84 silly addNameRange     '1.9.7-13',
+84 silly addNameRange     '1.9.7-14',
+84 silly addNameRange     '1.9.7-15',
+84 silly addNameRange     '1.8.2-3',
+84 silly addNameRange     '1.9.8',
+84 silly addNameRange     '1.9.9',
+84 silly addNameRange     '1.9.10',
+84 silly addNameRange     '1.9.11',
+84 silly addNameRange     '1.9.12',
+84 silly addNameRange     '1.9.13' ] ]
+85 verbose addNamed [ 'phantomjs', '1.9.13' ]
+86 verbose addNamed [ '1.9.13', '1.9.13' ]
+87 silly lockFile b0139109-phantomjs-1-9-13 phantomjs@1.9.13
+88 verbose lock phantomjs@1.9.13 /home/nik/.npm/b0139109-phantomjs-1-9-13.lock
+89 silly lockFile 53cfdd45-g-phantomjs-phantomjs-1-9-13-tgz https://registry.npmjs.org/phantomjs/-/phantomjs-1.9.13.tgz
+90 verbose lock https://registry.npmjs.org/phantomjs/-/phantomjs-1.9.13.tgz /home/nik/.npm/53cfdd45-g-phantomjs-phantomjs-1-9-13-tgz.lock
+91 verbose addRemoteTarball [ 'https://registry.npmjs.org/phantomjs/-/phantomjs-1.9.13.tgz',
+91 verbose addRemoteTarball   '2f9afca241eaf17cad5a137bf9eade948a4d7ef5' ]
+92 info retry fetch attempt 1 at 03:14:38
+93 verbose fetch to= /home/nik/tmp/npm-8154-Eu97Y2jN/registry.npmjs.org/phantomjs/-/phantomjs-1.9.13.tgz
+94 http GET https://registry.npmjs.org/phantomjs/-/phantomjs-1.9.13.tgz
+95 http 200 https://registry.npmjs.org/phantomjs/-/phantomjs-1.9.13.tgz
+96 silly lockFile 53cfdd45-g-phantomjs-phantomjs-1-9-13-tgz https://registry.npmjs.org/phantomjs/-/phantomjs-1.9.13.tgz
+97 silly lockFile 53cfdd45-g-phantomjs-phantomjs-1-9-13-tgz https://registry.npmjs.org/phantomjs/-/phantomjs-1.9.13.tgz
+98 silly lockFile b0139109-phantomjs-1-9-13 phantomjs@1.9.13
+99 silly lockFile b0139109-phantomjs-1-9-13 phantomjs@1.9.13
+100 silly lockFile 472de541-phantomjs-1-9 phantomjs@~1.9
+101 silly lockFile 472de541-phantomjs-1-9 phantomjs@~1.9
+102 silly resolved [ { name: 'phantomjs',
+102 silly resolved     version: '1.9.13',
+102 silly resolved     keywords: [ 'phantomjs', 'headless', 'webkit' ],
+102 silly resolved     description: 'Headless WebKit with JS API',
+102 silly resolved     homepage: 'https://github.com/Obvious/phantomjs',
+102 silly resolved     repository: { type: 'git', url: 'git://github.com/Obvious/phantomjs.git' },
+102 silly resolved     licenses: [ [Object] ],
+102 silly resolved     author:
+102 silly resolved      { name: 'Dan Pupius',
+102 silly resolved        email: 'dan@obvious.com',
+102 silly resolved        url: 'http://pupius.co.uk' },
+102 silly resolved     maintainers: [ [Object], [Object], [Object] ],
+102 silly resolved     main: 'lib/phantomjs',
+102 silly resolved     bin: { phantomjs: './bin/phantomjs' },
+102 silly resolved     scripts:
+102 silly resolved      { install: 'node install.js',
+102 silly resolved        test: 'nodeunit --reporter=minimal test/tests.js' },
+102 silly resolved     dependencies:
+102 silly resolved      { 'adm-zip': '0.4.4',
+102 silly resolved        kew: '0.4.0',
+102 silly resolved        ncp: '~1.0.1',
+102 silly resolved        npmconf: '2.0.9',
+102 silly resolved        mkdirp: '0.5.0',
+102 silly resolved        progress: '1.1.8',
+102 silly resolved        request: '2.42.0',
+102 silly resolved        'request-progress': '0.3.1',
+102 silly resolved        rimraf: '~2.2.8',
+102 silly resolved        which: '~1.0.5' },
+102 silly resolved     devDependencies: { nodeunit: '0.9.0' },
+102 silly resolved     gitHead: 'e4bb0d659dfe7e91a9658d5d28e4d5350099629d',
+102 silly resolved     bugs: { url: 'https://github.com/Obvious/phantomjs/issues' },
+102 silly resolved     _id: 'phantomjs@1.9.13',
+102 silly resolved     _shasum: '2f9afca241eaf17cad5a137bf9eade948a4d7ef5',
+102 silly resolved     _from: 'phantomjs@~1.9',
+102 silly resolved     _npmVersion: '1.4.28',
+102 silly resolved     _npmUser: { name: 'nicks', email: 'nicholas.j.santos@gmail.com' },
+102 silly resolved     dist:
+102 silly resolved      { shasum: '2f9afca241eaf17cad5a137bf9eade948a4d7ef5',
+102 silly resolved        tarball: 'http://registry.npmjs.org/phantomjs/-/phantomjs-1.9.13.tgz' },
+102 silly resolved     directories: {},
+102 silly resolved     _resolved: 'https://registry.npmjs.org/phantomjs/-/phantomjs-1.9.13.tgz' } ]
+103 info install phantomjs@1.9.13 into /home/nik/code/xos/node_modules/karma-phantomjs-launcher
+104 info installOne phantomjs@1.9.13
+105 info /home/nik/code/xos/node_modules/karma-phantomjs-launcher/node_modules/phantomjs unbuild
+106 verbose tar unpack /home/nik/.npm/phantomjs/1.9.13/package.tgz
+107 silly lockFile eba5fa88--launcher-node-modules-phantomjs tar:///home/nik/code/xos/node_modules/karma-phantomjs-launcher/node_modules/phantomjs
+108 verbose lock tar:///home/nik/code/xos/node_modules/karma-phantomjs-launcher/node_modules/phantomjs /home/nik/.npm/eba5fa88--launcher-node-modules-phantomjs.lock
+109 silly lockFile 66b7688a-npm-phantomjs-1-9-13-package-tgz tar:///home/nik/.npm/phantomjs/1.9.13/package.tgz
+110 verbose lock tar:///home/nik/.npm/phantomjs/1.9.13/package.tgz /home/nik/.npm/66b7688a-npm-phantomjs-1-9-13-package-tgz.lock
+111 silly gunzTarPerm modes [ '755', '644' ]
+112 silly gunzTarPerm extractEntry package.json
+113 silly gunzTarPerm extractEntry .npmignore
+114 silly gunzTarPerm extractEntry README.md
+115 silly gunzTarPerm extractEntry install.js
+116 silly gunzTarPerm extractEntry bin/phantomjs
+117 silly gunzTarPerm extractEntry .jshintrc
+118 silly gunzTarPerm extractEntry .travis.yml
+119 silly gunzTarPerm extractEntry lib/phantomjs.js
+120 silly gunzTarPerm extractEntry test/exit.js
+121 silly gunzTarPerm extractEntry test/loadspeed.js
+122 silly gunzTarPerm extractEntry test/tests.js
+123 silly gunzTarPerm extractEntry LICENSE.txt
+124 silly lockFile eba5fa88--launcher-node-modules-phantomjs tar:///home/nik/code/xos/node_modules/karma-phantomjs-launcher/node_modules/phantomjs
+125 silly lockFile eba5fa88--launcher-node-modules-phantomjs tar:///home/nik/code/xos/node_modules/karma-phantomjs-launcher/node_modules/phantomjs
+126 silly lockFile 66b7688a-npm-phantomjs-1-9-13-package-tgz tar:///home/nik/.npm/phantomjs/1.9.13/package.tgz
+127 silly lockFile 66b7688a-npm-phantomjs-1-9-13-package-tgz tar:///home/nik/.npm/phantomjs/1.9.13/package.tgz
+128 info preinstall phantomjs@1.9.13
+129 verbose readDependencies using package.json deps
+130 verbose readDependencies using package.json deps
+131 verbose cache add [ 'adm-zip@0.4.4', null ]
+132 verbose cache add name=undefined spec="adm-zip@0.4.4" args=["adm-zip@0.4.4",null]
+133 verbose parsed url { protocol: null,
+133 verbose parsed url   slashes: null,
+133 verbose parsed url   auth: null,
+133 verbose parsed url   host: null,
+133 verbose parsed url   port: null,
+133 verbose parsed url   hostname: null,
+133 verbose parsed url   hash: null,
+133 verbose parsed url   search: null,
+133 verbose parsed url   query: null,
+133 verbose parsed url   pathname: 'adm-zip@0.4.4',
+133 verbose parsed url   path: 'adm-zip@0.4.4',
+133 verbose parsed url   href: 'adm-zip@0.4.4' }
+134 verbose cache add [ 'kew@0.4.0', null ]
+135 verbose cache add name=undefined spec="kew@0.4.0" args=["kew@0.4.0",null]
+136 verbose parsed url { protocol: null,
+136 verbose parsed url   slashes: null,
+136 verbose parsed url   auth: null,
+136 verbose parsed url   host: null,
+136 verbose parsed url   port: null,
+136 verbose parsed url   hostname: null,
+136 verbose parsed url   hash: null,
+136 verbose parsed url   search: null,
+136 verbose parsed url   query: null,
+136 verbose parsed url   pathname: 'kew@0.4.0',
+136 verbose parsed url   path: 'kew@0.4.0',
+136 verbose parsed url   href: 'kew@0.4.0' }
+137 verbose cache add name="adm-zip" spec="0.4.4" args=["adm-zip","0.4.4"]
+138 verbose parsed url { protocol: null,
+138 verbose parsed url   slashes: null,
+138 verbose parsed url   auth: null,
+138 verbose parsed url   host: null,
+138 verbose parsed url   port: null,
+138 verbose parsed url   hostname: null,
+138 verbose parsed url   hash: null,
+138 verbose parsed url   search: null,
+138 verbose parsed url   query: null,
+138 verbose parsed url   pathname: '0.4.4',
+138 verbose parsed url   path: '0.4.4',
+138 verbose parsed url   href: '0.4.4' }
+139 verbose addNamed [ 'adm-zip', '0.4.4' ]
+140 verbose addNamed [ '0.4.4', '0.4.4' ]
+141 silly lockFile 54f7ada5-adm-zip-0-4-4 adm-zip@0.4.4
+142 verbose lock adm-zip@0.4.4 /home/nik/.npm/54f7ada5-adm-zip-0-4-4.lock
+143 verbose cache add [ 'ncp@~1.0.1', null ]
+144 verbose cache add name=undefined spec="ncp@~1.0.1" args=["ncp@~1.0.1",null]
+145 verbose parsed url { protocol: null,
+145 verbose parsed url   slashes: null,
+145 verbose parsed url   auth: null,
+145 verbose parsed url   host: null,
+145 verbose parsed url   port: null,
+145 verbose parsed url   hostname: null,
+145 verbose parsed url   hash: null,
+145 verbose parsed url   search: null,
+145 verbose parsed url   query: null,
+145 verbose parsed url   pathname: 'ncp@~1.0.1',
+145 verbose parsed url   path: 'ncp@~1.0.1',
+145 verbose parsed url   href: 'ncp@~1.0.1' }
+146 verbose cache add name="kew" spec="0.4.0" args=["kew","0.4.0"]
+147 verbose parsed url { protocol: null,
+147 verbose parsed url   slashes: null,
+147 verbose parsed url   auth: null,
+147 verbose parsed url   host: null,
+147 verbose parsed url   port: null,
+147 verbose parsed url   hostname: null,
+147 verbose parsed url   hash: null,
+147 verbose parsed url   search: null,
+147 verbose parsed url   query: null,
+147 verbose parsed url   pathname: '0.4.0',
+147 verbose parsed url   path: '0.4.0',
+147 verbose parsed url   href: '0.4.0' }
+148 verbose addNamed [ 'kew', '0.4.0' ]
+149 verbose addNamed [ '0.4.0', '0.4.0' ]
+150 silly lockFile d7f05391-kew-0-4-0 kew@0.4.0
+151 verbose lock kew@0.4.0 /home/nik/.npm/d7f05391-kew-0-4-0.lock
+152 verbose cache add [ 'npmconf@2.0.9', null ]
+153 verbose cache add name=undefined spec="npmconf@2.0.9" args=["npmconf@2.0.9",null]
+154 verbose parsed url { protocol: null,
+154 verbose parsed url   slashes: null,
+154 verbose parsed url   auth: null,
+154 verbose parsed url   host: null,
+154 verbose parsed url   port: null,
+154 verbose parsed url   hostname: null,
+154 verbose parsed url   hash: null,
+154 verbose parsed url   search: null,
+154 verbose parsed url   query: null,
+154 verbose parsed url   pathname: 'npmconf@2.0.9',
+154 verbose parsed url   path: 'npmconf@2.0.9',
+154 verbose parsed url   href: 'npmconf@2.0.9' }
+155 verbose cache add name="ncp" spec="~1.0.1" args=["ncp","~1.0.1"]
+156 verbose parsed url { protocol: null,
+156 verbose parsed url   slashes: null,
+156 verbose parsed url   auth: null,
+156 verbose parsed url   host: null,
+156 verbose parsed url   port: null,
+156 verbose parsed url   hostname: null,
+156 verbose parsed url   hash: null,
+156 verbose parsed url   search: null,
+156 verbose parsed url   query: null,
+156 verbose parsed url   pathname: '~1.0.1',
+156 verbose parsed url   path: '~1.0.1',
+156 verbose parsed url   href: '~1.0.1' }
+157 verbose addNamed [ 'ncp', '~1.0.1' ]
+158 verbose addNamed [ null, '>=1.0.1-0 <1.1.0-0' ]
+159 silly lockFile 39139b68-ncp-1-0-1 ncp@~1.0.1
+160 verbose lock ncp@~1.0.1 /home/nik/.npm/39139b68-ncp-1-0-1.lock
+161 verbose cache add name="npmconf" spec="2.0.9" args=["npmconf","2.0.9"]
+162 verbose parsed url { protocol: null,
+162 verbose parsed url   slashes: null,
+162 verbose parsed url   auth: null,
+162 verbose parsed url   host: null,
+162 verbose parsed url   port: null,
+162 verbose parsed url   hostname: null,
+162 verbose parsed url   hash: null,
+162 verbose parsed url   search: null,
+162 verbose parsed url   query: null,
+162 verbose parsed url   pathname: '2.0.9',
+162 verbose parsed url   path: '2.0.9',
+162 verbose parsed url   href: '2.0.9' }
+163 verbose addNamed [ 'npmconf', '2.0.9' ]
+164 verbose addNamed [ '2.0.9', '2.0.9' ]
+165 silly lockFile 98e04cb3-npmconf-2-0-9 npmconf@2.0.9
+166 verbose lock npmconf@2.0.9 /home/nik/.npm/98e04cb3-npmconf-2-0-9.lock
+167 verbose cache add [ 'mkdirp@0.5.0', null ]
+168 verbose cache add name=undefined spec="mkdirp@0.5.0" args=["mkdirp@0.5.0",null]
+169 verbose parsed url { protocol: null,
+169 verbose parsed url   slashes: null,
+169 verbose parsed url   auth: null,
+169 verbose parsed url   host: null,
+169 verbose parsed url   port: null,
+169 verbose parsed url   hostname: null,
+169 verbose parsed url   hash: null,
+169 verbose parsed url   search: null,
+169 verbose parsed url   query: null,
+169 verbose parsed url   pathname: 'mkdirp@0.5.0',
+169 verbose parsed url   path: 'mkdirp@0.5.0',
+169 verbose parsed url   href: 'mkdirp@0.5.0' }
+170 verbose cache add [ 'progress@1.1.8', null ]
+171 verbose cache add name=undefined spec="progress@1.1.8" args=["progress@1.1.8",null]
+172 verbose parsed url { protocol: null,
+172 verbose parsed url   slashes: null,
+172 verbose parsed url   auth: null,
+172 verbose parsed url   host: null,
+172 verbose parsed url   port: null,
+172 verbose parsed url   hostname: null,
+172 verbose parsed url   hash: null,
+172 verbose parsed url   search: null,
+172 verbose parsed url   query: null,
+172 verbose parsed url   pathname: 'progress@1.1.8',
+172 verbose parsed url   path: 'progress@1.1.8',
+172 verbose parsed url   href: 'progress@1.1.8' }
+173 verbose cache add [ 'request@2.42.0', null ]
+174 verbose cache add name=undefined spec="request@2.42.0" args=["request@2.42.0",null]
+175 verbose parsed url { protocol: null,
+175 verbose parsed url   slashes: null,
+175 verbose parsed url   auth: null,
+175 verbose parsed url   host: null,
+175 verbose parsed url   port: null,
+175 verbose parsed url   hostname: null,
+175 verbose parsed url   hash: null,
+175 verbose parsed url   search: null,
+175 verbose parsed url   query: null,
+175 verbose parsed url   pathname: 'request@2.42.0',
+175 verbose parsed url   path: 'request@2.42.0',
+175 verbose parsed url   href: 'request@2.42.0' }
+176 verbose url raw adm-zip
+177 verbose url resolving [ 'https://registry.npmjs.org/', './adm-zip' ]
+178 verbose url resolved https://registry.npmjs.org/adm-zip
+179 info trying registry request attempt 1 at 03:14:39
+180 http GET https://registry.npmjs.org/adm-zip
+181 verbose cache add name="mkdirp" spec="0.5.0" args=["mkdirp","0.5.0"]
+182 verbose parsed url { protocol: null,
+182 verbose parsed url   slashes: null,
+182 verbose parsed url   auth: null,
+182 verbose parsed url   host: null,
+182 verbose parsed url   port: null,
+182 verbose parsed url   hostname: null,
+182 verbose parsed url   hash: null,
+182 verbose parsed url   search: null,
+182 verbose parsed url   query: null,
+182 verbose parsed url   pathname: '0.5.0',
+182 verbose parsed url   path: '0.5.0',
+182 verbose parsed url   href: '0.5.0' }
+183 verbose addNamed [ 'mkdirp', '0.5.0' ]
+184 verbose addNamed [ '0.5.0', '0.5.0' ]
+185 silly lockFile bf9ae38d-mkdirp-0-5-0 mkdirp@0.5.0
+186 verbose lock mkdirp@0.5.0 /home/nik/.npm/bf9ae38d-mkdirp-0-5-0.lock
+187 verbose cache add name="progress" spec="1.1.8" args=["progress","1.1.8"]
+188 verbose parsed url { protocol: null,
+188 verbose parsed url   slashes: null,
+188 verbose parsed url   auth: null,
+188 verbose parsed url   host: null,
+188 verbose parsed url   port: null,
+188 verbose parsed url   hostname: null,
+188 verbose parsed url   hash: null,
+188 verbose parsed url   search: null,
+188 verbose parsed url   query: null,
+188 verbose parsed url   pathname: '1.1.8',
+188 verbose parsed url   path: '1.1.8',
+188 verbose parsed url   href: '1.1.8' }
+189 verbose addNamed [ 'progress', '1.1.8' ]
+190 verbose addNamed [ '1.1.8', '1.1.8' ]
+191 silly lockFile caa8d10f-progress-1-1-8 progress@1.1.8
+192 verbose lock progress@1.1.8 /home/nik/.npm/caa8d10f-progress-1-1-8.lock
+193 verbose cache add [ 'request-progress@0.3.1', null ]
+194 verbose cache add name=undefined spec="request-progress@0.3.1" args=["request-progress@0.3.1",null]
+195 verbose parsed url { protocol: null,
+195 verbose parsed url   slashes: null,
+195 verbose parsed url   auth: null,
+195 verbose parsed url   host: null,
+195 verbose parsed url   port: null,
+195 verbose parsed url   hostname: null,
+195 verbose parsed url   hash: null,
+195 verbose parsed url   search: null,
+195 verbose parsed url   query: null,
+195 verbose parsed url   pathname: 'request-progress@0.3.1',
+195 verbose parsed url   path: 'request-progress@0.3.1',
+195 verbose parsed url   href: 'request-progress@0.3.1' }
+196 verbose cache add [ 'rimraf@~2.2.8', null ]
+197 verbose cache add name=undefined spec="rimraf@~2.2.8" args=["rimraf@~2.2.8",null]
+198 verbose parsed url { protocol: null,
+198 verbose parsed url   slashes: null,
+198 verbose parsed url   auth: null,
+198 verbose parsed url   host: null,
+198 verbose parsed url   port: null,
+198 verbose parsed url   hostname: null,
+198 verbose parsed url   hash: null,
+198 verbose parsed url   search: null,
+198 verbose parsed url   query: null,
+198 verbose parsed url   pathname: 'rimraf@~2.2.8',
+198 verbose parsed url   path: 'rimraf@~2.2.8',
+198 verbose parsed url   href: 'rimraf@~2.2.8' }
+199 verbose cache add [ 'which@~1.0.5', null ]
+200 verbose cache add name=undefined spec="which@~1.0.5" args=["which@~1.0.5",null]
+201 verbose parsed url { protocol: null,
+201 verbose parsed url   slashes: null,
+201 verbose parsed url   auth: null,
+201 verbose parsed url   host: null,
+201 verbose parsed url   port: null,
+201 verbose parsed url   hostname: null,
+201 verbose parsed url   hash: null,
+201 verbose parsed url   search: null,
+201 verbose parsed url   query: null,
+201 verbose parsed url   pathname: 'which@~1.0.5',
+201 verbose parsed url   path: 'which@~1.0.5',
+201 verbose parsed url   href: 'which@~1.0.5' }
+202 verbose cache add name="request" spec="2.42.0" args=["request","2.42.0"]
+203 verbose parsed url { protocol: null,
+203 verbose parsed url   slashes: null,
+203 verbose parsed url   auth: null,
+203 verbose parsed url   host: null,
+203 verbose parsed url   port: null,
+203 verbose parsed url   hostname: null,
+203 verbose parsed url   hash: null,
+203 verbose parsed url   search: null,
+203 verbose parsed url   query: null,
+203 verbose parsed url   pathname: '2.42.0',
+203 verbose parsed url   path: '2.42.0',
+203 verbose parsed url   href: '2.42.0' }
+204 verbose addNamed [ 'request', '2.42.0' ]
+205 verbose addNamed [ '2.42.0', '2.42.0' ]
+206 silly lockFile 6619e4b4-request-2-42-0 request@2.42.0
+207 verbose lock request@2.42.0 /home/nik/.npm/6619e4b4-request-2-42-0.lock
+208 silly addNameRange { name: 'ncp', range: '>=1.0.1-0 <1.1.0-0', hasData: false }
+209 verbose url raw kew
+210 verbose url resolving [ 'https://registry.npmjs.org/', './kew' ]
+211 verbose url resolved https://registry.npmjs.org/kew
+212 info trying registry request attempt 1 at 03:14:39
+213 http GET https://registry.npmjs.org/kew
+214 verbose cache add name="request-progress" spec="0.3.1" args=["request-progress","0.3.1"]
+215 verbose parsed url { protocol: null,
+215 verbose parsed url   slashes: null,
+215 verbose parsed url   auth: null,
+215 verbose parsed url   host: null,
+215 verbose parsed url   port: null,
+215 verbose parsed url   hostname: null,
+215 verbose parsed url   hash: null,
+215 verbose parsed url   search: null,
+215 verbose parsed url   query: null,
+215 verbose parsed url   pathname: '0.3.1',
+215 verbose parsed url   path: '0.3.1',
+215 verbose parsed url   href: '0.3.1' }
+216 verbose addNamed [ 'request-progress', '0.3.1' ]
+217 verbose addNamed [ '0.3.1', '0.3.1' ]
+218 silly lockFile a2b190cd-request-progress-0-3-1 request-progress@0.3.1
+219 verbose lock request-progress@0.3.1 /home/nik/.npm/a2b190cd-request-progress-0-3-1.lock
+220 verbose cache add name="rimraf" spec="~2.2.8" args=["rimraf","~2.2.8"]
+221 verbose parsed url { protocol: null,
+221 verbose parsed url   slashes: null,
+221 verbose parsed url   auth: null,
+221 verbose parsed url   host: null,
+221 verbose parsed url   port: null,
+221 verbose parsed url   hostname: null,
+221 verbose parsed url   hash: null,
+221 verbose parsed url   search: null,
+221 verbose parsed url   query: null,
+221 verbose parsed url   pathname: '~2.2.8',
+221 verbose parsed url   path: '~2.2.8',
+221 verbose parsed url   href: '~2.2.8' }
+222 verbose addNamed [ 'rimraf', '~2.2.8' ]
+223 verbose addNamed [ null, '>=2.2.8-0 <2.3.0-0' ]
+224 silly lockFile 63346313-rimraf-2-2-8 rimraf@~2.2.8
+225 verbose lock rimraf@~2.2.8 /home/nik/.npm/63346313-rimraf-2-2-8.lock
+226 verbose cache add name="which" spec="~1.0.5" args=["which","~1.0.5"]
+227 verbose parsed url { protocol: null,
+227 verbose parsed url   slashes: null,
+227 verbose parsed url   auth: null,
+227 verbose parsed url   host: null,
+227 verbose parsed url   port: null,
+227 verbose parsed url   hostname: null,
+227 verbose parsed url   hash: null,
+227 verbose parsed url   search: null,
+227 verbose parsed url   query: null,
+227 verbose parsed url   pathname: '~1.0.5',
+227 verbose parsed url   path: '~1.0.5',
+227 verbose parsed url   href: '~1.0.5' }
+228 verbose addNamed [ 'which', '~1.0.5' ]
+229 verbose addNamed [ null, '>=1.0.5-0 <1.1.0-0' ]
+230 silly lockFile d158d65e-which-1-0-5 which@~1.0.5
+231 verbose lock which@~1.0.5 /home/nik/.npm/d158d65e-which-1-0-5.lock
+232 verbose url raw npmconf
+233 verbose url resolving [ 'https://registry.npmjs.org/', './npmconf' ]
+234 verbose url resolved https://registry.npmjs.org/npmconf
+235 info trying registry request attempt 1 at 03:14:39
+236 http GET https://registry.npmjs.org/npmconf
+237 verbose url raw progress
+238 verbose url resolving [ 'https://registry.npmjs.org/', './progress' ]
+239 verbose url resolved https://registry.npmjs.org/progress
+240 info trying registry request attempt 1 at 03:14:39
+241 http GET https://registry.npmjs.org/progress
+242 silly addNameRange { name: 'rimraf', range: '>=2.2.8-0 <2.3.0-0', hasData: false }
+243 silly addNameRange { name: 'which', range: '>=1.0.5-0 <1.1.0-0', hasData: false }
+244 verbose url raw request-progress
+245 verbose url resolving [ 'https://registry.npmjs.org/', './request-progress' ]
+246 verbose url resolved https://registry.npmjs.org/request-progress
+247 info trying registry request attempt 1 at 03:14:39
+248 http GET https://registry.npmjs.org/request-progress
+249 verbose url raw which
+250 verbose url resolving [ 'https://registry.npmjs.org/', './which' ]
+251 verbose url resolved https://registry.npmjs.org/which
+252 info trying registry request attempt 1 at 03:14:39
+253 http GET https://registry.npmjs.org/which
+254 verbose url raw ncp
+255 verbose url resolving [ 'https://registry.npmjs.org/', './ncp' ]
+256 verbose url resolved https://registry.npmjs.org/ncp
+257 info trying registry request attempt 1 at 03:14:39
+258 verbose etag "798S99R5AI6FRGZ4RQOUS2J1U"
+259 http GET https://registry.npmjs.org/ncp
+260 verbose url raw mkdirp
+261 verbose url resolving [ 'https://registry.npmjs.org/', './mkdirp' ]
+262 verbose url resolved https://registry.npmjs.org/mkdirp
+263 info trying registry request attempt 1 at 03:14:39
+264 verbose etag "EN5ZAENBT9LGFGCCQLHAJ8W4X"
+265 http GET https://registry.npmjs.org/mkdirp
+266 verbose url raw rimraf
+267 verbose url resolving [ 'https://registry.npmjs.org/', './rimraf' ]
+268 verbose url resolved https://registry.npmjs.org/rimraf
+269 info trying registry request attempt 1 at 03:14:39
+270 verbose etag "3V0ZPF2UAUIGZDS50UPHLXWYX"
+271 http GET https://registry.npmjs.org/rimraf
+272 verbose url raw request
+273 verbose url resolving [ 'https://registry.npmjs.org/', './request' ]
+274 verbose url resolved https://registry.npmjs.org/request
+275 info trying registry request attempt 1 at 03:14:39
+276 verbose etag "D12CH2K90S1P4QPIRIQQRBVZQ"
+277 http GET https://registry.npmjs.org/request
+278 http 200 https://registry.npmjs.org/progress
+279 silly registry.get cb [ 200,
+279 silly registry.get   { date: 'Sun, 28 Dec 2014 01:14:39 GMT',
+279 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+279 silly registry.get     etag: '"8MVGQO4HZSPWUME4OGWVVWTCY"',
+279 silly registry.get     'content-type': 'application/json',
+279 silly registry.get     'cache-control': 'max-age=60',
+279 silly registry.get     'content-length': '16458',
+279 silly registry.get     'accept-ranges': 'bytes',
+279 silly registry.get     via: '1.1 varnish',
+279 silly registry.get     age: '0',
+279 silly registry.get     'x-served-by': 'cache-lhr6333-LHR',
+279 silly registry.get     'x-cache': 'HIT',
+279 silly registry.get     'x-cache-hits': '1',
+279 silly registry.get     'x-timer': 'S1419729279.810993,VS0,VE82',
+279 silly registry.get     vary: 'Accept',
+279 silly registry.get     'keep-alive': 'timeout=10, max=50',
+279 silly registry.get     connection: 'Keep-Alive' } ]
+280 silly lockFile 6df68d67--org-progress-progress-1-1-8-tgz https://registry.npmjs.org/progress/-/progress-1.1.8.tgz
+281 verbose lock https://registry.npmjs.org/progress/-/progress-1.1.8.tgz /home/nik/.npm/6df68d67--org-progress-progress-1-1-8-tgz.lock
+282 verbose addRemoteTarball [ 'https://registry.npmjs.org/progress/-/progress-1.1.8.tgz',
+282 verbose addRemoteTarball   'e260c78f6161cdd9b0e56cc3e0a85de17c7a57be' ]
+283 info retry fetch attempt 1 at 03:14:39
+284 verbose fetch to= /home/nik/tmp/npm-8154-Eu97Y2jN/registry.npmjs.org/progress/-/progress-1.1.8.tgz
+285 http GET https://registry.npmjs.org/progress/-/progress-1.1.8.tgz
+286 http 200 https://registry.npmjs.org/npmconf
+287 silly registry.get cb [ 200,
+287 silly registry.get   { date: 'Sun, 28 Dec 2014 01:14:39 GMT',
+287 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R14B04)',
+287 silly registry.get     etag: '"AAYTO5IEZO43CI2S7PWMC3WVD"',
+287 silly registry.get     'content-type': 'application/json',
+287 silly registry.get     'cache-control': 'max-age=60',
+287 silly registry.get     'content-length': '74454',
+287 silly registry.get     'accept-ranges': 'bytes',
+287 silly registry.get     via: '1.1 varnish',
+287 silly registry.get     age: '27',
+287 silly registry.get     'x-served-by': 'cache-lhr6327-LHR',
+287 silly registry.get     'x-cache': 'HIT',
+287 silly registry.get     'x-cache-hits': '1',
+287 silly registry.get     'x-timer': 'S1419729279.863152,VS0,VE1',
+287 silly registry.get     vary: 'Accept',
+287 silly registry.get     'keep-alive': 'timeout=10, max=50',
+287 silly registry.get     connection: 'Keep-Alive' } ]
+288 http 200 https://registry.npmjs.org/adm-zip
+289 silly registry.get cb [ 200,
+289 silly registry.get   { date: 'Sun, 28 Dec 2014 01:14:40 GMT',
+289 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+289 silly registry.get     etag: '"CL32A3OMTK8Y6IWWXO0EIX7J9"',
+289 silly registry.get     'content-type': 'application/json',
+289 silly registry.get     'cache-control': 'max-age=60',
+289 silly registry.get     'content-length': '17723',
+289 silly registry.get     'accept-ranges': 'bytes',
+289 silly registry.get     via: '1.1 varnish',
+289 silly registry.get     age: '0',
+289 silly registry.get     'x-served-by': 'cache-lhr6330-LHR',
+289 silly registry.get     'x-cache': 'HIT',
+289 silly registry.get     'x-cache-hits': '1',
+289 silly registry.get     'x-timer': 'S1419729279.773561,VS0,VE350',
+289 silly registry.get     vary: 'Accept',
+289 silly registry.get     'keep-alive': 'timeout=10, max=50',
+289 silly registry.get     connection: 'Keep-Alive' } ]
+290 silly lockFile 03c4f3c6-js-org-adm-zip-adm-zip-0-4-4-tgz https://registry.npmjs.org/adm-zip/-/adm-zip-0.4.4.tgz
+291 verbose lock https://registry.npmjs.org/adm-zip/-/adm-zip-0.4.4.tgz /home/nik/.npm/03c4f3c6-js-org-adm-zip-adm-zip-0-4-4-tgz.lock
+292 silly lockFile 01a9ed6b-js-org-npmconf-npmconf-2-0-9-tgz https://registry.npmjs.org/npmconf/-/npmconf-2.0.9.tgz
+293 verbose lock https://registry.npmjs.org/npmconf/-/npmconf-2.0.9.tgz /home/nik/.npm/01a9ed6b-js-org-npmconf-npmconf-2-0-9-tgz.lock
+294 verbose addRemoteTarball [ 'https://registry.npmjs.org/adm-zip/-/adm-zip-0.4.4.tgz',
+294 verbose addRemoteTarball   'a61ed5ae6905c3aea58b3a657d25033091052736' ]
+295 verbose addRemoteTarball [ 'https://registry.npmjs.org/npmconf/-/npmconf-2.0.9.tgz',
+295 verbose addRemoteTarball   '5c87e5fb308104eceeca781e3d9115d216351ef2' ]
+296 info retry fetch attempt 1 at 03:14:40
+297 verbose fetch to= /home/nik/tmp/npm-8154-Eu97Y2jN/registry.npmjs.org/adm-zip/-/adm-zip-0.4.4.tgz
+298 info retry fetch attempt 1 at 03:14:40
+299 verbose fetch to= /home/nik/tmp/npm-8154-Eu97Y2jN/registry.npmjs.org/npmconf/-/npmconf-2.0.9.tgz
+300 http GET https://registry.npmjs.org/adm-zip/-/adm-zip-0.4.4.tgz
+301 http GET https://registry.npmjs.org/npmconf/-/npmconf-2.0.9.tgz
+302 http 200 https://registry.npmjs.org/kew
+303 silly registry.get cb [ 200,
+303 silly registry.get   { date: 'Sun, 28 Dec 2014 01:14:40 GMT',
+303 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+303 silly registry.get     etag: '"BPA3W1GVLIAFDVX3GHZU6N65M"',
+303 silly registry.get     'content-type': 'application/json',
+303 silly registry.get     'cache-control': 'max-age=60',
+303 silly registry.get     'content-length': '31930',
+303 silly registry.get     'accept-ranges': 'bytes',
+303 silly registry.get     via: '1.1 varnish',
+303 silly registry.get     age: '0',
+303 silly registry.get     'x-served-by': 'cache-lhr6322-LHR',
+303 silly registry.get     'x-cache': 'HIT',
+303 silly registry.get     'x-cache-hits': '1',
+303 silly registry.get     'x-timer': 'S1419729279.776874,VS0,VE350',
+303 silly registry.get     vary: 'Accept',
+303 silly registry.get     'keep-alive': 'timeout=10, max=50',
+303 silly registry.get     connection: 'Keep-Alive' } ]
+304 silly lockFile e1faf6d9-stry-npmjs-org-kew-kew-0-4-0-tgz https://registry.npmjs.org/kew/-/kew-0.4.0.tgz
+305 verbose lock https://registry.npmjs.org/kew/-/kew-0.4.0.tgz /home/nik/.npm/e1faf6d9-stry-npmjs-org-kew-kew-0-4-0-tgz.lock
+306 verbose addRemoteTarball [ 'https://registry.npmjs.org/kew/-/kew-0.4.0.tgz',
+306 verbose addRemoteTarball   'da97484f1b06502146f3c60cec05ac6012cd993f' ]
+307 info retry fetch attempt 1 at 03:14:40
+308 verbose fetch to= /home/nik/tmp/npm-8154-Eu97Y2jN/registry.npmjs.org/kew/-/kew-0.4.0.tgz
+309 http GET https://registry.npmjs.org/kew/-/kew-0.4.0.tgz
+310 http 304 https://registry.npmjs.org/rimraf
+311 silly registry.get cb [ 304,
+311 silly registry.get   { date: 'Sun, 28 Dec 2014 01:14:40 GMT',
+311 silly registry.get     server: 'Apache',
+311 silly registry.get     via: '1.1 varnish',
+311 silly registry.get     'last-modified': 'Sun, 28 Dec 2014 01:14:40 GMT',
+311 silly registry.get     'cache-control': 'max-age=60',
+311 silly registry.get     etag: '"3V0ZPF2UAUIGZDS50UPHLXWYX"',
+311 silly registry.get     age: '6',
+311 silly registry.get     'x-served-by': 'cache-lhr6322-LHR',
+311 silly registry.get     'x-cache': 'HIT',
+311 silly registry.get     'x-cache-hits': '1',
+311 silly registry.get     'x-timer': 'S1419729280.408066,VS0,VE0',
+311 silly registry.get     vary: 'Accept',
+311 silly registry.get     'content-length': '0',
+311 silly registry.get     'keep-alive': 'timeout=10, max=49',
+311 silly registry.get     connection: 'Keep-Alive' } ]
+312 verbose etag rimraf from cache
+313 silly addNameRange number 2 { name: 'rimraf', range: '>=2.2.8-0 <2.3.0-0', hasData: true }
+314 silly addNameRange versions [ 'rimraf',
+314 silly addNameRange   [ '1.0.0',
+314 silly addNameRange     '1.0.1',
+314 silly addNameRange     '1.0.2',
+314 silly addNameRange     '1.0.4',
+314 silly addNameRange     '1.0.5',
+314 silly addNameRange     '1.0.6',
+314 silly addNameRange     '1.0.7',
+314 silly addNameRange     '1.0.8',
+314 silly addNameRange     '1.0.9',
+314 silly addNameRange     '2.0.0',
+314 silly addNameRange     '2.0.1',
+314 silly addNameRange     '2.0.2',
+314 silly addNameRange     '2.0.3',
+314 silly addNameRange     '2.1.0',
+314 silly addNameRange     '2.1.1',
+314 silly addNameRange     '2.1.2',
+314 silly addNameRange     '2.1.3',
+314 silly addNameRange     '2.1.4',
+314 silly addNameRange     '2.2.0',
+314 silly addNameRange     '2.2.1',
+314 silly addNameRange     '2.2.2',
+314 silly addNameRange     '2.2.3',
+314 silly addNameRange     '2.2.4',
+314 silly addNameRange     '2.2.5',
+314 silly addNameRange     '2.2.6',
+314 silly addNameRange     '2.2.8' ] ]
+315 verbose addNamed [ 'rimraf', '2.2.8' ]
+316 verbose addNamed [ '2.2.8', '2.2.8' ]
+317 silly lockFile b87241a4-rimraf-2-2-8 rimraf@2.2.8
+318 verbose lock rimraf@2.2.8 /home/nik/.npm/b87241a4-rimraf-2-2-8.lock
+319 silly lockFile b87241a4-rimraf-2-2-8 rimraf@2.2.8
+320 silly lockFile b87241a4-rimraf-2-2-8 rimraf@2.2.8
+321 silly lockFile 63346313-rimraf-2-2-8 rimraf@~2.2.8
+322 silly lockFile 63346313-rimraf-2-2-8 rimraf@~2.2.8
+323 http 200 https://registry.npmjs.org/request-progress
+324 silly registry.get cb [ 200,
+324 silly registry.get   { date: 'Sun, 28 Dec 2014 01:14:40 GMT',
+324 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+324 silly registry.get     etag: '"1CGW0JP84RD1C8NVRIP6DB72O"',
+324 silly registry.get     'content-type': 'application/json',
+324 silly registry.get     'cache-control': 'max-age=60',
+324 silly registry.get     'content-length': '23649',
+324 silly registry.get     'accept-ranges': 'bytes',
+324 silly registry.get     via: '1.1 varnish',
+324 silly registry.get     age: '0',
+324 silly registry.get     'x-served-by': 'cache-lhr6321-LHR',
+324 silly registry.get     'x-cache': 'HIT',
+324 silly registry.get     'x-cache-hits': '1',
+324 silly registry.get     'x-timer': 'S1419729279.815043,VS0,VE634',
+324 silly registry.get     vary: 'Accept',
+324 silly registry.get     'keep-alive': 'timeout=10, max=50',
+324 silly registry.get     connection: 'Keep-Alive' } ]
+325 silly lockFile 195035b3-gress-request-progress-0-3-1-tgz https://registry.npmjs.org/request-progress/-/request-progress-0.3.1.tgz
+326 verbose lock https://registry.npmjs.org/request-progress/-/request-progress-0.3.1.tgz /home/nik/.npm/195035b3-gress-request-progress-0-3-1-tgz.lock
+327 verbose addRemoteTarball [ 'https://registry.npmjs.org/request-progress/-/request-progress-0.3.1.tgz',
+327 verbose addRemoteTarball   '0721c105d8a96ac6b2ce8b2c89ae2d5ecfcf6b3a' ]
+328 info retry fetch attempt 1 at 03:14:40
+329 verbose fetch to= /home/nik/tmp/npm-8154-Eu97Y2jN/registry.npmjs.org/request-progress/-/request-progress-0.3.1.tgz
+330 http GET https://registry.npmjs.org/request-progress/-/request-progress-0.3.1.tgz
+331 http 200 https://registry.npmjs.org/adm-zip/-/adm-zip-0.4.4.tgz
+332 http 200 https://registry.npmjs.org/npmconf/-/npmconf-2.0.9.tgz
+333 http 304 https://registry.npmjs.org/mkdirp
+334 silly registry.get cb [ 304,
+334 silly registry.get   { date: 'Sun, 28 Dec 2014 01:14:40 GMT',
+334 silly registry.get     server: 'Apache',
+334 silly registry.get     via: '1.1 varnish',
+334 silly registry.get     'last-modified': 'Sun, 28 Dec 2014 01:14:40 GMT',
+334 silly registry.get     'cache-control': 'max-age=60',
+334 silly registry.get     etag: '"EN5ZAENBT9LGFGCCQLHAJ8W4X"',
+334 silly registry.get     age: '0',
+334 silly registry.get     'x-served-by': 'cache-lhr6330-LHR',
+334 silly registry.get     'x-cache': 'HIT',
+334 silly registry.get     'x-cache-hits': '1',
+334 silly registry.get     'x-timer': 'S1419729280.335464,VS0,VE352',
+334 silly registry.get     vary: 'Accept',
+334 silly registry.get     'content-length': '0',
+334 silly registry.get     'keep-alive': 'timeout=10, max=49',
+334 silly registry.get     connection: 'Keep-Alive' } ]
+335 verbose etag mkdirp from cache
+336 silly lockFile bf9ae38d-mkdirp-0-5-0 mkdirp@0.5.0
+337 silly lockFile bf9ae38d-mkdirp-0-5-0 mkdirp@0.5.0
+338 http 200 https://registry.npmjs.org/which
+339 silly registry.get cb [ 200,
+339 silly registry.get   { date: 'Sun, 28 Dec 2014 01:14:40 GMT',
+339 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+339 silly registry.get     etag: '"RJQZ97MCQX5ZZZM32UO7A7A6"',
+339 silly registry.get     'content-type': 'application/json',
+339 silly registry.get     'cache-control': 'max-age=60',
+339 silly registry.get     'content-length': '8223',
+339 silly registry.get     'accept-ranges': 'bytes',
+339 silly registry.get     via: '1.1 varnish',
+339 silly registry.get     age: '0',
+339 silly registry.get     'x-served-by': 'cache-lhr6333-LHR',
+339 silly registry.get     'x-cache': 'HIT',
+339 silly registry.get     'x-cache-hits': '1',
+339 silly registry.get     'x-timer': 'S1419729280.080175,VS0,VE622',
+339 silly registry.get     vary: 'Accept',
+339 silly registry.get     'keep-alive': 'timeout=10, max=49',
+339 silly registry.get     connection: 'Keep-Alive' } ]
+340 silly addNameRange number 2 { name: 'which', range: '>=1.0.5-0 <1.1.0-0', hasData: true }
+341 silly addNameRange versions [ 'which',
+341 silly addNameRange   [ '1.0.0',
+341 silly addNameRange     '1.0.1',
+341 silly addNameRange     '1.0.2',
+341 silly addNameRange     '1.0.3',
+341 silly addNameRange     '1.0.5',
+341 silly addNameRange     '1.0.6',
+341 silly addNameRange     '1.0.7',
+341 silly addNameRange     '1.0.8' ] ]
+342 verbose addNamed [ 'which', '1.0.8' ]
+343 verbose addNamed [ '1.0.8', '1.0.8' ]
+344 silly lockFile a008069a-which-1-0-8 which@1.0.8
+345 verbose lock which@1.0.8 /home/nik/.npm/a008069a-which-1-0-8.lock
+346 silly lockFile 514914db--npmjs-org-which-which-1-0-8-tgz https://registry.npmjs.org/which/-/which-1.0.8.tgz
+347 verbose lock https://registry.npmjs.org/which/-/which-1.0.8.tgz /home/nik/.npm/514914db--npmjs-org-which-which-1-0-8-tgz.lock
+348 verbose addRemoteTarball [ 'https://registry.npmjs.org/which/-/which-1.0.8.tgz',
+348 verbose addRemoteTarball   'c2ff319534ac4a1fa45df2221b56c36279903ded' ]
+349 info retry fetch attempt 1 at 03:14:40
+350 verbose fetch to= /home/nik/tmp/npm-8154-Eu97Y2jN/registry.npmjs.org/which/-/which-1.0.8.tgz
+351 http GET https://registry.npmjs.org/which/-/which-1.0.8.tgz
+352 silly lockFile 01a9ed6b-js-org-npmconf-npmconf-2-0-9-tgz https://registry.npmjs.org/npmconf/-/npmconf-2.0.9.tgz
+353 silly lockFile 01a9ed6b-js-org-npmconf-npmconf-2-0-9-tgz https://registry.npmjs.org/npmconf/-/npmconf-2.0.9.tgz
+354 silly lockFile 98e04cb3-npmconf-2-0-9 npmconf@2.0.9
+355 silly lockFile 98e04cb3-npmconf-2-0-9 npmconf@2.0.9
+356 http 200 https://registry.npmjs.org/request
+357 silly registry.get cb [ 200,
+357 silly registry.get   { date: 'Sun, 28 Dec 2014 01:14:40 GMT',
+357 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+357 silly registry.get     etag: '"3CFXG0KXUBJS1DUMYDNF8OXEE"',
+357 silly registry.get     'content-type': 'application/json',
+357 silly registry.get     'cache-control': 'max-age=60',
+357 silly registry.get     'content-length': '133204',
+357 silly registry.get     'accept-ranges': 'bytes',
+357 silly registry.get     via: '1.1 varnish',
+357 silly registry.get     age: '28',
+357 silly registry.get     'x-served-by': 'cache-lhr6322-LHR',
+357 silly registry.get     'x-cache': 'HIT',
+357 silly registry.get     'x-cache-hits': '1',
+357 silly registry.get     'x-timer': 'S1419729280.497803,VS0,VE1',
+357 silly registry.get     vary: 'Accept',
+357 silly registry.get     'keep-alive': 'timeout=10, max=48',
+357 silly registry.get     connection: 'Keep-Alive' } ]
+358 http 200 https://registry.npmjs.org/kew/-/kew-0.4.0.tgz
+359 silly lockFile 5b57d78a-s-org-request-request-2-42-0-tgz https://registry.npmjs.org/request/-/request-2.42.0.tgz
+360 verbose lock https://registry.npmjs.org/request/-/request-2.42.0.tgz /home/nik/.npm/5b57d78a-s-org-request-request-2-42-0-tgz.lock
+361 verbose addRemoteTarball [ 'https://registry.npmjs.org/request/-/request-2.42.0.tgz',
+361 verbose addRemoteTarball   '572bd0148938564040ac7ab148b96423a063304a' ]
+362 info retry fetch attempt 1 at 03:14:40
+363 verbose fetch to= /home/nik/tmp/npm-8154-Eu97Y2jN/registry.npmjs.org/request/-/request-2.42.0.tgz
+364 http GET https://registry.npmjs.org/request/-/request-2.42.0.tgz
+365 silly lockFile 03c4f3c6-js-org-adm-zip-adm-zip-0-4-4-tgz https://registry.npmjs.org/adm-zip/-/adm-zip-0.4.4.tgz
+366 silly lockFile 03c4f3c6-js-org-adm-zip-adm-zip-0-4-4-tgz https://registry.npmjs.org/adm-zip/-/adm-zip-0.4.4.tgz
+367 silly lockFile 54f7ada5-adm-zip-0-4-4 adm-zip@0.4.4
+368 silly lockFile 54f7ada5-adm-zip-0-4-4 adm-zip@0.4.4
+369 http 200 https://registry.npmjs.org/which/-/which-1.0.8.tgz
+370 silly lockFile 514914db--npmjs-org-which-which-1-0-8-tgz https://registry.npmjs.org/which/-/which-1.0.8.tgz
+371 silly lockFile 514914db--npmjs-org-which-which-1-0-8-tgz https://registry.npmjs.org/which/-/which-1.0.8.tgz
+372 silly lockFile a008069a-which-1-0-8 which@1.0.8
+373 silly lockFile a008069a-which-1-0-8 which@1.0.8
+374 silly lockFile d158d65e-which-1-0-5 which@~1.0.5
+375 silly lockFile d158d65e-which-1-0-5 which@~1.0.5
+376 http 200 https://registry.npmjs.org/request-progress/-/request-progress-0.3.1.tgz
+377 silly lockFile e1faf6d9-stry-npmjs-org-kew-kew-0-4-0-tgz https://registry.npmjs.org/kew/-/kew-0.4.0.tgz
+378 silly lockFile e1faf6d9-stry-npmjs-org-kew-kew-0-4-0-tgz https://registry.npmjs.org/kew/-/kew-0.4.0.tgz
+379 silly lockFile d7f05391-kew-0-4-0 kew@0.4.0
+380 silly lockFile d7f05391-kew-0-4-0 kew@0.4.0
+381 silly lockFile 195035b3-gress-request-progress-0-3-1-tgz https://registry.npmjs.org/request-progress/-/request-progress-0.3.1.tgz
+382 silly lockFile 195035b3-gress-request-progress-0-3-1-tgz https://registry.npmjs.org/request-progress/-/request-progress-0.3.1.tgz
+383 silly lockFile a2b190cd-request-progress-0-3-1 request-progress@0.3.1
+384 silly lockFile a2b190cd-request-progress-0-3-1 request-progress@0.3.1
+385 http 304 https://registry.npmjs.org/ncp
+386 silly registry.get cb [ 304,
+386 silly registry.get   { date: 'Sun, 28 Dec 2014 01:14:40 GMT',
+386 silly registry.get     server: 'Apache',
+386 silly registry.get     via: '1.1 varnish',
+386 silly registry.get     'last-modified': 'Sun, 28 Dec 2014 01:14:40 GMT',
+386 silly registry.get     'cache-control': 'max-age=60',
+386 silly registry.get     etag: '"798S99R5AI6FRGZ4RQOUS2J1U"',
+386 silly registry.get     age: '0',
+386 silly registry.get     'x-served-by': 'cache-lhr6327-LHR',
+386 silly registry.get     'x-cache': 'HIT',
+386 silly registry.get     'x-cache-hits': '1',
+386 silly registry.get     'x-timer': 'S1419729280.331065,VS0,VE622',
+386 silly registry.get     vary: 'Accept',
+386 silly registry.get     'content-length': '0',
+386 silly registry.get     'keep-alive': 'timeout=10, max=49',
+386 silly registry.get     connection: 'Keep-Alive' } ]
+387 verbose etag ncp from cache
+388 silly addNameRange number 2 { name: 'ncp', range: '>=1.0.1-0 <1.1.0-0', hasData: true }
+389 silly addNameRange versions [ 'ncp',
+389 silly addNameRange   [ '0.0.0',
+389 silly addNameRange     '0.0.1',
+389 silly addNameRange     '0.0.2',
+389 silly addNameRange     '0.1.0',
+389 silly addNameRange     '0.1.1',
+389 silly addNameRange     '0.1.2',
+389 silly addNameRange     '0.2.0',
+389 silly addNameRange     '0.2.1',
+389 silly addNameRange     '0.2.2',
+389 silly addNameRange     '0.2.3',
+389 silly addNameRange     '0.2.4',
+389 silly addNameRange     '0.2.5',
+389 silly addNameRange     '0.2.6',
+389 silly addNameRange     '0.3.0',
+389 silly addNameRange     '0.4.0',
+389 silly addNameRange     '0.2.7',
+389 silly addNameRange     '0.4.1',
+389 silly addNameRange     '0.4.2',
+389 silly addNameRange     '0.5.0',
+389 silly addNameRange     '0.5.1',
+389 silly addNameRange     '0.6.0',
+389 silly addNameRange     '1.0.0',
+389 silly addNameRange     '1.0.1' ] ]
+390 verbose addNamed [ 'ncp', '1.0.1' ]
+391 verbose addNamed [ '1.0.1', '1.0.1' ]
+392 silly lockFile 8c7f3829-ncp-1-0-1 ncp@1.0.1
+393 verbose lock ncp@1.0.1 /home/nik/.npm/8c7f3829-ncp-1-0-1.lock
+394 silly lockFile 112b3a05-stry-npmjs-org-ncp-ncp-1-0-1-tgz https://registry.npmjs.org/ncp/-/ncp-1.0.1.tgz
+395 verbose lock https://registry.npmjs.org/ncp/-/ncp-1.0.1.tgz /home/nik/.npm/112b3a05-stry-npmjs-org-ncp-ncp-1-0-1-tgz.lock
+396 verbose addRemoteTarball [ 'https://registry.npmjs.org/ncp/-/ncp-1.0.1.tgz',
+396 verbose addRemoteTarball   'd15367e5cb87432ba117d2bf80fdf45aecfb4246' ]
+397 info retry fetch attempt 1 at 03:14:40
+398 verbose fetch to= /home/nik/tmp/npm-8154-Eu97Y2jN/registry.npmjs.org/ncp/-/ncp-1.0.1.tgz
+399 http GET https://registry.npmjs.org/ncp/-/ncp-1.0.1.tgz
+400 http 200 https://registry.npmjs.org/progress/-/progress-1.1.8.tgz
+401 silly lockFile 6df68d67--org-progress-progress-1-1-8-tgz https://registry.npmjs.org/progress/-/progress-1.1.8.tgz
+402 silly lockFile 6df68d67--org-progress-progress-1-1-8-tgz https://registry.npmjs.org/progress/-/progress-1.1.8.tgz
+403 silly lockFile caa8d10f-progress-1-1-8 progress@1.1.8
+404 silly lockFile caa8d10f-progress-1-1-8 progress@1.1.8
+405 http 200 https://registry.npmjs.org/request/-/request-2.42.0.tgz
+406 http 200 https://registry.npmjs.org/ncp/-/ncp-1.0.1.tgz
+407 silly lockFile 112b3a05-stry-npmjs-org-ncp-ncp-1-0-1-tgz https://registry.npmjs.org/ncp/-/ncp-1.0.1.tgz
+408 silly lockFile 112b3a05-stry-npmjs-org-ncp-ncp-1-0-1-tgz https://registry.npmjs.org/ncp/-/ncp-1.0.1.tgz
+409 silly lockFile 8c7f3829-ncp-1-0-1 ncp@1.0.1
+410 silly lockFile 8c7f3829-ncp-1-0-1 ncp@1.0.1
+411 silly lockFile 39139b68-ncp-1-0-1 ncp@~1.0.1
+412 silly lockFile 39139b68-ncp-1-0-1 ncp@~1.0.1
+413 silly lockFile 5b57d78a-s-org-request-request-2-42-0-tgz https://registry.npmjs.org/request/-/request-2.42.0.tgz
+414 silly lockFile 5b57d78a-s-org-request-request-2-42-0-tgz https://registry.npmjs.org/request/-/request-2.42.0.tgz
+415 silly lockFile 6619e4b4-request-2-42-0 request@2.42.0
+416 silly lockFile 6619e4b4-request-2-42-0 request@2.42.0
+417 silly resolved [ { name: 'rimraf',
+417 silly resolved     version: '2.2.8',
+417 silly resolved     main: 'rimraf.js',
+417 silly resolved     description: 'A deep deletion module for node (like `rm -rf`)',
+417 silly resolved     author:
+417 silly resolved      { name: 'Isaac Z. Schlueter',
+417 silly resolved        email: 'i@izs.me',
+417 silly resolved        url: 'http://blog.izs.me/' },
+417 silly resolved     license:
+417 silly resolved      { type: 'MIT',
+417 silly resolved        url: 'https://github.com/isaacs/rimraf/raw/master/LICENSE' },
+417 silly resolved     repository: { type: 'git', url: 'git://github.com/isaacs/rimraf.git' },
+417 silly resolved     scripts: { test: 'cd test && bash run.sh' },
+417 silly resolved     bin: { rimraf: './bin.js' },
+417 silly resolved     contributors: [ [Object], [Object], [Object], [Object], [Object] ],
+417 silly resolved     readme: '`rm -rf` for node.\n\nInstall with `npm install rimraf`, or just drop rimraf.js somewhere.\n\n## API\n\n`rimraf(f, callback)`\n\nThe callback will be called with an error if there is one.  Certain\nerrors are handled for you:\n\n* Windows: `EBUSY` and `ENOTEMPTY` - rimraf will back off a maximum of\n  `opts.maxBusyTries` times before giving up.\n* `ENOENT` - If the file doesn\'t exist, rimraf will return\n  successfully, since your desired outcome is already the case.\n\n## rimraf.sync\n\nIt can remove stuff synchronously, too.  But that\'s not so good.  Use\nthe async API.  It\'s better.\n\n## CLI\n\nIf installed with `npm install rimraf -g` it can be used as a global\ncommand `rimraf <path>` which is useful for cross platform support.\n\n## mkdirp\n\nIf you need to create a directory recursively, check out\n[mkdirp](https://github.com/substack/node-mkdirp).\n',
+417 silly resolved     readmeFilename: 'README.md',
+417 silly resolved     bugs: { url: 'https://github.com/isaacs/rimraf/issues' },
+417 silly resolved     homepage: 'https://github.com/isaacs/rimraf',
+417 silly resolved     _id: 'rimraf@2.2.8',
+417 silly resolved     _from: 'rimraf@~2.2.8' },
+417 silly resolved   { name: 'mkdirp',
+417 silly resolved     description: 'Recursively mkdir, like `mkdir -p`',
+417 silly resolved     version: '0.5.0',
+417 silly resolved     author:
+417 silly resolved      { name: 'James Halliday',
+417 silly resolved        email: 'mail@substack.net',
+417 silly resolved        url: 'http://substack.net' },
+417 silly resolved     main: './index',
+417 silly resolved     keywords: [ 'mkdir', 'directory' ],
+417 silly resolved     repository:
+417 silly resolved      { type: 'git',
+417 silly resolved        url: 'https://github.com/substack/node-mkdirp.git' },
+417 silly resolved     scripts: { test: 'tap test/*.js' },
+417 silly resolved     dependencies: { minimist: '0.0.8' },
+417 silly resolved     devDependencies: { tap: '~0.4.0', 'mock-fs': '~2.2.0' },
+417 silly resolved     bin: { mkdirp: 'bin/cmd.js' },
+417 silly resolved     license: 'MIT',
+417 silly resolved     readme: '# mkdirp\n\nLike `mkdir -p`, but in node.js!\n\n[![build status](https://secure.travis-ci.org/substack/node-mkdirp.png)](http://travis-ci.org/substack/node-mkdirp)\n\n# example\n\n## pow.js\n\n```js\nvar mkdirp = require(\'mkdirp\');\n    \nmkdirp(\'/tmp/foo/bar/baz\', function (err) {\n    if (err) console.error(err)\n    else console.log(\'pow!\')\n});\n```\n\nOutput\n\n```\npow!\n```\n\nAnd now /tmp/foo/bar/baz exists, huzzah!\n\n# methods\n\n```js\nvar mkdirp = require(\'mkdirp\');\n```\n\n## mkdirp(dir, opts, cb)\n\nCreate a new directory and any necessary subdirectories at `dir` with octal\npermission string `opts.mode`. If `opts` is a non-object, it will be treated as\nthe `opts.mode`.\n\nIf `opts.mode` isn\'t specified, it defaults to `0777 & (~process.umask())`.\n\n`cb(err, made)` fires with the error or the first directory `made`\nthat had to be created, if any.\n\nYou can optionally pass in an alternate `fs` implementation by passing in\n`opts.fs`. Your implementation should have `opts.fs.mkdir(path, mode, cb)` and\n`opts.fs.stat(path, cb)`.\n\n## mkdirp.sync(dir, opts)\n\nSynchronously create a new directory and any necessary subdirectories at `dir`\nwith octal permission string `opts.mode`. If `opts` is a non-object, it will be\ntreated as the `opts.mode`.\n\nIf `opts.mode` isn\'t specified, it defaults to `0777 & (~process.umask())`.\n\nReturns the first directory that had to be created, if any.\n\nYou can optionally pass in an alternate `fs` implementation by passing in\n`opts.fs`. Your implementation should have `opts.fs.mkdirSync(path, mode)` and\n`opts.fs.statSync(path)`.\n\n# usage\n\nThis package also ships with a `mkdirp` command.\n\n```\nusage: mkdirp [DIR1,DIR2..] {OPTIONS}\n\n  Create each supplied directory including any necessary parent directories that\n  don\'t yet exist.\n  \n  If the directory already exists, do nothing.\n\nOPTIONS are:\n\n  -m, --mode   If a directory needs to be created, set the mode as an octal\n               permission string.\n\n```\n\n# install\n\nWith [npm](http://npmjs.org) do:\n\n```\nnpm install mkdirp\n```\n\nto get the library, or\n\n```\nnpm install -g mkdirp\n```\n\nto get the command.\n\n# license\n\nMIT\n',
+417 silly resolved     readmeFilename: 'readme.markdown',
+417 silly resolved     bugs: { url: 'https://github.com/substack/node-mkdirp/issues' },
+417 silly resolved     homepage: 'https://github.com/substack/node-mkdirp',
+417 silly resolved     _id: 'mkdirp@0.5.0',
+417 silly resolved     _from: 'mkdirp@0.5.0' },
+417 silly resolved   { name: 'npmconf',
+417 silly resolved     version: '2.0.9',
+417 silly resolved     description: 'The config thing npm uses',
+417 silly resolved     main: 'npmconf.js',
+417 silly resolved     directories: { test: 'test' },
+417 silly resolved     dependencies:
+417 silly resolved      { 'config-chain': '~1.1.8',
+417 silly resolved        inherits: '~2.0.0',
+417 silly resolved        ini: '^1.2.0',
+417 silly resolved        mkdirp: '^0.5.0',
+417 silly resolved        nopt: '~3.0.1',
+417 silly resolved        once: '~1.3.0',
+417 silly resolved        osenv: '^0.1.0',
+417 silly resolved        semver: '2 || 3 || 4',
+417 silly resolved        'uid-number': '0.0.5' },
+417 silly resolved     devDependencies: { tap: '~0.4.0' },
+417 silly resolved     scripts: { test: 'tap test/*.js' },
+417 silly resolved     repository: { type: 'git', url: 'git://github.com/isaacs/npmconf' },
+417 silly resolved     keywords: [ 'npm', 'config', 'config-chain', 'conf', 'ini' ],
+417 silly resolved     author:
+417 silly resolved      { name: 'Isaac Z. Schlueter',
+417 silly resolved        email: 'i@izs.me',
+417 silly resolved        url: 'http://blog.izs.me' },
+417 silly resolved     license: 'BSD',
+417 silly resolved     gitHead: '1f07a91b86f3bbba00967d7079dc6a456e746734',
+417 silly resolved     bugs: { url: 'https://github.com/isaacs/npmconf/issues' },
+417 silly resolved     homepage: 'https://github.com/isaacs/npmconf',
+417 silly resolved     _id: 'npmconf@2.0.9',
+417 silly resolved     _shasum: '5c87e5fb308104eceeca781e3d9115d216351ef2',
+417 silly resolved     _from: 'npmconf@2.0.9',
+417 silly resolved     _npmVersion: '2.0.0-beta.3',
+417 silly resolved     _npmUser: { name: 'isaacs', email: 'i@izs.me' },
+417 silly resolved     maintainers: [ [Object], [Object] ],
+417 silly resolved     dist:
+417 silly resolved      { shasum: '5c87e5fb308104eceeca781e3d9115d216351ef2',
+417 silly resolved        tarball: 'http://registry.npmjs.org/npmconf/-/npmconf-2.0.9.tgz' },
+417 silly resolved     _resolved: 'https://registry.npmjs.org/npmconf/-/npmconf-2.0.9.tgz' },
+417 silly resolved   { name: 'adm-zip',
+417 silly resolved     version: '0.4.4',
+417 silly resolved     description: 'A Javascript implementation of zip for nodejs. Allows user to create or extract zip files both in memory or to/from disk',
+417 silly resolved     keywords: [ 'zip', 'methods', 'archive', 'unzip' ],
+417 silly resolved     homepage: 'http://github.com/cthackers/adm-zip',
+417 silly resolved     author:
+417 silly resolved      { name: 'Nasca Iacob',
+417 silly resolved        email: 'sy@another-d-mention.ro',
+417 silly resolved        url: 'https://github.com/cthackers' },
+417 silly resolved     bugs:
+417 silly resolved      { url: 'https://github.com/cthackers/adm-zip/issues',
+417 silly resolved        email: 'sy@another-d-mention.ro' },
+417 silly resolved     licenses: [ [Object] ],
+417 silly resolved     main: 'adm-zip.js',
+417 silly resolved     repository: { type: 'git', url: 'https://github.com/cthackers/adm-zip.git' },
+417 silly resolved     engines: { node: '>=0.3.0' },
+417 silly resolved     _id: 'adm-zip@0.4.4',
+417 silly resolved     dist:
+417 silly resolved      { shasum: 'a61ed5ae6905c3aea58b3a657d25033091052736',
+417 silly resolved        tarball: 'http://registry.npmjs.org/adm-zip/-/adm-zip-0.4.4.tgz' },
+417 silly resolved     _from: 'adm-zip@0.4.4',
+417 silly resolved     _npmVersion: '1.3.24',
+417 silly resolved     _npmUser: { name: 'cthackers', email: 'iacob.campia@gmail.com' },
+417 silly resolved     maintainers: [ [Object] ],
+417 silly resolved     directories: {},
+417 silly resolved     _shasum: 'a61ed5ae6905c3aea58b3a657d25033091052736',
+417 silly resolved     _resolved: 'https://registry.npmjs.org/adm-zip/-/adm-zip-0.4.4.tgz' },
+417 silly resolved   { author:
+417 silly resolved      { name: 'Isaac Z. Schlueter',
+417 silly resolved        email: 'i@izs.me',
+417 silly resolved        url: 'http://blog.izs.me' },
+417 silly resolved     name: 'which',
+417 silly resolved     description: 'Like which(1) unix command. Find the first instance of an executable in the PATH.',
+417 silly resolved     version: '1.0.8',
+417 silly resolved     repository: { type: 'git', url: 'git://github.com/isaacs/node-which.git' },
+417 silly resolved     main: 'which.js',
+417 silly resolved     bin: { which: './bin/which' },
+417 silly resolved     license: 'ISC',
+417 silly resolved     gitHead: '681a9ebbc447cb428232ddf6c0983006d89e7755',
+417 silly resolved     bugs: { url: 'https://github.com/isaacs/node-which/issues' },
+417 silly resolved     homepage: 'https://github.com/isaacs/node-which',
+417 silly resolved     _id: 'which@1.0.8',
+417 silly resolved     scripts: {},
+417 silly resolved     _shasum: 'c2ff319534ac4a1fa45df2221b56c36279903ded',
+417 silly resolved     _from: 'which@~1.0.5',
+417 silly resolved     _npmVersion: '2.1.11',
+417 silly resolved     _nodeVersion: '0.10.16',
+417 silly resolved     _npmUser: { name: 'isaacs', email: 'i@izs.me' },
+417 silly resolved     maintainers: [ [Object] ],
+417 silly resolved     dist:
+417 silly resolved      { shasum: 'c2ff319534ac4a1fa45df2221b56c36279903ded',
+417 silly resolved        tarball: 'http://registry.npmjs.org/which/-/which-1.0.8.tgz' },
+417 silly resolved     directories: {},
+417 silly resolved     _resolved: 'https://registry.npmjs.org/which/-/which-1.0.8.tgz' },
+417 silly resolved   { name: 'kew',
+417 silly resolved     description: 'a lightweight promise library for node',
+417 silly resolved     version: '0.4.0',
+417 silly resolved     homepage: 'https://github.com/Obvious/kew',
+417 silly resolved     authors:
+417 silly resolved      [ 'Jeremy Stanley <github@azulus.com> (https://github.com/azulus)',
+417 silly resolved        'Nick Santos <nick@medium.com>',
+417 silly resolved        'Xiao Ma <x@medium.com>' ],
+417 silly resolved     contributors: [],
+417 silly resolved     keywords: [ 'kew', 'promises' ],
+417 silly resolved     main: './kew.js',
+417 silly resolved     repository: { type: 'git', url: 'https://github.com/Obvious/kew.git' },
+417 silly resolved     dependencies: {},
+417 silly resolved     devDependencies: { q: '0.9.7', nodeunit: '0.8.1', 'closure-npc': '0.1.3' },
+417 silly resolved     scripts: { test: 'nodeunit test && closure-npc ./test/closure_test.js --jscomp_error=checkTypes' },
+417 silly resolved     bugs: { url: 'https://github.com/Obvious/kew/issues' },
+417 silly resolved     _id: 'kew@0.4.0',
+417 silly resolved     dist:
+417 silly resolved      { shasum: 'da97484f1b06502146f3c60cec05ac6012cd993f',
+417 silly resolved        tarball: 'http://registry.npmjs.org/kew/-/kew-0.4.0.tgz' },
+417 silly resolved     _from: 'kew@0.4.0',
+417 silly resolved     _npmVersion: '1.3.24',
+417 silly resolved     _npmUser: { name: 'nicks', email: 'nicholas.j.santos@gmail.com' },
+417 silly resolved     maintainers: [ [Object], [Object], [Object], [Object], [Object] ],
+417 silly resolved     directories: {},
+417 silly resolved     _shasum: 'da97484f1b06502146f3c60cec05ac6012cd993f',
+417 silly resolved     _resolved: 'https://registry.npmjs.org/kew/-/kew-0.4.0.tgz' },
+417 silly resolved   { name: 'request-progress',
+417 silly resolved     version: '0.3.1',
+417 silly resolved     description: 'Tracks the download progress of a request made with mikeal/request',
+417 silly resolved     main: 'index.js',
+417 silly resolved     dependencies: { throttleit: '~0.0.2' },
+417 silly resolved     devDependencies: { mocha: '~1.12.0', 'expect.js': '~0.2.0' },
+417 silly resolved     scripts: { test: 'mocha -R spec' },
+417 silly resolved     repository:
+417 silly resolved      { type: 'git',
+417 silly resolved        url: 'git://github.com/IndigoUnited/node-request-progress' },
+417 silly resolved     bugs: { url: 'http://github.com/IndigoUnited/node-request-progress/issues' },
+417 silly resolved     keywords:
+417 silly resolved      [ 'progress',
+417 silly resolved        'request',
+417 silly resolved        'mikeal',
+417 silly resolved        'size',
+417 silly resolved        'bytes',
+417 silly resolved        'percent',
+417 silly resolved        'percentage' ],
+417 silly resolved     author:
+417 silly resolved      { name: 'IndigoUnited',
+417 silly resolved        email: 'hello@indigounited.com',
+417 silly resolved        url: 'http://indigounited.com' },
+417 silly resolved     license: 'MIT',
+417 silly resolved     readme: '# request-progress [![Build Status](https://secure.travis-ci.org/IndigoUnited/node-request-progress.png)](http://travis-ci.org/IndigoUnited/node-request-progress.png)\n\nTracks the download progress of a request made with [request](https://github.com/mikeal/request).\n\n\n## Installation\n\n`$ npm install request-progress`\n\n\n## Usage\n\n```js\nvar fs = require(\'fs\');\nvar request = require(\'request\');\nvar progress = require(\'request-progress\');\n\n// Note that the options argument is optional\nprogress(request(\'http://google.com/doodle.png\'), {\n    throttle: 2000,  // Throttle the progress event to 2000ms, defaults to 1000ms\n    delay: 1000      // Only start to emit after 1000ms delay, defaults to 0ms\n})\n.on(\'progress\', function (state) {\n    console.log(\'received size in bytes\', state.received);\n    // The properties bellow can be null if response does not contain\n    // the content-length header\n    console.log(\'total size in bytes\', state.total);\n    console.log(\'percent\', state.percent);\n})\n.on(\'error\', function (err) {\n    // Do something with err\n})\n.pipe(fs.createWriteStream(\'doodle.png\'))\n.on(\'error\', function (err) {\n    // Do something with err\n})\n.on(\'close\', function (err) {\n    // Saved to doogle.png!\n})\n```\n\nNote that the `state` object emitted in the `progress` event is reused to avoid creating a new object for each event.\n\n\n## License\n\nReleased under the [MIT License](http://www.opensource.org/licenses/mit-license.php).\n',
+417 silly resolved     readmeFilename: 'README.md',
+417 silly resolved     _id: 'request-progress@0.3.1',
+417 silly resolved     dist:
+417 silly resolved      { shasum: '0721c105d8a96ac6b2ce8b2c89ae2d5ecfcf6b3a',
+417 silly resolved        tarball: 'http://registry.npmjs.org/request-progress/-/request-progress-0.3.1.tgz' },
+417 silly resolved     _from: 'request-progress@0.3.1',
+417 silly resolved     _npmVersion: '1.3.8',
+417 silly resolved     _npmUser: { name: 'satazor', email: 'andremiguelcruz@msn.com' },
+417 silly resolved     maintainers: [ [Object] ],
+417 silly resolved     directories: {},
+417 silly resolved     _shasum: '0721c105d8a96ac6b2ce8b2c89ae2d5ecfcf6b3a',
+417 silly resolved     _resolved: 'https://registry.npmjs.org/request-progress/-/request-progress-0.3.1.tgz' },
+417 silly resolved   { name: 'progress',
+417 silly resolved     version: '1.1.8',
+417 silly resolved     description: 'Flexible ascii progress bar',
+417 silly resolved     keywords: [ 'cli', 'progress' ],
+417 silly resolved     author: { name: 'TJ Holowaychuk', email: 'tj@vision-media.ca' },
+417 silly resolved     contributors: [ [Object], [Object] ],
+417 silly resolved     dependencies: {},
+417 silly resolved     main: 'index',
+417 silly resolved     engines: { node: '>=0.4.0' },
+417 silly resolved     repository:
+417 silly resolved      { type: 'git',
+417 silly resolved        url: 'git://github.com/visionmedia/node-progress' },
+417 silly resolved     gitHead: '6b9524c0d07df9555d20ae95c65918020c50e3e2',
+417 silly resolved     bugs: { url: 'https://github.com/visionmedia/node-progress/issues' },
+417 silly resolved     homepage: 'https://github.com/visionmedia/node-progress',
+417 silly resolved     _id: 'progress@1.1.8',
+417 silly resolved     scripts: {},
+417 silly resolved     _shasum: 'e260c78f6161cdd9b0e56cc3e0a85de17c7a57be',
+417 silly resolved     _from: 'progress@1.1.8',
+417 silly resolved     _npmVersion: '1.4.14',
+417 silly resolved     _npmUser: { name: 'prezjordan', email: 'scalesjordan@gmail.com' },
+417 silly resolved     maintainers: [ [Object], [Object], [Object] ],
+417 silly resolved     dist:
+417 silly resolved      { shasum: 'e260c78f6161cdd9b0e56cc3e0a85de17c7a57be',
+417 silly resolved        tarball: 'http://registry.npmjs.org/progress/-/progress-1.1.8.tgz' },
+417 silly resolved     directories: {},
+417 silly resolved     _resolved: 'https://registry.npmjs.org/progress/-/progress-1.1.8.tgz' },
+417 silly resolved   { name: 'ncp',
+417 silly resolved     version: '1.0.1',
+417 silly resolved     author: { name: 'AvianFlu', email: 'charlie@charlieistheman.com' },
+417 silly resolved     description: 'Asynchronous recursive file copy utility.',
+417 silly resolved     bin: { ncp: './bin/ncp' },
+417 silly resolved     devDependencies: { mocha: '1.15.x', rimraf: '1.0.x', 'read-dir-files': '0.0.x' },
+417 silly resolved     main: './lib/ncp.js',
+417 silly resolved     repository: { type: 'git', url: 'https://github.com/AvianFlu/ncp.git' },
+417 silly resolved     keywords: [ 'cli', 'copy' ],
+417 silly resolved     license: 'MIT',
+417 silly resolved     engine: { node: '>=0.8' },
+417 silly resolved     scripts: { test: 'mocha -R spec' },
+417 silly resolved     gitHead: 'e9e6fae157e94e6c55b8edae70779bf12b0d2476',
+417 silly resolved     bugs: { url: 'https://github.com/AvianFlu/ncp/issues' },
+417 silly resolved     homepage: 'https://github.com/AvianFlu/ncp',
+417 silly resolved     _id: 'ncp@1.0.1',
+417 silly resolved     _shasum: 'd15367e5cb87432ba117d2bf80fdf45aecfb4246',
+417 silly resolved     _from: 'ncp@~1.0.1',
+417 silly resolved     _npmVersion: '2.1.2',
+417 silly resolved     _nodeVersion: '0.10.32',
+417 silly resolved     _npmUser: { name: 'avianflu', email: 'charlie@charlieistheman.com' },
+417 silly resolved     maintainers: [ [Object], [Object] ],
+417 silly resolved     dist:
+417 silly resolved      { shasum: 'd15367e5cb87432ba117d2bf80fdf45aecfb4246',
+417 silly resolved        tarball: 'http://registry.npmjs.org/ncp/-/ncp-1.0.1.tgz' },
+417 silly resolved     directories: {},
+417 silly resolved     _resolved: 'https://registry.npmjs.org/ncp/-/ncp-1.0.1.tgz' },
+417 silly resolved   { name: 'request',
+417 silly resolved     description: 'Simplified HTTP request client.',
+417 silly resolved     tags: [ 'http', 'simple', 'util', 'utility' ],
+417 silly resolved     version: '2.42.0',
+417 silly resolved     author: { name: 'Mikeal Rogers', email: 'mikeal.rogers@gmail.com' },
+417 silly resolved     repository: { type: 'git', url: 'https://github.com/mikeal/request.git' },
+417 silly resolved     bugs: { url: 'http://github.com/mikeal/request/issues' },
+417 silly resolved     license: 'Apache-2.0',
+417 silly resolved     engines: [ 'node >= 0.8.0' ],
+417 silly resolved     main: 'index.js',
+417 silly resolved     dependencies:
+417 silly resolved      { bl: '~0.9.0',
+417 silly resolved        caseless: '~0.6.0',
+417 silly resolved        'forever-agent': '~0.5.0',
+417 silly resolved        qs: '~1.2.0',
+417 silly resolved        'json-stringify-safe': '~5.0.0',
+417 silly resolved        'mime-types': '~1.0.1',
+417 silly resolved        'node-uuid': '~1.4.0',
+417 silly resolved        'tunnel-agent': '~0.4.0',
+417 silly resolved        'tough-cookie': '>=0.12.0',
+417 silly resolved        'form-data': '~0.1.0',
+417 silly resolved        'http-signature': '~0.10.0',
+417 silly resolved        'oauth-sign': '~0.4.0',
+417 silly resolved        hawk: '1.1.1',
+417 silly resolved        'aws-sign2': '~0.5.0',
+417 silly resolved        stringstream: '~0.0.4' },
+417 silly resolved     optionalDependencies:
+417 silly resolved      { 'tough-cookie': '>=0.12.0',
+417 silly resolved        'form-data': '~0.1.0',
+417 silly resolved        'http-signature': '~0.10.0',
+417 silly resolved        'oauth-sign': '~0.4.0',
+417 silly resolved        hawk: '1.1.1',
+417 silly resolved        'aws-sign2': '~0.5.0',
+417 silly resolved        stringstream: '~0.0.4' },
+417 silly resolved     scripts: { test: 'node tests/run.js' },
+417 silly resolved     devDependencies: { rimraf: '~2.2.8' },
+417 silly resolved     homepage: 'https://github.com/mikeal/request',
+417 silly resolved     _id: 'request@2.42.0',
+417 silly resolved     _shasum: '572bd0148938564040ac7ab148b96423a063304a',
+417 silly resolved     _from: 'request@2.42.0',
+417 silly resolved     _npmVersion: '1.4.9',
+417 silly resolved     _npmUser: { name: 'mikeal', email: 'mikeal.rogers@gmail.com' },
+417 silly resolved     maintainers: [ [Object] ],
+417 silly resolved     dist:
+417 silly resolved      { shasum: '572bd0148938564040ac7ab148b96423a063304a',
+417 silly resolved        tarball: 'http://registry.npmjs.org/request/-/request-2.42.0.tgz' },
+417 silly resolved     directories: {},
+417 silly resolved     _resolved: 'https://registry.npmjs.org/request/-/request-2.42.0.tgz' } ]
+418 info install rimraf@2.2.8 into /home/nik/code/xos/node_modules/karma-phantomjs-launcher/node_modules/phantomjs
+419 info install mkdirp@0.5.0 into /home/nik/code/xos/node_modules/karma-phantomjs-launcher/node_modules/phantomjs
+420 info install npmconf@2.0.9 into /home/nik/code/xos/node_modules/karma-phantomjs-launcher/node_modules/phantomjs
+421 info install adm-zip@0.4.4 into /home/nik/code/xos/node_modules/karma-phantomjs-launcher/node_modules/phantomjs
+422 info install which@1.0.8 into /home/nik/code/xos/node_modules/karma-phantomjs-launcher/node_modules/phantomjs
+423 info install kew@0.4.0 into /home/nik/code/xos/node_modules/karma-phantomjs-launcher/node_modules/phantomjs
+424 info install request-progress@0.3.1 into /home/nik/code/xos/node_modules/karma-phantomjs-launcher/node_modules/phantomjs
+425 info install progress@1.1.8 into /home/nik/code/xos/node_modules/karma-phantomjs-launcher/node_modules/phantomjs
+426 info install ncp@1.0.1 into /home/nik/code/xos/node_modules/karma-phantomjs-launcher/node_modules/phantomjs
+427 info install request@2.42.0 into /home/nik/code/xos/node_modules/karma-phantomjs-launcher/node_modules/phantomjs
+428 info installOne rimraf@2.2.8
+429 info installOne mkdirp@0.5.0
+430 info installOne npmconf@2.0.9
+431 info installOne adm-zip@0.4.4
+432 info installOne which@1.0.8
+433 info installOne kew@0.4.0
+434 info installOne request-progress@0.3.1
+435 info installOne progress@1.1.8
+436 info installOne ncp@1.0.1
+437 info installOne request@2.42.0
+438 info /home/nik/code/xos/node_modules/karma-phantomjs-launcher/node_modules/phantomjs/node_modules/rimraf unbuild
+439 info /home/nik/code/xos/node_modules/karma-phantomjs-launcher/node_modules/phantomjs/node_modules/mkdirp unbuild
+440 verbose tar unpack /home/nik/.npm/rimraf/2.2.8/package.tgz
+441 silly lockFile d6dec042-es-phantomjs-node-modules-rimraf tar:///home/nik/code/xos/node_modules/karma-phantomjs-launcher/node_modules/phantomjs/node_modules/rimraf
+442 verbose lock tar:///home/nik/code/xos/node_modules/karma-phantomjs-launcher/node_modules/phantomjs/node_modules/rimraf /home/nik/.npm/d6dec042-es-phantomjs-node-modules-rimraf.lock
+443 silly lockFile b27c21d2-nik-npm-rimraf-2-2-8-package-tgz tar:///home/nik/.npm/rimraf/2.2.8/package.tgz
+444 verbose lock tar:///home/nik/.npm/rimraf/2.2.8/package.tgz /home/nik/.npm/b27c21d2-nik-npm-rimraf-2-2-8-package-tgz.lock
+445 verbose tar unpack /home/nik/.npm/mkdirp/0.5.0/package.tgz
+446 silly lockFile 623d6f9f-es-phantomjs-node-modules-mkdirp tar:///home/nik/code/xos/node_modules/karma-phantomjs-launcher/node_modules/phantomjs/node_modules/mkdirp
+447 verbose lock tar:///home/nik/code/xos/node_modules/karma-phantomjs-launcher/node_modules/phantomjs/node_modules/mkdirp /home/nik/.npm/623d6f9f-es-phantomjs-node-modules-mkdirp.lock
+448 silly lockFile e09bb931-nik-npm-mkdirp-0-5-0-package-tgz tar:///home/nik/.npm/mkdirp/0.5.0/package.tgz
+449 verbose lock tar:///home/nik/.npm/mkdirp/0.5.0/package.tgz /home/nik/.npm/e09bb931-nik-npm-mkdirp-0-5-0-package-tgz.lock
+450 info /home/nik/code/xos/node_modules/karma-phantomjs-launcher/node_modules/phantomjs/node_modules/npmconf unbuild
+451 info /home/nik/code/xos/node_modules/karma-phantomjs-launcher/node_modules/phantomjs/node_modules/adm-zip unbuild
+452 info /home/nik/code/xos/node_modules/karma-phantomjs-launcher/node_modules/phantomjs/node_modules/which unbuild
+453 info /home/nik/code/xos/node_modules/karma-phantomjs-launcher/node_modules/phantomjs/node_modules/kew unbuild
+454 info /home/nik/code/xos/node_modules/karma-phantomjs-launcher/node_modules/phantomjs/node_modules/request-progress unbuild
+455 info /home/nik/code/xos/node_modules/karma-phantomjs-launcher/node_modules/phantomjs/node_modules/progress unbuild
+456 info /home/nik/code/xos/node_modules/karma-phantomjs-launcher/node_modules/phantomjs/node_modules/ncp unbuild
+457 info /home/nik/code/xos/node_modules/karma-phantomjs-launcher/node_modules/phantomjs/node_modules/request unbuild
+458 silly gunzTarPerm modes [ '755', '644' ]
+459 silly gunzTarPerm modes [ '755', '644' ]
+460 verbose tar unpack /home/nik/.npm/npmconf/2.0.9/package.tgz
+461 silly lockFile 0b0d83e0-s-phantomjs-node-modules-npmconf tar:///home/nik/code/xos/node_modules/karma-phantomjs-launcher/node_modules/phantomjs/node_modules/npmconf
+462 verbose lock tar:///home/nik/code/xos/node_modules/karma-phantomjs-launcher/node_modules/phantomjs/node_modules/npmconf /home/nik/.npm/0b0d83e0-s-phantomjs-node-modules-npmconf.lock
+463 silly lockFile c3f4e843-ik-npm-npmconf-2-0-9-package-tgz tar:///home/nik/.npm/npmconf/2.0.9/package.tgz
+464 verbose lock tar:///home/nik/.npm/npmconf/2.0.9/package.tgz /home/nik/.npm/c3f4e843-ik-npm-npmconf-2-0-9-package-tgz.lock
+465 verbose tar unpack /home/nik/.npm/adm-zip/0.4.4/package.tgz
+466 silly lockFile a034b6a6-s-phantomjs-node-modules-adm-zip tar:///home/nik/code/xos/node_modules/karma-phantomjs-launcher/node_modules/phantomjs/node_modules/adm-zip
+467 verbose lock tar:///home/nik/code/xos/node_modules/karma-phantomjs-launcher/node_modules/phantomjs/node_modules/adm-zip /home/nik/.npm/a034b6a6-s-phantomjs-node-modules-adm-zip.lock
+468 silly lockFile e60bc4ab-ik-npm-adm-zip-0-4-4-package-tgz tar:///home/nik/.npm/adm-zip/0.4.4/package.tgz
+469 verbose lock tar:///home/nik/.npm/adm-zip/0.4.4/package.tgz /home/nik/.npm/e60bc4ab-ik-npm-adm-zip-0-4-4-package-tgz.lock
+470 verbose tar unpack /home/nik/.npm/which/1.0.8/package.tgz
+471 silly lockFile 4f36f541-les-phantomjs-node-modules-which tar:///home/nik/code/xos/node_modules/karma-phantomjs-launcher/node_modules/phantomjs/node_modules/which
+472 verbose lock tar:///home/nik/code/xos/node_modules/karma-phantomjs-launcher/node_modules/phantomjs/node_modules/which /home/nik/.npm/4f36f541-les-phantomjs-node-modules-which.lock
+473 silly lockFile 376ffea9--nik-npm-which-1-0-8-package-tgz tar:///home/nik/.npm/which/1.0.8/package.tgz
+474 verbose lock tar:///home/nik/.npm/which/1.0.8/package.tgz /home/nik/.npm/376ffea9--nik-npm-which-1-0-8-package-tgz.lock
+475 verbose tar unpack /home/nik/.npm/kew/0.4.0/package.tgz
+476 silly lockFile 43b21e97-dules-phantomjs-node-modules-kew tar:///home/nik/code/xos/node_modules/karma-phantomjs-launcher/node_modules/phantomjs/node_modules/kew
+477 verbose lock tar:///home/nik/code/xos/node_modules/karma-phantomjs-launcher/node_modules/phantomjs/node_modules/kew /home/nik/.npm/43b21e97-dules-phantomjs-node-modules-kew.lock
+478 silly lockFile b8c32ddc-me-nik-npm-kew-0-4-0-package-tgz tar:///home/nik/.npm/kew/0.4.0/package.tgz
+479 verbose lock tar:///home/nik/.npm/kew/0.4.0/package.tgz /home/nik/.npm/b8c32ddc-me-nik-npm-kew-0-4-0-package-tgz.lock
+480 verbose tar unpack /home/nik/.npm/request-progress/0.3.1/package.tgz
+481 silly lockFile cb974497-js-node-modules-request-progress tar:///home/nik/code/xos/node_modules/karma-phantomjs-launcher/node_modules/phantomjs/node_modules/request-progress
+482 verbose lock tar:///home/nik/code/xos/node_modules/karma-phantomjs-launcher/node_modules/phantomjs/node_modules/request-progress /home/nik/.npm/cb974497-js-node-modules-request-progress.lock
+483 silly lockFile 0de18a6f-quest-progress-0-3-1-package-tgz tar:///home/nik/.npm/request-progress/0.3.1/package.tgz
+484 verbose lock tar:///home/nik/.npm/request-progress/0.3.1/package.tgz /home/nik/.npm/0de18a6f-quest-progress-0-3-1-package-tgz.lock
+485 verbose tar unpack /home/nik/.npm/progress/1.1.8/package.tgz
+486 silly lockFile 295294bc--phantomjs-node-modules-progress tar:///home/nik/code/xos/node_modules/karma-phantomjs-launcher/node_modules/phantomjs/node_modules/progress
+487 verbose lock tar:///home/nik/code/xos/node_modules/karma-phantomjs-launcher/node_modules/phantomjs/node_modules/progress /home/nik/.npm/295294bc--phantomjs-node-modules-progress.lock
+488 silly lockFile 26d07a6b-k-npm-progress-1-1-8-package-tgz tar:///home/nik/.npm/progress/1.1.8/package.tgz
+489 verbose lock tar:///home/nik/.npm/progress/1.1.8/package.tgz /home/nik/.npm/26d07a6b-k-npm-progress-1-1-8-package-tgz.lock
+490 verbose tar unpack /home/nik/.npm/ncp/1.0.1/package.tgz
+491 silly lockFile 02739d14-dules-phantomjs-node-modules-ncp tar:///home/nik/code/xos/node_modules/karma-phantomjs-launcher/node_modules/phantomjs/node_modules/ncp
+492 verbose lock tar:///home/nik/code/xos/node_modules/karma-phantomjs-launcher/node_modules/phantomjs/node_modules/ncp /home/nik/.npm/02739d14-dules-phantomjs-node-modules-ncp.lock
+493 silly lockFile 5e5309c3-me-nik-npm-ncp-1-0-1-package-tgz tar:///home/nik/.npm/ncp/1.0.1/package.tgz
+494 verbose lock tar:///home/nik/.npm/ncp/1.0.1/package.tgz /home/nik/.npm/5e5309c3-me-nik-npm-ncp-1-0-1-package-tgz.lock
+495 verbose tar unpack /home/nik/.npm/request/2.42.0/package.tgz
+496 silly lockFile adac09cc-s-phantomjs-node-modules-request tar:///home/nik/code/xos/node_modules/karma-phantomjs-launcher/node_modules/phantomjs/node_modules/request
+497 verbose lock tar:///home/nik/code/xos/node_modules/karma-phantomjs-launcher/node_modules/phantomjs/node_modules/request /home/nik/.npm/adac09cc-s-phantomjs-node-modules-request.lock
+498 silly lockFile cccaa5ca-k-npm-request-2-42-0-package-tgz tar:///home/nik/.npm/request/2.42.0/package.tgz
+499 verbose lock tar:///home/nik/.npm/request/2.42.0/package.tgz /home/nik/.npm/cccaa5ca-k-npm-request-2-42-0-package-tgz.lock
+500 silly gunzTarPerm extractEntry package.json
+501 silly gunzTarPerm modes [ '755', '644' ]
+502 silly gunzTarPerm modes [ '755', '644' ]
+503 silly gunzTarPerm modes [ '755', '644' ]
+504 silly gunzTarPerm modes [ '755', '644' ]
+505 silly gunzTarPerm modes [ '755', '644' ]
+506 silly gunzTarPerm modes [ '755', '644' ]
+507 silly gunzTarPerm modes [ '755', '644' ]
+508 silly gunzTarPerm modes [ '755', '644' ]
+509 silly gunzTarPerm extractEntry package.json
+510 silly gunzTarPerm extractEntry README.md
+511 silly gunzTarPerm extractEntry LICENSE
+512 silly gunzTarPerm extractEntry .npmignore
+513 silly gunzTarPerm extractEntry LICENSE
+514 silly gunzTarPerm extractEntry package.json
+515 silly gunzTarPerm extractEntry package.json
+516 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+517 silly gunzTarPerm extractEntry package.json
+518 silly gunzTarPerm extractEntry package.json
+519 silly gunzTarPerm extractEntry package.json
+520 silly gunzTarPerm extractEntry package.json
+521 silly gunzTarPerm extractEntry package.json
+522 silly gunzTarPerm extractEntry package.json
+523 silly gunzTarPerm extractEntry .npmignore
+524 silly gunzTarPerm extractEntry README.md
+525 silly gunzTarPerm extractEntry README.md
+526 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+527 silly gunzTarPerm extractEntry zipEntry.js
+528 silly gunzTarPerm modified mode [ 'zipEntry.js', 438, 420 ]
+529 silly gunzTarPerm extractEntry README.md
+530 silly gunzTarPerm extractEntry LICENSE
+531 silly gunzTarPerm extractEntry .npmignore
+532 silly gunzTarPerm extractEntry README.md
+533 silly gunzTarPerm extractEntry .npmignore
+534 silly gunzTarPerm extractEntry README.md
+535 silly gunzTarPerm extractEntry .npmignore
+536 silly gunzTarPerm extractEntry LICENSE
+537 silly gunzTarPerm extractEntry .npmignore
+538 silly gunzTarPerm extractEntry README.md
+539 silly gunzTarPerm extractEntry .npmignore
+540 silly gunzTarPerm extractEntry README.md
+541 silly gunzTarPerm extractEntry bin.js
+542 silly gunzTarPerm extractEntry rimraf.js
+543 silly gunzTarPerm extractEntry index.js
+544 silly gunzTarPerm extractEntry .travis.yml
+545 silly gunzTarPerm extractEntry which.js
+546 silly gunzTarPerm extractEntry bin/which
+547 silly gunzTarPerm extractEntry LICENSE
+548 silly gunzTarPerm extractEntry config-defs.js
+549 silly gunzTarPerm extractEntry adm-zip.js
+550 silly gunzTarPerm modified mode [ 'adm-zip.js', 438, 420 ]
+551 silly gunzTarPerm extractEntry zipFile.js
+552 silly gunzTarPerm modified mode [ 'zipFile.js', 438, 420 ]
+553 silly gunzTarPerm extractEntry .idea/scopes/scope_settings.xml
+554 silly gunzTarPerm modified mode [ '.idea/scopes/scope_settings.xml', 438, 420 ]
+555 silly gunzTarPerm extractEntry methods/deflater.js
+556 silly gunzTarPerm modified mode [ 'methods/deflater.js', 438, 420 ]
+557 silly gunzTarPerm extractEntry methods/index.js
+558 silly gunzTarPerm modified mode [ 'methods/index.js', 438, 420 ]
+559 silly gunzTarPerm extractEntry methods/inflater.js
+560 silly gunzTarPerm modified mode [ 'methods/inflater.js', 438, 420 ]
+561 silly gunzTarPerm extractEntry test/index.js
+562 silly gunzTarPerm modified mode [ 'test/index.js', 438, 420 ]
+563 silly gunzTarPerm extractEntry test/assets/attributes_test/asd/New Text Document.txt
+564 silly gunzTarPerm modified mode [ 'test/assets/attributes_test/asd/New Text Document.txt',
+564 silly gunzTarPerm   438,
+564 silly gunzTarPerm   420 ]
+565 silly gunzTarPerm extractEntry test/assets/attributes_test/blank file.txt
+566 silly gunzTarPerm modified mode [ 'test/assets/attributes_test/blank file.txt', 438, 420 ]
+567 silly gunzTarPerm extractEntry test/assets/attributes_test/New folder/hidden.txt
+568 silly gunzTarPerm modified mode [ 'test/assets/attributes_test/New folder/hidden.txt', 438, 420 ]
+569 silly gunzTarPerm extractEntry test/assets/attributes_test/New folder/hidden_readonly.txt
+570 silly gunzTarPerm modified mode [ 'test/assets/attributes_test/New folder/hidden_readonly.txt',
+570 silly gunzTarPerm   438,
+570 silly gunzTarPerm   420 ]
+571 silly gunzTarPerm extractEntry test/assets/attributes_test/New folder/readonly.txt
+572 silly gunzTarPerm modified mode [ 'test/assets/attributes_test/New folder/readonly.txt',
+572 silly gunzTarPerm   438,
+572 silly gunzTarPerm   420 ]
+573 silly gunzTarPerm extractEntry test/assets/attributes_test/New folder/somefile.txt
+574 silly gunzTarPerm modified mode [ 'test/assets/attributes_test/New folder/somefile.txt',
+574 silly gunzTarPerm   438,
+574 silly gunzTarPerm   420 ]
+575 silly gunzTarPerm extractEntry test/assets/attributes_test.zip
+576 silly gunzTarPerm modified mode [ 'test/assets/attributes_test.zip', 438, 420 ]
+577 silly gunzTarPerm extractEntry test/assets/fast.zip
+578 silly gunzTarPerm modified mode [ 'test/assets/fast.zip', 438, 420 ]
+579 silly gunzTarPerm extractEntry test/assets/fastest.zip
+580 silly gunzTarPerm modified mode [ 'test/assets/fastest.zip', 438, 420 ]
+581 silly gunzTarPerm extractEntry test/assets/linux_arc.zip
+582 silly gunzTarPerm modified mode [ 'test/assets/linux_arc.zip', 438, 420 ]
+583 silly gunzTarPerm extractEntry test/assets/maximum.zip
+584 silly gunzTarPerm modified mode [ 'test/assets/maximum.zip', 438, 420 ]
+585 silly gunzTarPerm extractEntry test/assets/normal.zip
+586 silly gunzTarPerm modified mode [ 'test/assets/normal.zip', 438, 420 ]
+587 silly gunzTarPerm extractEntry test/assets/store.zip
+588 silly gunzTarPerm modified mode [ 'test/assets/store.zip', 438, 420 ]
+589 silly gunzTarPerm extractEntry test/assets/ultra.zip
+590 silly gunzTarPerm modified mode [ 'test/assets/ultra.zip', 438, 420 ]
+591 silly gunzTarPerm extractEntry util/constants.js
+592 silly gunzTarPerm modified mode [ 'util/constants.js', 438, 420 ]
+593 silly gunzTarPerm extractEntry util/errors.js
+594 silly gunzTarPerm modified mode [ 'util/errors.js', 438, 420 ]
+595 silly gunzTarPerm extractEntry util/fattr.js
+596 silly gunzTarPerm modified mode [ 'util/fattr.js', 438, 420 ]
+597 silly gunzTarPerm extractEntry util/index.js
+598 silly gunzTarPerm modified mode [ 'util/index.js', 438, 420 ]
+599 silly gunzTarPerm extractEntry util/utils.js
+600 silly gunzTarPerm modified mode [ 'util/utils.js', 438, 420 ]
+601 silly gunzTarPerm extractEntry headers/entryHeader.js
+602 silly gunzTarPerm modified mode [ 'headers/entryHeader.js', 438, 420 ]
+603 silly gunzTarPerm extractEntry headers/index.js
+604 silly gunzTarPerm modified mode [ 'headers/index.js', 438, 420 ]
+605 silly gunzTarPerm extractEntry headers/mainHeader.js
+606 silly gunzTarPerm modified mode [ 'headers/mainHeader.js', 438, 420 ]
+607 silly gunzTarPerm extractEntry MIT-LICENSE.txt
+608 silly gunzTarPerm modified mode [ 'MIT-LICENSE.txt', 438, 420 ]
+609 silly gunzTarPerm extractEntry kew.js
+610 silly gunzTarPerm extractEntry LICENSE.TXT
+611 silly gunzTarPerm extractEntry test/chain.js
+612 silly gunzTarPerm extractEntry test/closure_test.js
+613 silly gunzTarPerm extractEntry test/context.js
+614 silly gunzTarPerm extractEntry test/defer.js
+615 silly gunzTarPerm extractEntry test/externs_node.js
+616 silly gunzTarPerm extractEntry test/scopes.js
+617 silly gunzTarPerm extractEntry test/static.js
+618 silly gunzTarPerm extractEntry LICENSE
+619 silly gunzTarPerm extractEntry index.js
+620 silly gunzTarPerm extractEntry index.js
+621 silly gunzTarPerm extractEntry History.md
+622 silly gunzTarPerm extractEntry .travis.yml
+623 silly gunzTarPerm extractEntry LICENSE.md
+624 silly gunzTarPerm extractEntry LICENSE
+625 silly gunzTarPerm extractEntry AUTHORS
+626 silly gunzTarPerm extractEntry test/test-async.js
+627 silly gunzTarPerm extractEntry bin/cmd.js
+628 silly gunzTarPerm extractEntry bin/usage.txt
+629 silly gunzTarPerm extractEntry npmconf.js
+630 silly gunzTarPerm extractEntry .editorconfig
+631 silly gunzTarPerm extractEntry .jshintrc
+632 silly gunzTarPerm extractEntry Makefile
+633 silly gunzTarPerm extractEntry Readme.md
+634 silly gunzTarPerm extractEntry bin/ncp
+635 silly gunzTarPerm extractEntry lib/ncp.js
+636 silly gunzTarPerm extractEntry index.js
+637 silly gunzTarPerm extractEntry request.js
+638 silly gunzTarPerm extractEntry test/test-sync.js
+639 silly gunzTarPerm extractEntry test/run.sh
+640 silly gunzTarPerm extractEntry examples/pow.js
+641 silly gunzTarPerm extractEntry readme.markdown
+642 silly gunzTarPerm extractEntry lib/find-prefix.js
+643 silly gunzTarPerm extractEntry lib/get-credentials-by-uri.js
+644 silly gunzTarPerm extractEntry .travis.yml
+645 silly gunzTarPerm extractEntry test/test.js
+646 silly gunzTarPerm extractEntry lib/node-progress.js
+647 silly gunzTarPerm extractEntry test/setup.sh
+648 silly gunzTarPerm extractEntry test/ncp.js
+649 silly gunzTarPerm extractEntry test/chmod.js
+650 silly gunzTarPerm extractEntry test/opts_fs_sync.js
+651 silly gunzTarPerm extractEntry test/perm.js
+652 silly gunzTarPerm extractEntry test/perm_sync.js
+653 silly gunzTarPerm extractEntry test/opts_fs.js
+654 silly gunzTarPerm extractEntry test/rel.js
+655 silly gunzTarPerm extractEntry test/return.js
+656 silly gunzTarPerm extractEntry test/return_sync.js
+657 silly gunzTarPerm extractEntry test/root.js
+658 silly gunzTarPerm extractEntry test/sync.js
+659 silly gunzTarPerm extractEntry test/mkdirp.js
+660 silly gunzTarPerm extractEntry test/umask.js
+661 silly gunzTarPerm extractEntry test/clobber.js
+662 silly gunzTarPerm extractEntry test/umask_sync.js
+663 silly gunzTarPerm extractEntry test/race.js
+664 silly gunzTarPerm extractEntry lib/load-cafile.js
+665 silly gunzTarPerm extractEntry lib/load-prefix.js
+666 silly gunzTarPerm extractEntry test/modified-files/out/a
+667 silly gunzTarPerm extractEntry test/modified-files/src/a
+668 silly gunzTarPerm extractEntry test/regular-fixtures/src/a
+669 silly gunzTarPerm extractEntry test/regular-fixtures/src/b
+670 silly lockFile 4f36f541-les-phantomjs-node-modules-which tar:///home/nik/code/xos/node_modules/karma-phantomjs-launcher/node_modules/phantomjs/node_modules/which
+671 silly lockFile 4f36f541-les-phantomjs-node-modules-which tar:///home/nik/code/xos/node_modules/karma-phantomjs-launcher/node_modules/phantomjs/node_modules/which
+672 silly lockFile 376ffea9--nik-npm-which-1-0-8-package-tgz tar:///home/nik/.npm/which/1.0.8/package.tgz
+673 silly lockFile 376ffea9--nik-npm-which-1-0-8-package-tgz tar:///home/nik/.npm/which/1.0.8/package.tgz
+674 info preinstall which@1.0.8
+675 silly gunzTarPerm extractEntry test/regular-fixtures/src/c
+676 silly gunzTarPerm extractEntry test/regular-fixtures/src/d
+677 verbose readDependencies using package.json deps
+678 verbose readDependencies using package.json deps
+679 silly resolved []
+680 verbose about to build /home/nik/code/xos/node_modules/karma-phantomjs-launcher/node_modules/phantomjs/node_modules/which
+681 info build /home/nik/code/xos/node_modules/karma-phantomjs-launcher/node_modules/phantomjs/node_modules/which
+682 verbose linkStuff [ false,
+682 verbose linkStuff   false,
+682 verbose linkStuff   false,
+682 verbose linkStuff   '/home/nik/code/xos/node_modules/karma-phantomjs-launcher/node_modules/phantomjs/node_modules' ]
+683 info linkStuff which@1.0.8
+684 verbose linkBins which@1.0.8
+685 verbose link bins [ { which: './bin/which' },
+685 verbose link bins   '/home/nik/code/xos/node_modules/karma-phantomjs-launcher/node_modules/phantomjs/node_modules/.bin',
+685 verbose link bins   false ]
+686 verbose linkMans which@1.0.8
+687 verbose rebuildBundles which@1.0.8
+688 silly gunzTarPerm extractEntry .travis.yml
+689 silly gunzTarPerm extractEntry CONTRIBUTING.md
+690 silly gunzTarPerm extractEntry lib/load-uid.js
+691 silly gunzTarPerm extractEntry lib/nerf-dart.js
+692 info install which@1.0.8
+693 info postinstall which@1.0.8
+694 silly gunzTarPerm extractEntry test/regular-fixtures/src/e
+695 silly gunzTarPerm extractEntry test/regular-fixtures/src/f
+696 silly gunzTarPerm extractEntry lib/cookies.js
+697 silly gunzTarPerm extractEntry lib/copy.js
+698 silly lockFile cb974497-js-node-modules-request-progress tar:///home/nik/code/xos/node_modules/karma-phantomjs-launcher/node_modules/phantomjs/node_modules/request-progress
+699 silly lockFile cb974497-js-node-modules-request-progress tar:///home/nik/code/xos/node_modules/karma-phantomjs-launcher/node_modules/phantomjs/node_modules/request-progress
+700 silly lockFile 295294bc--phantomjs-node-modules-progress tar:///home/nik/code/xos/node_modules/karma-phantomjs-launcher/node_modules/phantomjs/node_modules/progress
+701 silly lockFile 295294bc--phantomjs-node-modules-progress tar:///home/nik/code/xos/node_modules/karma-phantomjs-launcher/node_modules/phantomjs/node_modules/progress
+702 silly lockFile 0de18a6f-quest-progress-0-3-1-package-tgz tar:///home/nik/.npm/request-progress/0.3.1/package.tgz
+703 silly lockFile 0de18a6f-quest-progress-0-3-1-package-tgz tar:///home/nik/.npm/request-progress/0.3.1/package.tgz
+704 silly lockFile 26d07a6b-k-npm-progress-1-1-8-package-tgz tar:///home/nik/.npm/progress/1.1.8/package.tgz
+705 silly lockFile 26d07a6b-k-npm-progress-1-1-8-package-tgz tar:///home/nik/.npm/progress/1.1.8/package.tgz
+706 silly gunzTarPerm extractEntry lib/set-credentials-by-uri.js
+707 silly gunzTarPerm extractEntry lib/set-user.js
+708 info preinstall request-progress@0.3.1
+709 info preinstall progress@1.1.8
+710 silly lockFile d6dec042-es-phantomjs-node-modules-rimraf tar:///home/nik/code/xos/node_modules/karma-phantomjs-launcher/node_modules/phantomjs/node_modules/rimraf
+711 silly lockFile d6dec042-es-phantomjs-node-modules-rimraf tar:///home/nik/code/xos/node_modules/karma-phantomjs-launcher/node_modules/phantomjs/node_modules/rimraf
+712 verbose readDependencies using package.json deps
+713 verbose readDependencies using package.json deps
+714 silly lockFile b27c21d2-nik-npm-rimraf-2-2-8-package-tgz tar:///home/nik/.npm/rimraf/2.2.8/package.tgz
+715 silly lockFile b27c21d2-nik-npm-rimraf-2-2-8-package-tgz tar:///home/nik/.npm/rimraf/2.2.8/package.tgz
+716 verbose readDependencies using package.json deps
+717 verbose readDependencies using package.json deps
+718 silly resolved []
+719 verbose about to build /home/nik/code/xos/node_modules/karma-phantomjs-launcher/node_modules/phantomjs/node_modules/progress
+720 info build /home/nik/code/xos/node_modules/karma-phantomjs-launcher/node_modules/phantomjs/node_modules/progress
+721 verbose linkStuff [ false,
+721 verbose linkStuff   false,
+721 verbose linkStuff   false,
+721 verbose linkStuff   '/home/nik/code/xos/node_modules/karma-phantomjs-launcher/node_modules/phantomjs/node_modules' ]
+722 info linkStuff progress@1.1.8
+723 verbose linkBins progress@1.1.8
+724 verbose linkMans progress@1.1.8
+725 verbose rebuildBundles progress@1.1.8
+726 info install progress@1.1.8
+727 verbose cache add [ 'throttleit@~0.0.2', null ]
+728 verbose cache add name=undefined spec="throttleit@~0.0.2" args=["throttleit@~0.0.2",null]
+729 verbose parsed url { protocol: null,
+729 verbose parsed url   slashes: null,
+729 verbose parsed url   auth: null,
+729 verbose parsed url   host: null,
+729 verbose parsed url   port: null,
+729 verbose parsed url   hostname: null,
+729 verbose parsed url   hash: null,
+729 verbose parsed url   search: null,
+729 verbose parsed url   query: null,
+729 verbose parsed url   pathname: 'throttleit@~0.0.2',
+729 verbose parsed url   path: 'throttleit@~0.0.2',
+729 verbose parsed url   href: 'throttleit@~0.0.2' }
+730 silly gunzTarPerm extractEntry test/regular-fixtures/src/sub/a
+731 silly gunzTarPerm extractEntry test/regular-fixtures/src/sub/b
+732 info postinstall progress@1.1.8
+733 info preinstall rimraf@2.2.8
+734 verbose cache add name="throttleit" spec="~0.0.2" args=["throttleit","~0.0.2"]
+735 verbose parsed url { protocol: null,
+735 verbose parsed url   slashes: null,
+735 verbose parsed url   auth: null,
+735 verbose parsed url   host: null,
+735 verbose parsed url   port: null,
+735 verbose parsed url   hostname: null,
+735 verbose parsed url   hash: null,
+735 verbose parsed url   search: null,
+735 verbose parsed url   query: null,
+735 verbose parsed url   pathname: '~0.0.2',
+735 verbose parsed url   path: '~0.0.2',
+735 verbose parsed url   href: '~0.0.2' }
+736 verbose addNamed [ 'throttleit', '~0.0.2' ]
+737 verbose addNamed [ null, '>=0.0.2-0 <0.1.0-0' ]
+738 silly lockFile de588288-throttleit-0-0-2 throttleit@~0.0.2
+739 verbose lock throttleit@~0.0.2 /home/nik/.npm/de588288-throttleit-0-0-2.lock
+740 silly gunzTarPerm extractEntry test/00-setup.js
+741 silly gunzTarPerm extractEntry test/basic.js
+742 silly addNameRange { name: 'throttleit',
+742 silly addNameRange   range: '>=0.0.2-0 <0.1.0-0',
+742 silly addNameRange   hasData: false }
+743 silly gunzTarPerm extractEntry lib/debug.js
+744 silly gunzTarPerm extractEntry lib/helpers.js
+745 verbose readDependencies using package.json deps
+746 verbose url raw throttleit
+747 verbose url resolving [ 'https://registry.npmjs.org/', './throttleit' ]
+748 verbose url resolved https://registry.npmjs.org/throttleit
+749 info trying registry request attempt 1 at 03:14:41
+750 http GET https://registry.npmjs.org/throttleit
+751 verbose readDependencies using package.json deps
+752 silly resolved []
+753 verbose about to build /home/nik/code/xos/node_modules/karma-phantomjs-launcher/node_modules/phantomjs/node_modules/rimraf
+754 info build /home/nik/code/xos/node_modules/karma-phantomjs-launcher/node_modules/phantomjs/node_modules/rimraf
+755 verbose linkStuff [ false,
+755 verbose linkStuff   false,
+755 verbose linkStuff   false,
+755 verbose linkStuff   '/home/nik/code/xos/node_modules/karma-phantomjs-launcher/node_modules/phantomjs/node_modules' ]
+756 info linkStuff rimraf@2.2.8
+757 verbose linkBins rimraf@2.2.8
+758 verbose link bins [ { rimraf: './bin.js' },
+758 verbose link bins   '/home/nik/code/xos/node_modules/karma-phantomjs-launcher/node_modules/phantomjs/node_modules/.bin',
+758 verbose link bins   false ]
+759 verbose linkMans rimraf@2.2.8
+760 verbose rebuildBundles rimraf@2.2.8
+761 silly gunzTarPerm extractEntry test/symlink-fixtures/src/dir/bar
+762 silly gunzTarPerm extractEntry test/symlink-fixtures/src/foo
+763 info install rimraf@2.2.8
+764 silly gunzTarPerm extractEntry test/builtin.js
+765 silly gunzTarPerm extractEntry test/certfile.js
+766 info postinstall rimraf@2.2.8
+767 silly gunzTarPerm extractEntry test/credentials.js
+768 silly gunzTarPerm extractEntry test/project.js
+769 silly gunzTarPerm extractEntry test/save.js
+770 silly gunzTarPerm extractEntry test/semver-tag.js
+771 silly gunzTarPerm extractEntry test/fixtures/package.json
+772 silly gunzTarPerm extractEntry test/fixtures/.npmrc
+773 silly gunzTarPerm extractEntry test/fixtures/builtin
+774 silly gunzTarPerm extractEntry test/fixtures/globalconfig
+775 silly gunzTarPerm modified mode [ 'test/fixtures/globalconfig', 384, 420 ]
+776 silly gunzTarPerm extractEntry test/fixtures/multi-ca
+777 silly gunzTarPerm extractEntry test/fixtures/userconfig
+778 silly gunzTarPerm extractEntry lib/optional.js
+779 silly gunzTarPerm extractEntry CHANGELOG.md
+780 silly gunzTarPerm extractEntry disabled.appveyor.yml
+781 silly lockFile 43b21e97-dules-phantomjs-node-modules-kew tar:///home/nik/code/xos/node_modules/karma-phantomjs-launcher/node_modules/phantomjs/node_modules/kew
+782 silly lockFile 43b21e97-dules-phantomjs-node-modules-kew tar:///home/nik/code/xos/node_modules/karma-phantomjs-launcher/node_modules/phantomjs/node_modules/kew
+783 silly lockFile b8c32ddc-me-nik-npm-kew-0-4-0-package-tgz tar:///home/nik/.npm/kew/0.4.0/package.tgz
+784 silly lockFile b8c32ddc-me-nik-npm-kew-0-4-0-package-tgz tar:///home/nik/.npm/kew/0.4.0/package.tgz
+785 silly lockFile 623d6f9f-es-phantomjs-node-modules-mkdirp tar:///home/nik/code/xos/node_modules/karma-phantomjs-launcher/node_modules/phantomjs/node_modules/mkdirp
+786 silly lockFile 623d6f9f-es-phantomjs-node-modules-mkdirp tar:///home/nik/code/xos/node_modules/karma-phantomjs-launcher/node_modules/phantomjs/node_modules/mkdirp
+787 silly lockFile e09bb931-nik-npm-mkdirp-0-5-0-package-tgz tar:///home/nik/.npm/mkdirp/0.5.0/package.tgz
+788 silly lockFile e09bb931-nik-npm-mkdirp-0-5-0-package-tgz tar:///home/nik/.npm/mkdirp/0.5.0/package.tgz
+789 info preinstall kew@0.4.0
+790 info preinstall mkdirp@0.5.0
+791 verbose readDependencies using package.json deps
+792 verbose readDependencies using package.json deps
+793 silly resolved []
+794 verbose about to build /home/nik/code/xos/node_modules/karma-phantomjs-launcher/node_modules/phantomjs/node_modules/kew
+795 info build /home/nik/code/xos/node_modules/karma-phantomjs-launcher/node_modules/phantomjs/node_modules/kew
+796 verbose linkStuff [ false,
+796 verbose linkStuff   false,
+796 verbose linkStuff   false,
+796 verbose linkStuff   '/home/nik/code/xos/node_modules/karma-phantomjs-launcher/node_modules/phantomjs/node_modules' ]
+797 info linkStuff kew@0.4.0
+798 verbose linkBins kew@0.4.0
+799 verbose linkMans kew@0.4.0
+800 verbose rebuildBundles kew@0.4.0
+801 verbose readDependencies using package.json deps
+802 info install kew@0.4.0
+803 verbose readDependencies using package.json deps
+804 info postinstall kew@0.4.0
+805 verbose cache add [ 'minimist@0.0.8', null ]
+806 verbose cache add name=undefined spec="minimist@0.0.8" args=["minimist@0.0.8",null]
+807 verbose parsed url { protocol: null,
+807 verbose parsed url   slashes: null,
+807 verbose parsed url   auth: null,
+807 verbose parsed url   host: null,
+807 verbose parsed url   port: null,
+807 verbose parsed url   hostname: null,
+807 verbose parsed url   hash: null,
+807 verbose parsed url   search: null,
+807 verbose parsed url   query: null,
+807 verbose parsed url   pathname: 'minimist@0.0.8',
+807 verbose parsed url   path: 'minimist@0.0.8',
+807 verbose parsed url   href: 'minimist@0.0.8' }
+808 verbose cache add name="minimist" spec="0.0.8" args=["minimist","0.0.8"]
+809 verbose parsed url { protocol: null,
+809 verbose parsed url   slashes: null,
+809 verbose parsed url   auth: null,
+809 verbose parsed url   host: null,
+809 verbose parsed url   port: null,
+809 verbose parsed url   hostname: null,
+809 verbose parsed url   hash: null,
+809 verbose parsed url   search: null,
+809 verbose parsed url   query: null,
+809 verbose parsed url   pathname: '0.0.8',
+809 verbose parsed url   path: '0.0.8',
+809 verbose parsed url   href: '0.0.8' }
+810 verbose addNamed [ 'minimist', '0.0.8' ]
+811 verbose addNamed [ '0.0.8', '0.0.8' ]
+812 silly lockFile 22c6b485-minimist-0-0-8 minimist@0.0.8
+813 verbose lock minimist@0.0.8 /home/nik/.npm/22c6b485-minimist-0-0-8.lock
+814 silly lockFile 02739d14-dules-phantomjs-node-modules-ncp tar:///home/nik/code/xos/node_modules/karma-phantomjs-launcher/node_modules/phantomjs/node_modules/ncp
+815 silly lockFile 02739d14-dules-phantomjs-node-modules-ncp tar:///home/nik/code/xos/node_modules/karma-phantomjs-launcher/node_modules/phantomjs/node_modules/ncp
+816 verbose url raw minimist
+817 verbose url resolving [ 'https://registry.npmjs.org/', './minimist' ]
+818 verbose url resolved https://registry.npmjs.org/minimist
+819 info trying registry request attempt 1 at 03:14:41
+820 verbose etag "96WOKSI39J9B0UFBGLR5IL6OG"
+821 http GET https://registry.npmjs.org/minimist
+822 silly lockFile 5e5309c3-me-nik-npm-ncp-1-0-1-package-tgz tar:///home/nik/.npm/ncp/1.0.1/package.tgz
+823 silly lockFile 5e5309c3-me-nik-npm-ncp-1-0-1-package-tgz tar:///home/nik/.npm/ncp/1.0.1/package.tgz
+824 info preinstall ncp@1.0.1
+825 verbose readDependencies using package.json deps
+826 verbose readDependencies using package.json deps
+827 silly resolved []
+828 verbose about to build /home/nik/code/xos/node_modules/karma-phantomjs-launcher/node_modules/phantomjs/node_modules/ncp
+829 info build /home/nik/code/xos/node_modules/karma-phantomjs-launcher/node_modules/phantomjs/node_modules/ncp
+830 verbose linkStuff [ false,
+830 verbose linkStuff   false,
+830 verbose linkStuff   false,
+830 verbose linkStuff   '/home/nik/code/xos/node_modules/karma-phantomjs-launcher/node_modules/phantomjs/node_modules' ]
+831 info linkStuff ncp@1.0.1
+832 verbose linkBins ncp@1.0.1
+833 verbose link bins [ { ncp: './bin/ncp' },
+833 verbose link bins   '/home/nik/code/xos/node_modules/karma-phantomjs-launcher/node_modules/phantomjs/node_modules/.bin',
+833 verbose link bins   false ]
+834 verbose linkMans ncp@1.0.1
+835 verbose rebuildBundles ncp@1.0.1
+836 info install ncp@1.0.1
+837 info postinstall ncp@1.0.1
+838 silly lockFile 0b0d83e0-s-phantomjs-node-modules-npmconf tar:///home/nik/code/xos/node_modules/karma-phantomjs-launcher/node_modules/phantomjs/node_modules/npmconf
+839 silly lockFile 0b0d83e0-s-phantomjs-node-modules-npmconf tar:///home/nik/code/xos/node_modules/karma-phantomjs-launcher/node_modules/phantomjs/node_modules/npmconf
+840 silly lockFile c3f4e843-ik-npm-npmconf-2-0-9-package-tgz tar:///home/nik/.npm/npmconf/2.0.9/package.tgz
+841 silly lockFile c3f4e843-ik-npm-npmconf-2-0-9-package-tgz tar:///home/nik/.npm/npmconf/2.0.9/package.tgz
+842 info preinstall npmconf@2.0.9
+843 verbose readDependencies using package.json deps
+844 verbose readDependencies using package.json deps
+845 verbose cache add [ 'config-chain@~1.1.8', null ]
+846 verbose cache add name=undefined spec="config-chain@~1.1.8" args=["config-chain@~1.1.8",null]
+847 verbose parsed url { protocol: null,
+847 verbose parsed url   slashes: null,
+847 verbose parsed url   auth: null,
+847 verbose parsed url   host: null,
+847 verbose parsed url   port: null,
+847 verbose parsed url   hostname: null,
+847 verbose parsed url   hash: null,
+847 verbose parsed url   search: null,
+847 verbose parsed url   query: null,
+847 verbose parsed url   pathname: 'config-chain@~1.1.8',
+847 verbose parsed url   path: 'config-chain@~1.1.8',
+847 verbose parsed url   href: 'config-chain@~1.1.8' }
+848 verbose cache add [ 'inherits@~2.0.0', null ]
+849 verbose cache add name=undefined spec="inherits@~2.0.0" args=["inherits@~2.0.0",null]
+850 verbose parsed url { protocol: null,
+850 verbose parsed url   slashes: null,
+850 verbose parsed url   auth: null,
+850 verbose parsed url   host: null,
+850 verbose parsed url   port: null,
+850 verbose parsed url   hostname: null,
+850 verbose parsed url   hash: null,
+850 verbose parsed url   search: null,
+850 verbose parsed url   query: null,
+850 verbose parsed url   pathname: 'inherits@~2.0.0',
+850 verbose parsed url   path: 'inherits@~2.0.0',
+850 verbose parsed url   href: 'inherits@~2.0.0' }
+851 verbose cache add name="config-chain" spec="~1.1.8" args=["config-chain","~1.1.8"]
+852 verbose parsed url { protocol: null,
+852 verbose parsed url   slashes: null,
+852 verbose parsed url   auth: null,
+852 verbose parsed url   host: null,
+852 verbose parsed url   port: null,
+852 verbose parsed url   hostname: null,
+852 verbose parsed url   hash: null,
+852 verbose parsed url   search: null,
+852 verbose parsed url   query: null,
+852 verbose parsed url   pathname: '~1.1.8',
+852 verbose parsed url   path: '~1.1.8',
+852 verbose parsed url   href: '~1.1.8' }
+853 verbose addNamed [ 'config-chain', '~1.1.8' ]
+854 verbose addNamed [ null, '>=1.1.8-0 <1.2.0-0' ]
+855 silly lockFile 24c95d3c-config-chain-1-1-8 config-chain@~1.1.8
+856 verbose lock config-chain@~1.1.8 /home/nik/.npm/24c95d3c-config-chain-1-1-8.lock
+857 verbose cache add name="inherits" spec="~2.0.0" args=["inherits","~2.0.0"]
+858 verbose parsed url { protocol: null,
+858 verbose parsed url   slashes: null,
+858 verbose parsed url   auth: null,
+858 verbose parsed url   host: null,
+858 verbose parsed url   port: null,
+858 verbose parsed url   hostname: null,
+858 verbose parsed url   hash: null,
+858 verbose parsed url   search: null,
+858 verbose parsed url   query: null,
+858 verbose parsed url   pathname: '~2.0.0',
+858 verbose parsed url   path: '~2.0.0',
+858 verbose parsed url   href: '~2.0.0' }
+859 verbose addNamed [ 'inherits', '~2.0.0' ]
+860 verbose addNamed [ null, '>=2.0.0-0 <2.1.0-0' ]
+861 silly lockFile e2566bb4-inherits-2-0-0 inherits@~2.0.0
+862 verbose lock inherits@~2.0.0 /home/nik/.npm/e2566bb4-inherits-2-0-0.lock
+863 verbose cache add [ 'ini@^1.2.0', null ]
+864 verbose cache add name=undefined spec="ini@^1.2.0" args=["ini@^1.2.0",null]
+865 verbose parsed url { protocol: null,
+865 verbose parsed url   slashes: null,
+865 verbose parsed url   auth: null,
+865 verbose parsed url   host: null,
+865 verbose parsed url   port: null,
+865 verbose parsed url   hostname: null,
+865 verbose parsed url   hash: null,
+865 verbose parsed url   search: null,
+865 verbose parsed url   query: null,
+865 verbose parsed url   pathname: 'ini@^1.2.0',
+865 verbose parsed url   path: 'ini@^1.2.0',
+865 verbose parsed url   href: 'ini@^1.2.0' }
+866 verbose cache add name="ini" spec="^1.2.0" args=["ini","^1.2.0"]
+867 verbose parsed url { protocol: null,
+867 verbose parsed url   slashes: null,
+867 verbose parsed url   auth: null,
+867 verbose parsed url   host: null,
+867 verbose parsed url   port: null,
+867 verbose parsed url   hostname: null,
+867 verbose parsed url   hash: null,
+867 verbose parsed url   search: null,
+867 verbose parsed url   query: null,
+867 verbose parsed url   pathname: '^1.2.0',
+867 verbose parsed url   path: '^1.2.0',
+867 verbose parsed url   href: '^1.2.0' }
+868 verbose addNamed [ 'ini', '^1.2.0' ]
+869 verbose addNamed [ null, '>=1.2.0-0 <2.0.0-0' ]
+870 silly lockFile 394f926d-ini-1-2-0 ini@^1.2.0
+871 verbose lock ini@^1.2.0 /home/nik/.npm/394f926d-ini-1-2-0.lock
+872 verbose cache add [ 'nopt@~3.0.1', null ]
+873 verbose cache add name=undefined spec="nopt@~3.0.1" args=["nopt@~3.0.1",null]
+874 verbose parsed url { protocol: null,
+874 verbose parsed url   slashes: null,
+874 verbose parsed url   auth: null,
+874 verbose parsed url   host: null,
+874 verbose parsed url   port: null,
+874 verbose parsed url   hostname: null,
+874 verbose parsed url   hash: null,
+874 verbose parsed url   search: null,
+874 verbose parsed url   query: null,
+874 verbose parsed url   pathname: 'nopt@~3.0.1',
+874 verbose parsed url   path: 'nopt@~3.0.1',
+874 verbose parsed url   href: 'nopt@~3.0.1' }
+875 silly addNameRange { name: 'config-chain',
+875 silly addNameRange   range: '>=1.1.8-0 <1.2.0-0',
+875 silly addNameRange   hasData: false }
+876 silly addNameRange { name: 'inherits', range: '>=2.0.0-0 <2.1.0-0', hasData: false }
+877 verbose cache add name="nopt" spec="~3.0.1" args=["nopt","~3.0.1"]
+878 verbose parsed url { protocol: null,
+878 verbose parsed url   slashes: null,
+878 verbose parsed url   auth: null,
+878 verbose parsed url   host: null,
+878 verbose parsed url   port: null,
+878 verbose parsed url   hostname: null,
+878 verbose parsed url   hash: null,
+878 verbose parsed url   search: null,
+878 verbose parsed url   query: null,
+878 verbose parsed url   pathname: '~3.0.1',
+878 verbose parsed url   path: '~3.0.1',
+878 verbose parsed url   href: '~3.0.1' }
+879 verbose addNamed [ 'nopt', '~3.0.1' ]
+880 verbose addNamed [ null, '>=3.0.1-0 <3.1.0-0' ]
+881 silly lockFile 9f9d1f6e-nopt-3-0-1 nopt@~3.0.1
+882 verbose lock nopt@~3.0.1 /home/nik/.npm/9f9d1f6e-nopt-3-0-1.lock
+883 verbose cache add [ 'once@~1.3.0', null ]
+884 verbose cache add name=undefined spec="once@~1.3.0" args=["once@~1.3.0",null]
+885 verbose parsed url { protocol: null,
+885 verbose parsed url   slashes: null,
+885 verbose parsed url   auth: null,
+885 verbose parsed url   host: null,
+885 verbose parsed url   port: null,
+885 verbose parsed url   hostname: null,
+885 verbose parsed url   hash: null,
+885 verbose parsed url   search: null,
+885 verbose parsed url   query: null,
+885 verbose parsed url   pathname: 'once@~1.3.0',
+885 verbose parsed url   path: 'once@~1.3.0',
+885 verbose parsed url   href: 'once@~1.3.0' }
+886 verbose url raw config-chain
+887 verbose url resolving [ 'https://registry.npmjs.org/', './config-chain' ]
+888 verbose url resolved https://registry.npmjs.org/config-chain
+889 info trying registry request attempt 1 at 03:14:41
+890 http GET https://registry.npmjs.org/config-chain
+891 silly addNameRange { name: 'ini', range: '>=1.2.0-0 <2.0.0-0', hasData: false }
+892 verbose cache add name="once" spec="~1.3.0" args=["once","~1.3.0"]
+893 verbose parsed url { protocol: null,
+893 verbose parsed url   slashes: null,
+893 verbose parsed url   auth: null,
+893 verbose parsed url   host: null,
+893 verbose parsed url   port: null,
+893 verbose parsed url   hostname: null,
+893 verbose parsed url   hash: null,
+893 verbose parsed url   search: null,
+893 verbose parsed url   query: null,
+893 verbose parsed url   pathname: '~1.3.0',
+893 verbose parsed url   path: '~1.3.0',
+893 verbose parsed url   href: '~1.3.0' }
+894 verbose addNamed [ 'once', '~1.3.0' ]
+895 verbose addNamed [ null, '>=1.3.0-0 <1.4.0-0' ]
+896 silly lockFile 078063e6-once-1-3-0 once@~1.3.0
+897 verbose lock once@~1.3.0 /home/nik/.npm/078063e6-once-1-3-0.lock
+898 verbose cache add [ 'semver@2 || 3 || 4', null ]
+899 verbose cache add name=undefined spec="semver@2 || 3 || 4" args=["semver@2 || 3 || 4",null]
+900 verbose parsed url { protocol: null,
+900 verbose parsed url   slashes: null,
+900 verbose parsed url   auth: null,
+900 verbose parsed url   host: null,
+900 verbose parsed url   port: null,
+900 verbose parsed url   hostname: null,
+900 verbose parsed url   hash: null,
+900 verbose parsed url   search: null,
+900 verbose parsed url   query: null,
+900 verbose parsed url   pathname: 'semver@2%20||%203%20||%204',
+900 verbose parsed url   path: 'semver@2%20||%203%20||%204',
+900 verbose parsed url   href: 'semver@2%20||%203%20||%204' }
+901 verbose cache add [ 'osenv@^0.1.0', null ]
+902 verbose cache add name=undefined spec="osenv@^0.1.0" args=["osenv@^0.1.0",null]
+903 verbose parsed url { protocol: null,
+903 verbose parsed url   slashes: null,
+903 verbose parsed url   auth: null,
+903 verbose parsed url   host: null,
+903 verbose parsed url   port: null,
+903 verbose parsed url   hostname: null,
+903 verbose parsed url   hash: null,
+903 verbose parsed url   search: null,
+903 verbose parsed url   query: null,
+903 verbose parsed url   pathname: 'osenv@^0.1.0',
+903 verbose parsed url   path: 'osenv@^0.1.0',
+903 verbose parsed url   href: 'osenv@^0.1.0' }
+904 verbose cache add [ 'uid-number@0.0.5', null ]
+905 verbose cache add name=undefined spec="uid-number@0.0.5" args=["uid-number@0.0.5",null]
+906 verbose parsed url { protocol: null,
+906 verbose parsed url   slashes: null,
+906 verbose parsed url   auth: null,
+906 verbose parsed url   host: null,
+906 verbose parsed url   port: null,
+906 verbose parsed url   hostname: null,
+906 verbose parsed url   hash: null,
+906 verbose parsed url   search: null,
+906 verbose parsed url   query: null,
+906 verbose parsed url   pathname: 'uid-number@0.0.5',
+906 verbose parsed url   path: 'uid-number@0.0.5',
+906 verbose parsed url   href: 'uid-number@0.0.5' }
+907 verbose url raw ini
+908 verbose url resolving [ 'https://registry.npmjs.org/', './ini' ]
+909 verbose url resolved https://registry.npmjs.org/ini
+910 info trying registry request attempt 1 at 03:14:41
+911 http GET https://registry.npmjs.org/ini
+912 silly addNameRange { name: 'nopt', range: '>=3.0.1-0 <3.1.0-0', hasData: false }
+913 verbose cache add name="semver" spec="2 || 3 || 4" args=["semver","2 || 3 || 4"]
+914 verbose parsed url { protocol: null,
+914 verbose parsed url   slashes: null,
+914 verbose parsed url   auth: null,
+914 verbose parsed url   host: null,
+914 verbose parsed url   port: null,
+914 verbose parsed url   hostname: null,
+914 verbose parsed url   hash: null,
+914 verbose parsed url   search: null,
+914 verbose parsed url   query: null,
+914 verbose parsed url   pathname: '2%20||%203%20||%204',
+914 verbose parsed url   path: '2%20||%203%20||%204',
+914 verbose parsed url   href: '2%20||%203%20||%204' }
+915 verbose addNamed [ 'semver', '2 || 3 || 4' ]
+916 verbose addNamed [ null,
+916 verbose addNamed   '>=2.0.0-0 <3.0.0-0||>=3.0.0-0 <4.0.0-0||>=4.0.0-0 <5.0.0-0' ]
+917 silly lockFile a8e8d03c-semver-2-3-4 semver@2 || 3 || 4
+918 verbose lock semver@2 || 3 || 4 /home/nik/.npm/a8e8d03c-semver-2-3-4.lock
+919 verbose cache add name="osenv" spec="^0.1.0" args=["osenv","^0.1.0"]
+920 verbose parsed url { protocol: null,
+920 verbose parsed url   slashes: null,
+920 verbose parsed url   auth: null,
+920 verbose parsed url   host: null,
+920 verbose parsed url   port: null,
+920 verbose parsed url   hostname: null,
+920 verbose parsed url   hash: null,
+920 verbose parsed url   search: null,
+920 verbose parsed url   query: null,
+920 verbose parsed url   pathname: '^0.1.0',
+920 verbose parsed url   path: '^0.1.0',
+920 verbose parsed url   href: '^0.1.0' }
+921 verbose addNamed [ 'osenv', '^0.1.0' ]
+922 verbose addNamed [ null, '>=0.1.0-0 <0.2.0-0' ]
+923 silly lockFile c4140281-osenv-0-1-0 osenv@^0.1.0
+924 verbose lock osenv@^0.1.0 /home/nik/.npm/c4140281-osenv-0-1-0.lock
+925 verbose cache add name="uid-number" spec="0.0.5" args=["uid-number","0.0.5"]
+926 verbose parsed url { protocol: null,
+926 verbose parsed url   slashes: null,
+926 verbose parsed url   auth: null,
+926 verbose parsed url   host: null,
+926 verbose parsed url   port: null,
+926 verbose parsed url   hostname: null,
+926 verbose parsed url   hash: null,
+926 verbose parsed url   search: null,
+926 verbose parsed url   query: null,
+926 verbose parsed url   pathname: '0.0.5',
+926 verbose parsed url   path: '0.0.5',
+926 verbose parsed url   href: '0.0.5' }
+927 verbose addNamed [ 'uid-number', '0.0.5' ]
+928 verbose addNamed [ '0.0.5', '0.0.5' ]
+929 silly lockFile 40dd06a5-uid-number-0-0-5 uid-number@0.0.5
+930 verbose lock uid-number@0.0.5 /home/nik/.npm/40dd06a5-uid-number-0-0-5.lock
+931 verbose url raw nopt
+932 verbose url resolving [ 'https://registry.npmjs.org/', './nopt' ]
+933 verbose url resolved https://registry.npmjs.org/nopt
+934 info trying registry request attempt 1 at 03:14:41
+935 http GET https://registry.npmjs.org/nopt
+936 silly addNameRange { name: 'once', range: '>=1.3.0-0 <1.4.0-0', hasData: false }
+937 silly addNameRange { name: 'semver',
+937 silly addNameRange   range: '>=2.0.0-0 <3.0.0-0||>=3.0.0-0 <4.0.0-0||>=4.0.0-0 <5.0.0-0',
+937 silly addNameRange   hasData: false }
+938 silly addNameRange { name: 'osenv', range: '>=0.1.0-0 <0.2.0-0', hasData: false }
+939 verbose url raw inherits
+940 verbose url resolving [ 'https://registry.npmjs.org/', './inherits' ]
+941 verbose url resolved https://registry.npmjs.org/inherits
+942 info trying registry request attempt 1 at 03:14:41
+943 verbose etag "9QY38ZTAA040M0IB8DZOWK7DH"
+944 http GET https://registry.npmjs.org/inherits
+945 verbose url raw osenv
+946 verbose url resolving [ 'https://registry.npmjs.org/', './osenv' ]
+947 verbose url resolved https://registry.npmjs.org/osenv
+948 info trying registry request attempt 1 at 03:14:41
+949 http GET https://registry.npmjs.org/osenv
+950 verbose url raw uid-number
+951 verbose url resolving [ 'https://registry.npmjs.org/', './uid-number' ]
+952 verbose url resolved https://registry.npmjs.org/uid-number
+953 info trying registry request attempt 1 at 03:14:41
+954 http GET https://registry.npmjs.org/uid-number
+955 verbose url raw semver
+956 verbose url resolving [ 'https://registry.npmjs.org/', './semver' ]
+957 verbose url resolved https://registry.npmjs.org/semver
+958 info trying registry request attempt 1 at 03:14:41
+959 verbose etag "1AOWBCQ9DGKZE0ECQB8S2VBHW"
+960 http GET https://registry.npmjs.org/semver
+961 verbose url raw once
+962 verbose url resolving [ 'https://registry.npmjs.org/', './once' ]
+963 verbose url resolved https://registry.npmjs.org/once
+964 info trying registry request attempt 1 at 03:14:41
+965 verbose etag "EBYIUB83E0OSWK57YU5X8C06N"
+966 http GET https://registry.npmjs.org/once
+967 silly lockFile adac09cc-s-phantomjs-node-modules-request tar:///home/nik/code/xos/node_modules/karma-phantomjs-launcher/node_modules/phantomjs/node_modules/request
+968 silly lockFile adac09cc-s-phantomjs-node-modules-request tar:///home/nik/code/xos/node_modules/karma-phantomjs-launcher/node_modules/phantomjs/node_modules/request
+969 silly lockFile cccaa5ca-k-npm-request-2-42-0-package-tgz tar:///home/nik/.npm/request/2.42.0/package.tgz
+970 silly lockFile cccaa5ca-k-npm-request-2-42-0-package-tgz tar:///home/nik/.npm/request/2.42.0/package.tgz
+971 info preinstall request@2.42.0
+972 verbose readDependencies using package.json deps
+973 verbose readDependencies using package.json deps
+974 verbose cache add [ 'bl@~0.9.0', null ]
+975 verbose cache add name=undefined spec="bl@~0.9.0" args=["bl@~0.9.0",null]
+976 verbose parsed url { protocol: null,
+976 verbose parsed url   slashes: null,
+976 verbose parsed url   auth: null,
+976 verbose parsed url   host: null,
+976 verbose parsed url   port: null,
+976 verbose parsed url   hostname: null,
+976 verbose parsed url   hash: null,
+976 verbose parsed url   search: null,
+976 verbose parsed url   query: null,
+976 verbose parsed url   pathname: 'bl@~0.9.0',
+976 verbose parsed url   path: 'bl@~0.9.0',
+976 verbose parsed url   href: 'bl@~0.9.0' }
+977 verbose cache add [ 'caseless@~0.6.0', null ]
+978 verbose cache add name=undefined spec="caseless@~0.6.0" args=["caseless@~0.6.0",null]
+979 verbose parsed url { protocol: null,
+979 verbose parsed url   slashes: null,
+979 verbose parsed url   auth: null,
+979 verbose parsed url   host: null,
+979 verbose parsed url   port: null,
+979 verbose parsed url   hostname: null,
+979 verbose parsed url   hash: null,
+979 verbose parsed url   search: null,
+979 verbose parsed url   query: null,
+979 verbose parsed url   pathname: 'caseless@~0.6.0',
+979 verbose parsed url   path: 'caseless@~0.6.0',
+979 verbose parsed url   href: 'caseless@~0.6.0' }
+980 verbose cache add name="bl" spec="~0.9.0" args=["bl","~0.9.0"]
+981 verbose parsed url { protocol: null,
+981 verbose parsed url   slashes: null,
+981 verbose parsed url   auth: null,
+981 verbose parsed url   host: null,
+981 verbose parsed url   port: null,
+981 verbose parsed url   hostname: null,
+981 verbose parsed url   hash: null,
+981 verbose parsed url   search: null,
+981 verbose parsed url   query: null,
+981 verbose parsed url   pathname: '~0.9.0',
+981 verbose parsed url   path: '~0.9.0',
+981 verbose parsed url   href: '~0.9.0' }
+982 verbose addNamed [ 'bl', '~0.9.0' ]
+983 verbose addNamed [ null, '>=0.9.0-0 <0.10.0-0' ]
+984 silly lockFile d3ba3adc-bl-0-9-0 bl@~0.9.0
+985 verbose lock bl@~0.9.0 /home/nik/.npm/d3ba3adc-bl-0-9-0.lock
+986 verbose cache add name="caseless" spec="~0.6.0" args=["caseless","~0.6.0"]
+987 verbose parsed url { protocol: null,
+987 verbose parsed url   slashes: null,
+987 verbose parsed url   auth: null,
+987 verbose parsed url   host: null,
+987 verbose parsed url   port: null,
+987 verbose parsed url   hostname: null,
+987 verbose parsed url   hash: null,
+987 verbose parsed url   search: null,
+987 verbose parsed url   query: null,
+987 verbose parsed url   pathname: '~0.6.0',
+987 verbose parsed url   path: '~0.6.0',
+987 verbose parsed url   href: '~0.6.0' }
+988 verbose addNamed [ 'caseless', '~0.6.0' ]
+989 verbose addNamed [ null, '>=0.6.0-0 <0.7.0-0' ]
+990 silly lockFile 5fa01a90-caseless-0-6-0 caseless@~0.6.0
+991 verbose lock caseless@~0.6.0 /home/nik/.npm/5fa01a90-caseless-0-6-0.lock
+992 verbose cache add [ 'forever-agent@~0.5.0', null ]
+993 verbose cache add name=undefined spec="forever-agent@~0.5.0" args=["forever-agent@~0.5.0",null]
+994 verbose parsed url { protocol: null,
+994 verbose parsed url   slashes: null,
+994 verbose parsed url   auth: null,
+994 verbose parsed url   host: null,
+994 verbose parsed url   port: null,
+994 verbose parsed url   hostname: null,
+994 verbose parsed url   hash: null,
+994 verbose parsed url   search: null,
+994 verbose parsed url   query: null,
+994 verbose parsed url   pathname: 'forever-agent@~0.5.0',
+994 verbose parsed url   path: 'forever-agent@~0.5.0',
+994 verbose parsed url   href: 'forever-agent@~0.5.0' }
+995 verbose cache add name="forever-agent" spec="~0.5.0" args=["forever-agent","~0.5.0"]
+996 verbose parsed url { protocol: null,
+996 verbose parsed url   slashes: null,
+996 verbose parsed url   auth: null,
+996 verbose parsed url   host: null,
+996 verbose parsed url   port: null,
+996 verbose parsed url   hostname: null,
+996 verbose parsed url   hash: null,
+996 verbose parsed url   search: null,
+996 verbose parsed url   query: null,
+996 verbose parsed url   pathname: '~0.5.0',
+996 verbose parsed url   path: '~0.5.0',
+996 verbose parsed url   href: '~0.5.0' }
+997 verbose addNamed [ 'forever-agent', '~0.5.0' ]
+998 verbose addNamed [ null, '>=0.5.0-0 <0.6.0-0' ]
+999 silly lockFile fa463915-forever-agent-0-5-0 forever-agent@~0.5.0
+1000 verbose lock forever-agent@~0.5.0 /home/nik/.npm/fa463915-forever-agent-0-5-0.lock
+1001 verbose cache add [ 'qs@~1.2.0', null ]
+1002 verbose cache add name=undefined spec="qs@~1.2.0" args=["qs@~1.2.0",null]
+1003 verbose parsed url { protocol: null,
+1003 verbose parsed url   slashes: null,
+1003 verbose parsed url   auth: null,
+1003 verbose parsed url   host: null,
+1003 verbose parsed url   port: null,
+1003 verbose parsed url   hostname: null,
+1003 verbose parsed url   hash: null,
+1003 verbose parsed url   search: null,
+1003 verbose parsed url   query: null,
+1003 verbose parsed url   pathname: 'qs@~1.2.0',
+1003 verbose parsed url   path: 'qs@~1.2.0',
+1003 verbose parsed url   href: 'qs@~1.2.0' }
+1004 silly addNameRange { name: 'bl', range: '>=0.9.0-0 <0.10.0-0', hasData: false }
+1005 silly addNameRange { name: 'caseless', range: '>=0.6.0-0 <0.7.0-0', hasData: false }
+1006 verbose cache add [ 'json-stringify-safe@~5.0.0', null ]
+1007 verbose cache add name=undefined spec="json-stringify-safe@~5.0.0" args=["json-stringify-safe@~5.0.0",null]
+1008 verbose parsed url { protocol: null,
+1008 verbose parsed url   slashes: null,
+1008 verbose parsed url   auth: null,
+1008 verbose parsed url   host: null,
+1008 verbose parsed url   port: null,
+1008 verbose parsed url   hostname: null,
+1008 verbose parsed url   hash: null,
+1008 verbose parsed url   search: null,
+1008 verbose parsed url   query: null,
+1008 verbose parsed url   pathname: 'json-stringify-safe@~5.0.0',
+1008 verbose parsed url   path: 'json-stringify-safe@~5.0.0',
+1008 verbose parsed url   href: 'json-stringify-safe@~5.0.0' }
+1009 verbose cache add [ 'mime-types@~1.0.1', null ]
+1010 verbose cache add name=undefined spec="mime-types@~1.0.1" args=["mime-types@~1.0.1",null]
+1011 verbose parsed url { protocol: null,
+1011 verbose parsed url   slashes: null,
+1011 verbose parsed url   auth: null,
+1011 verbose parsed url   host: null,
+1011 verbose parsed url   port: null,
+1011 verbose parsed url   hostname: null,
+1011 verbose parsed url   hash: null,
+1011 verbose parsed url   search: null,
+1011 verbose parsed url   query: null,
+1011 verbose parsed url   pathname: 'mime-types@~1.0.1',
+1011 verbose parsed url   path: 'mime-types@~1.0.1',
+1011 verbose parsed url   href: 'mime-types@~1.0.1' }
+1012 verbose cache add [ 'node-uuid@~1.4.0', null ]
+1013 verbose cache add name=undefined spec="node-uuid@~1.4.0" args=["node-uuid@~1.4.0",null]
+1014 verbose parsed url { protocol: null,
+1014 verbose parsed url   slashes: null,
+1014 verbose parsed url   auth: null,
+1014 verbose parsed url   host: null,
+1014 verbose parsed url   port: null,
+1014 verbose parsed url   hostname: null,
+1014 verbose parsed url   hash: null,
+1014 verbose parsed url   search: null,
+1014 verbose parsed url   query: null,
+1014 verbose parsed url   pathname: 'node-uuid@~1.4.0',
+1014 verbose parsed url   path: 'node-uuid@~1.4.0',
+1014 verbose parsed url   href: 'node-uuid@~1.4.0' }
+1015 verbose cache add name="qs" spec="~1.2.0" args=["qs","~1.2.0"]
+1016 verbose parsed url { protocol: null,
+1016 verbose parsed url   slashes: null,
+1016 verbose parsed url   auth: null,
+1016 verbose parsed url   host: null,
+1016 verbose parsed url   port: null,
+1016 verbose parsed url   hostname: null,
+1016 verbose parsed url   hash: null,
+1016 verbose parsed url   search: null,
+1016 verbose parsed url   query: null,
+1016 verbose parsed url   pathname: '~1.2.0',
+1016 verbose parsed url   path: '~1.2.0',
+1016 verbose parsed url   href: '~1.2.0' }
+1017 verbose addNamed [ 'qs', '~1.2.0' ]
+1018 verbose addNamed [ null, '>=1.2.0-0 <1.3.0-0' ]
+1019 silly lockFile e744df0a-qs-1-2-0 qs@~1.2.0
+1020 verbose lock qs@~1.2.0 /home/nik/.npm/e744df0a-qs-1-2-0.lock
+1021 silly addNameRange { name: 'forever-agent',
+1021 silly addNameRange   range: '>=0.5.0-0 <0.6.0-0',
+1021 silly addNameRange   hasData: false }
+1022 verbose cache add name="json-stringify-safe" spec="~5.0.0" args=["json-stringify-safe","~5.0.0"]
+1023 verbose parsed url { protocol: null,
+1023 verbose parsed url   slashes: null,
+1023 verbose parsed url   auth: null,
+1023 verbose parsed url   host: null,
+1023 verbose parsed url   port: null,
+1023 verbose parsed url   hostname: null,
+1023 verbose parsed url   hash: null,
+1023 verbose parsed url   search: null,
+1023 verbose parsed url   query: null,
+1023 verbose parsed url   pathname: '~5.0.0',
+1023 verbose parsed url   path: '~5.0.0',
+1023 verbose parsed url   href: '~5.0.0' }
+1024 verbose addNamed [ 'json-stringify-safe', '~5.0.0' ]
+1025 verbose addNamed [ null, '>=5.0.0-0 <5.1.0-0' ]
+1026 silly lockFile 063b1a01-json-stringify-safe-5-0-0 json-stringify-safe@~5.0.0
+1027 verbose lock json-stringify-safe@~5.0.0 /home/nik/.npm/063b1a01-json-stringify-safe-5-0-0.lock
+1028 verbose cache add name="mime-types" spec="~1.0.1" args=["mime-types","~1.0.1"]
+1029 verbose parsed url { protocol: null,
+1029 verbose parsed url   slashes: null,
+1029 verbose parsed url   auth: null,
+1029 verbose parsed url   host: null,
+1029 verbose parsed url   port: null,
+1029 verbose parsed url   hostname: null,
+1029 verbose parsed url   hash: null,
+1029 verbose parsed url   search: null,
+1029 verbose parsed url   query: null,
+1029 verbose parsed url   pathname: '~1.0.1',
+1029 verbose parsed url   path: '~1.0.1',
+1029 verbose parsed url   href: '~1.0.1' }
+1030 verbose addNamed [ 'mime-types', '~1.0.1' ]
+1031 verbose addNamed [ null, '>=1.0.1-0 <1.1.0-0' ]
+1032 silly lockFile c0ad19ba-mime-types-1-0-1 mime-types@~1.0.1
+1033 verbose lock mime-types@~1.0.1 /home/nik/.npm/c0ad19ba-mime-types-1-0-1.lock
+1034 verbose cache add name="node-uuid" spec="~1.4.0" args=["node-uuid","~1.4.0"]
+1035 verbose parsed url { protocol: null,
+1035 verbose parsed url   slashes: null,
+1035 verbose parsed url   auth: null,
+1035 verbose parsed url   host: null,
+1035 verbose parsed url   port: null,
+1035 verbose parsed url   hostname: null,
+1035 verbose parsed url   hash: null,
+1035 verbose parsed url   search: null,
+1035 verbose parsed url   query: null,
+1035 verbose parsed url   pathname: '~1.4.0',
+1035 verbose parsed url   path: '~1.4.0',
+1035 verbose parsed url   href: '~1.4.0' }
+1036 verbose addNamed [ 'node-uuid', '~1.4.0' ]
+1037 verbose addNamed [ null, '>=1.4.0-0 <1.5.0-0' ]
+1038 silly lockFile f662725f-node-uuid-1-4-0 node-uuid@~1.4.0
+1039 verbose lock node-uuid@~1.4.0 /home/nik/.npm/f662725f-node-uuid-1-4-0.lock
+1040 verbose cache add [ 'tunnel-agent@~0.4.0', null ]
+1041 verbose cache add name=undefined spec="tunnel-agent@~0.4.0" args=["tunnel-agent@~0.4.0",null]
+1042 verbose parsed url { protocol: null,
+1042 verbose parsed url   slashes: null,
+1042 verbose parsed url   auth: null,
+1042 verbose parsed url   host: null,
+1042 verbose parsed url   port: null,
+1042 verbose parsed url   hostname: null,
+1042 verbose parsed url   hash: null,
+1042 verbose parsed url   search: null,
+1042 verbose parsed url   query: null,
+1042 verbose parsed url   pathname: 'tunnel-agent@~0.4.0',
+1042 verbose parsed url   path: 'tunnel-agent@~0.4.0',
+1042 verbose parsed url   href: 'tunnel-agent@~0.4.0' }
+1043 verbose cache add [ 'tough-cookie@>=0.12.0', null ]
+1044 verbose cache add name=undefined spec="tough-cookie@>=0.12.0" args=["tough-cookie@>=0.12.0",null]
+1045 verbose parsed url { protocol: null,
+1045 verbose parsed url   slashes: null,
+1045 verbose parsed url   auth: null,
+1045 verbose parsed url   host: null,
+1045 verbose parsed url   port: null,
+1045 verbose parsed url   hostname: null,
+1045 verbose parsed url   hash: null,
+1045 verbose parsed url   search: null,
+1045 verbose parsed url   query: null,
+1045 verbose parsed url   pathname: 'tough-cookie@%3E=0.12.0',
+1045 verbose parsed url   path: 'tough-cookie@%3E=0.12.0',
+1045 verbose parsed url   href: 'tough-cookie@%3E=0.12.0' }
+1046 verbose cache add [ 'form-data@~0.1.0', null ]
+1047 verbose cache add name=undefined spec="form-data@~0.1.0" args=["form-data@~0.1.0",null]
+1048 verbose parsed url { protocol: null,
+1048 verbose parsed url   slashes: null,
+1048 verbose parsed url   auth: null,
+1048 verbose parsed url   host: null,
+1048 verbose parsed url   port: null,
+1048 verbose parsed url   hostname: null,
+1048 verbose parsed url   hash: null,
+1048 verbose parsed url   search: null,
+1048 verbose parsed url   query: null,
+1048 verbose parsed url   pathname: 'form-data@~0.1.0',
+1048 verbose parsed url   path: 'form-data@~0.1.0',
+1048 verbose parsed url   href: 'form-data@~0.1.0' }
+1049 verbose cache add name="tunnel-agent" spec="~0.4.0" args=["tunnel-agent","~0.4.0"]
+1050 verbose parsed url { protocol: null,
+1050 verbose parsed url   slashes: null,
+1050 verbose parsed url   auth: null,
+1050 verbose parsed url   host: null,
+1050 verbose parsed url   port: null,
+1050 verbose parsed url   hostname: null,
+1050 verbose parsed url   hash: null,
+1050 verbose parsed url   search: null,
+1050 verbose parsed url   query: null,
+1050 verbose parsed url   pathname: '~0.4.0',
+1050 verbose parsed url   path: '~0.4.0',
+1050 verbose parsed url   href: '~0.4.0' }
+1051 verbose addNamed [ 'tunnel-agent', '~0.4.0' ]
+1052 verbose addNamed [ null, '>=0.4.0-0 <0.5.0-0' ]
+1053 silly lockFile 2550750e-tunnel-agent-0-4-0 tunnel-agent@~0.4.0
+1054 verbose lock tunnel-agent@~0.4.0 /home/nik/.npm/2550750e-tunnel-agent-0-4-0.lock
+1055 verbose cache add name="tough-cookie" spec=">=0.12.0" args=["tough-cookie",">=0.12.0"]
+1056 verbose parsed url { protocol: null,
+1056 verbose parsed url   slashes: null,
+1056 verbose parsed url   auth: null,
+1056 verbose parsed url   host: null,
+1056 verbose parsed url   port: null,
+1056 verbose parsed url   hostname: null,
+1056 verbose parsed url   hash: null,
+1056 verbose parsed url   search: null,
+1056 verbose parsed url   query: null,
+1056 verbose parsed url   pathname: '%3E=0.12.0',
+1056 verbose parsed url   path: '%3E=0.12.0',
+1056 verbose parsed url   href: '%3E=0.12.0' }
+1057 verbose addNamed [ 'tough-cookie', '>=0.12.0' ]
+1058 verbose addNamed [ null, '>=0.12.0' ]
+1059 silly lockFile 66c18ba7-tough-cookie-0-12-0 tough-cookie@>=0.12.0
+1060 verbose lock tough-cookie@>=0.12.0 /home/nik/.npm/66c18ba7-tough-cookie-0-12-0.lock
+1061 verbose cache add name="form-data" spec="~0.1.0" args=["form-data","~0.1.0"]
+1062 verbose parsed url { protocol: null,
+1062 verbose parsed url   slashes: null,
+1062 verbose parsed url   auth: null,
+1062 verbose parsed url   host: null,
+1062 verbose parsed url   port: null,
+1062 verbose parsed url   hostname: null,
+1062 verbose parsed url   hash: null,
+1062 verbose parsed url   search: null,
+1062 verbose parsed url   query: null,
+1062 verbose parsed url   pathname: '~0.1.0',
+1062 verbose parsed url   path: '~0.1.0',
+1062 verbose parsed url   href: '~0.1.0' }
+1063 verbose addNamed [ 'form-data', '~0.1.0' ]
+1064 verbose addNamed [ null, '>=0.1.0-0 <0.2.0-0' ]
+1065 silly lockFile 26aa13f4-form-data-0-1-0 form-data@~0.1.0
+1066 verbose lock form-data@~0.1.0 /home/nik/.npm/26aa13f4-form-data-0-1-0.lock
+1067 verbose cache add [ 'http-signature@~0.10.0', null ]
+1068 verbose cache add name=undefined spec="http-signature@~0.10.0" args=["http-signature@~0.10.0",null]
+1069 verbose parsed url { protocol: null,
+1069 verbose parsed url   slashes: null,
+1069 verbose parsed url   auth: null,
+1069 verbose parsed url   host: null,
+1069 verbose parsed url   port: null,
+1069 verbose parsed url   hostname: null,
+1069 verbose parsed url   hash: null,
+1069 verbose parsed url   search: null,
+1069 verbose parsed url   query: null,
+1069 verbose parsed url   pathname: 'http-signature@~0.10.0',
+1069 verbose parsed url   path: 'http-signature@~0.10.0',
+1069 verbose parsed url   href: 'http-signature@~0.10.0' }
+1070 verbose cache add [ 'oauth-sign@~0.4.0', null ]
+1071 verbose cache add name=undefined spec="oauth-sign@~0.4.0" args=["oauth-sign@~0.4.0",null]
+1072 verbose parsed url { protocol: null,
+1072 verbose parsed url   slashes: null,
+1072 verbose parsed url   auth: null,
+1072 verbose parsed url   host: null,
+1072 verbose parsed url   port: null,
+1072 verbose parsed url   hostname: null,
+1072 verbose parsed url   hash: null,
+1072 verbose parsed url   search: null,
+1072 verbose parsed url   query: null,
+1072 verbose parsed url   pathname: 'oauth-sign@~0.4.0',
+1072 verbose parsed url   path: 'oauth-sign@~0.4.0',
+1072 verbose parsed url   href: 'oauth-sign@~0.4.0' }
+1073 verbose cache add [ 'hawk@1.1.1', null ]
+1074 verbose cache add name=undefined spec="hawk@1.1.1" args=["hawk@1.1.1",null]
+1075 verbose parsed url { protocol: null,
+1075 verbose parsed url   slashes: null,
+1075 verbose parsed url   auth: null,
+1075 verbose parsed url   host: null,
+1075 verbose parsed url   port: null,
+1075 verbose parsed url   hostname: null,
+1075 verbose parsed url   hash: null,
+1075 verbose parsed url   search: null,
+1075 verbose parsed url   query: null,
+1075 verbose parsed url   pathname: 'hawk@1.1.1',
+1075 verbose parsed url   path: 'hawk@1.1.1',
+1075 verbose parsed url   href: 'hawk@1.1.1' }
+1076 verbose cache add [ 'aws-sign2@~0.5.0', null ]
+1077 verbose cache add name=undefined spec="aws-sign2@~0.5.0" args=["aws-sign2@~0.5.0",null]
+1078 verbose parsed url { protocol: null,
+1078 verbose parsed url   slashes: null,
+1078 verbose parsed url   auth: null,
+1078 verbose parsed url   host: null,
+1078 verbose parsed url   port: null,
+1078 verbose parsed url   hostname: null,
+1078 verbose parsed url   hash: null,
+1078 verbose parsed url   search: null,
+1078 verbose parsed url   query: null,
+1078 verbose parsed url   pathname: 'aws-sign2@~0.5.0',
+1078 verbose parsed url   path: 'aws-sign2@~0.5.0',
+1078 verbose parsed url   href: 'aws-sign2@~0.5.0' }
+1079 verbose cache add [ 'stringstream@~0.0.4', null ]
+1080 verbose cache add name=undefined spec="stringstream@~0.0.4" args=["stringstream@~0.0.4",null]
+1081 verbose parsed url { protocol: null,
+1081 verbose parsed url   slashes: null,
+1081 verbose parsed url   auth: null,
+1081 verbose parsed url   host: null,
+1081 verbose parsed url   port: null,
+1081 verbose parsed url   hostname: null,
+1081 verbose parsed url   hash: null,
+1081 verbose parsed url   search: null,
+1081 verbose parsed url   query: null,
+1081 verbose parsed url   pathname: 'stringstream@~0.0.4',
+1081 verbose parsed url   path: 'stringstream@~0.0.4',
+1081 verbose parsed url   href: 'stringstream@~0.0.4' }
+1082 silly addNameRange { name: 'qs', range: '>=1.2.0-0 <1.3.0-0', hasData: false }
+1083 silly addNameRange { name: 'json-stringify-safe',
+1083 silly addNameRange   range: '>=5.0.0-0 <5.1.0-0',
+1083 silly addNameRange   hasData: false }
+1084 silly addNameRange { name: 'mime-types',
+1084 silly addNameRange   range: '>=1.0.1-0 <1.1.0-0',
+1084 silly addNameRange   hasData: false }
+1085 silly addNameRange { name: 'node-uuid',
+1085 silly addNameRange   range: '>=1.4.0-0 <1.5.0-0',
+1085 silly addNameRange   hasData: false }
+1086 verbose cache add name="http-signature" spec="~0.10.0" args=["http-signature","~0.10.0"]
+1087 verbose parsed url { protocol: null,
+1087 verbose parsed url   slashes: null,
+1087 verbose parsed url   auth: null,
+1087 verbose parsed url   host: null,
+1087 verbose parsed url   port: null,
+1087 verbose parsed url   hostname: null,
+1087 verbose parsed url   hash: null,
+1087 verbose parsed url   search: null,
+1087 verbose parsed url   query: null,
+1087 verbose parsed url   pathname: '~0.10.0',
+1087 verbose parsed url   path: '~0.10.0',
+1087 verbose parsed url   href: '~0.10.0' }
+1088 verbose addNamed [ 'http-signature', '~0.10.0' ]
+1089 verbose addNamed [ null, '>=0.10.0-0 <0.11.0-0' ]
+1090 silly lockFile 8170f292-http-signature-0-10-0 http-signature@~0.10.0
+1091 verbose lock http-signature@~0.10.0 /home/nik/.npm/8170f292-http-signature-0-10-0.lock
+1092 verbose cache add name="oauth-sign" spec="~0.4.0" args=["oauth-sign","~0.4.0"]
+1093 verbose parsed url { protocol: null,
+1093 verbose parsed url   slashes: null,
+1093 verbose parsed url   auth: null,
+1093 verbose parsed url   host: null,
+1093 verbose parsed url   port: null,
+1093 verbose parsed url   hostname: null,
+1093 verbose parsed url   hash: null,
+1093 verbose parsed url   search: null,
+1093 verbose parsed url   query: null,
+1093 verbose parsed url   pathname: '~0.4.0',
+1093 verbose parsed url   path: '~0.4.0',
+1093 verbose parsed url   href: '~0.4.0' }
+1094 verbose addNamed [ 'oauth-sign', '~0.4.0' ]
+1095 verbose addNamed [ null, '>=0.4.0-0 <0.5.0-0' ]
+1096 silly lockFile eafa1447-oauth-sign-0-4-0 oauth-sign@~0.4.0
+1097 verbose lock oauth-sign@~0.4.0 /home/nik/.npm/eafa1447-oauth-sign-0-4-0.lock
+1098 verbose cache add name="hawk" spec="1.1.1" args=["hawk","1.1.1"]
+1099 verbose parsed url { protocol: null,
+1099 verbose parsed url   slashes: null,
+1099 verbose parsed url   auth: null,
+1099 verbose parsed url   host: null,
+1099 verbose parsed url   port: null,
+1099 verbose parsed url   hostname: null,
+1099 verbose parsed url   hash: null,
+1099 verbose parsed url   search: null,
+1099 verbose parsed url   query: null,
+1099 verbose parsed url   pathname: '1.1.1',
+1099 verbose parsed url   path: '1.1.1',
+1099 verbose parsed url   href: '1.1.1' }
+1100 verbose addNamed [ 'hawk', '1.1.1' ]
+1101 verbose addNamed [ '1.1.1', '1.1.1' ]
+1102 silly lockFile 61c917cf-hawk-1-1-1 hawk@1.1.1
+1103 verbose lock hawk@1.1.1 /home/nik/.npm/61c917cf-hawk-1-1-1.lock
+1104 verbose cache add name="aws-sign2" spec="~0.5.0" args=["aws-sign2","~0.5.0"]
+1105 verbose parsed url { protocol: null,
+1105 verbose parsed url   slashes: null,
+1105 verbose parsed url   auth: null,
+1105 verbose parsed url   host: null,
+1105 verbose parsed url   port: null,
+1105 verbose parsed url   hostname: null,
+1105 verbose parsed url   hash: null,
+1105 verbose parsed url   search: null,
+1105 verbose parsed url   query: null,
+1105 verbose parsed url   pathname: '~0.5.0',
+1105 verbose parsed url   path: '~0.5.0',
+1105 verbose parsed url   href: '~0.5.0' }
+1106 verbose addNamed [ 'aws-sign2', '~0.5.0' ]
+1107 verbose addNamed [ null, '>=0.5.0-0 <0.6.0-0' ]
+1108 silly lockFile 82387911-aws-sign2-0-5-0 aws-sign2@~0.5.0
+1109 verbose lock aws-sign2@~0.5.0 /home/nik/.npm/82387911-aws-sign2-0-5-0.lock
+1110 verbose cache add name="stringstream" spec="~0.0.4" args=["stringstream","~0.0.4"]
+1111 verbose parsed url { protocol: null,
+1111 verbose parsed url   slashes: null,
+1111 verbose parsed url   auth: null,
+1111 verbose parsed url   host: null,
+1111 verbose parsed url   port: null,
+1111 verbose parsed url   hostname: null,
+1111 verbose parsed url   hash: null,
+1111 verbose parsed url   search: null,
+1111 verbose parsed url   query: null,
+1111 verbose parsed url   pathname: '~0.0.4',
+1111 verbose parsed url   path: '~0.0.4',
+1111 verbose parsed url   href: '~0.0.4' }
+1112 verbose addNamed [ 'stringstream', '~0.0.4' ]
+1113 verbose addNamed [ null, '>=0.0.4-0 <0.1.0-0' ]
+1114 silly lockFile 3b47e33b-stringstream-0-0-4 stringstream@~0.0.4
+1115 verbose lock stringstream@~0.0.4 /home/nik/.npm/3b47e33b-stringstream-0-0-4.lock
+1116 silly addNameRange { name: 'tunnel-agent',
+1116 silly addNameRange   range: '>=0.4.0-0 <0.5.0-0',
+1116 silly addNameRange   hasData: false }
+1117 silly addNameRange { name: 'tough-cookie', range: '>=0.12.0', hasData: false }
+1118 silly addNameRange { name: 'form-data',
+1118 silly addNameRange   range: '>=0.1.0-0 <0.2.0-0',
+1118 silly addNameRange   hasData: false }
+1119 silly addNameRange { name: 'http-signature',
+1119 silly addNameRange   range: '>=0.10.0-0 <0.11.0-0',
+1119 silly addNameRange   hasData: false }
+1120 silly addNameRange { name: 'oauth-sign',
+1120 silly addNameRange   range: '>=0.4.0-0 <0.5.0-0',
+1120 silly addNameRange   hasData: false }
+1121 silly addNameRange { name: 'aws-sign2',
+1121 silly addNameRange   range: '>=0.5.0-0 <0.6.0-0',
+1121 silly addNameRange   hasData: false }
+1122 silly addNameRange { name: 'stringstream',
+1122 silly addNameRange   range: '>=0.0.4-0 <0.1.0-0',
+1122 silly addNameRange   hasData: false }
+1123 verbose url raw qs
+1124 verbose url resolving [ 'https://registry.npmjs.org/', './qs' ]
+1125 verbose url resolved https://registry.npmjs.org/qs
+1126 info trying registry request attempt 1 at 03:14:41
+1127 verbose etag "C2OZKGZKGZ07N353V6XC1PTTE"
+1128 http GET https://registry.npmjs.org/qs
+1129 verbose url raw mime-types
+1130 verbose url resolving [ 'https://registry.npmjs.org/', './mime-types' ]
+1131 verbose url resolved https://registry.npmjs.org/mime-types
+1132 info trying registry request attempt 1 at 03:14:41
+1133 verbose etag "49X0SHEW93LMCN4ZNTAHWISZ5"
+1134 http GET https://registry.npmjs.org/mime-types
+1135 verbose url raw bl
+1136 verbose url resolving [ 'https://registry.npmjs.org/', './bl' ]
+1137 verbose url resolved https://registry.npmjs.org/bl
+1138 info trying registry request attempt 1 at 03:14:41
+1139 verbose etag "7N9GR61KAE3LA06Q67C1WOQYS"
+1140 http GET https://registry.npmjs.org/bl
+1141 verbose url raw forever-agent
+1142 verbose url resolving [ 'https://registry.npmjs.org/', './forever-agent' ]
+1143 verbose url resolved https://registry.npmjs.org/forever-agent
+1144 info trying registry request attempt 1 at 03:14:41
+1145 verbose etag "CS3QCFMU9C00YDD7Z571FJ3IV"
+1146 http GET https://registry.npmjs.org/forever-agent
+1147 verbose url raw json-stringify-safe
+1148 verbose url resolving [ 'https://registry.npmjs.org/', './json-stringify-safe' ]
+1149 verbose url resolved https://registry.npmjs.org/json-stringify-safe
+1150 info trying registry request attempt 1 at 03:14:41
+1151 verbose etag "3TA8OJBPQRKU0HN6BC53FJY6Y"
+1152 http GET https://registry.npmjs.org/json-stringify-safe
+1153 verbose url raw node-uuid
+1154 verbose url resolving [ 'https://registry.npmjs.org/', './node-uuid' ]
+1155 verbose url resolved https://registry.npmjs.org/node-uuid
+1156 info trying registry request attempt 1 at 03:14:41
+1157 verbose etag "4AJT0QIH6ACG9DWT9VNFZEQWT"
+1158 http GET https://registry.npmjs.org/node-uuid
+1159 verbose url raw tunnel-agent
+1160 verbose url resolving [ 'https://registry.npmjs.org/', './tunnel-agent' ]
+1161 verbose url resolved https://registry.npmjs.org/tunnel-agent
+1162 info trying registry request attempt 1 at 03:14:41
+1163 verbose etag "EHRD39XFAEV64H9RDYX94BROR"
+1164 http GET https://registry.npmjs.org/tunnel-agent
+1165 verbose url raw oauth-sign
+1166 verbose url resolving [ 'https://registry.npmjs.org/', './oauth-sign' ]
+1167 verbose url resolved https://registry.npmjs.org/oauth-sign
+1168 info trying registry request attempt 1 at 03:14:41
+1169 verbose etag "61JDC329KNPNZ37O5EU5J3KYW"
+1170 http GET https://registry.npmjs.org/oauth-sign
+1171 verbose url raw caseless
+1172 verbose url resolving [ 'https://registry.npmjs.org/', './caseless' ]
+1173 verbose url resolved https://registry.npmjs.org/caseless
+1174 info trying registry request attempt 1 at 03:14:41
+1175 verbose etag "R8UYQ7CURZAYNK1PNT5Q0YTS"
+1176 http GET https://registry.npmjs.org/caseless
+1177 verbose url raw form-data
+1178 verbose url resolving [ 'https://registry.npmjs.org/', './form-data' ]
+1179 verbose url resolved https://registry.npmjs.org/form-data
+1180 info trying registry request attempt 1 at 03:14:41
+1181 verbose etag "BINP41KTDLXKX9L00Q53WNVZM"
+1182 http GET https://registry.npmjs.org/form-data
+1183 verbose url raw aws-sign2
+1184 verbose url resolving [ 'https://registry.npmjs.org/', './aws-sign2' ]
+1185 verbose url resolved https://registry.npmjs.org/aws-sign2
+1186 info trying registry request attempt 1 at 03:14:41
+1187 verbose etag "86MKIAUXYN2R7GHNRVYCODEBC"
+1188 http GET https://registry.npmjs.org/aws-sign2
+1189 verbose url raw stringstream
+1190 verbose url resolving [ 'https://registry.npmjs.org/', './stringstream' ]
+1191 verbose url resolved https://registry.npmjs.org/stringstream
+1192 info trying registry request attempt 1 at 03:14:41
+1193 verbose etag "1HC4V38JDEA7DHBQ96YA7UP4K"
+1194 http GET https://registry.npmjs.org/stringstream
+1195 verbose url raw http-signature
+1196 verbose url resolving [ 'https://registry.npmjs.org/', './http-signature' ]
+1197 verbose url resolved https://registry.npmjs.org/http-signature
+1198 info trying registry request attempt 1 at 03:14:41
+1199 verbose etag "B5I9LSK3YEO9DYLANC962LX2G"
+1200 http GET https://registry.npmjs.org/http-signature
+1201 silly lockFile a034b6a6-s-phantomjs-node-modules-adm-zip tar:///home/nik/code/xos/node_modules/karma-phantomjs-launcher/node_modules/phantomjs/node_modules/adm-zip
+1202 silly lockFile a034b6a6-s-phantomjs-node-modules-adm-zip tar:///home/nik/code/xos/node_modules/karma-phantomjs-launcher/node_modules/phantomjs/node_modules/adm-zip
+1203 silly lockFile e60bc4ab-ik-npm-adm-zip-0-4-4-package-tgz tar:///home/nik/.npm/adm-zip/0.4.4/package.tgz
+1204 silly lockFile e60bc4ab-ik-npm-adm-zip-0-4-4-package-tgz tar:///home/nik/.npm/adm-zip/0.4.4/package.tgz
+1205 info preinstall adm-zip@0.4.4
+1206 verbose readDependencies using package.json deps
+1207 verbose readDependencies using package.json deps
+1208 silly resolved []
+1209 verbose about to build /home/nik/code/xos/node_modules/karma-phantomjs-launcher/node_modules/phantomjs/node_modules/adm-zip
+1210 info build /home/nik/code/xos/node_modules/karma-phantomjs-launcher/node_modules/phantomjs/node_modules/adm-zip
+1211 verbose linkStuff [ false,
+1211 verbose linkStuff   false,
+1211 verbose linkStuff   false,
+1211 verbose linkStuff   '/home/nik/code/xos/node_modules/karma-phantomjs-launcher/node_modules/phantomjs/node_modules' ]
+1212 info linkStuff adm-zip@0.4.4
+1213 verbose linkBins adm-zip@0.4.4
+1214 verbose linkMans adm-zip@0.4.4
+1215 verbose rebuildBundles adm-zip@0.4.4
+1216 info install adm-zip@0.4.4
+1217 info postinstall adm-zip@0.4.4
+1218 verbose url raw tough-cookie
+1219 verbose url resolving [ 'https://registry.npmjs.org/', './tough-cookie' ]
+1220 verbose url resolved https://registry.npmjs.org/tough-cookie
+1221 info trying registry request attempt 1 at 03:14:41
+1222 verbose etag "2O6JC0DQ2HDQIJN5GNQ7ZXJBM"
+1223 http GET https://registry.npmjs.org/tough-cookie
+1224 verbose url raw hawk
+1225 verbose url resolving [ 'https://registry.npmjs.org/', './hawk' ]
+1226 verbose url resolved https://registry.npmjs.org/hawk
+1227 info trying registry request attempt 1 at 03:14:41
+1228 verbose etag "4O6NPLPHL25Z05W5MPGAIF8AX"
+1229 http GET https://registry.npmjs.org/hawk
+1230 http 304 https://registry.npmjs.org/minimist
+1231 silly registry.get cb [ 304,
+1231 silly registry.get   { date: 'Sun, 28 Dec 2014 01:14:42 GMT',
+1231 silly registry.get     server: 'Apache',
+1231 silly registry.get     via: '1.1 varnish',
+1231 silly registry.get     'last-modified': 'Sun, 28 Dec 2014 01:14:42 GMT',
+1231 silly registry.get     'cache-control': 'max-age=60',
+1231 silly registry.get     etag: '"96WOKSI39J9B0UFBGLR5IL6OG"',
+1231 silly registry.get     age: '23',
+1231 silly registry.get     'x-served-by': 'cache-lhr6335-LHR',
+1231 silly registry.get     'x-cache': 'HIT',
+1231 silly registry.get     'x-cache-hits': '1',
+1231 silly registry.get     'x-timer': 'S1419729282.160403,VS0,VE1',
+1231 silly registry.get     vary: 'Accept',
+1231 silly registry.get     'content-length': '0',
+1231 silly registry.get     'keep-alive': 'timeout=10, max=50',
+1231 silly registry.get     connection: 'Keep-Alive' } ]
+1232 verbose etag minimist from cache
+1233 silly lockFile 22c6b485-minimist-0-0-8 minimist@0.0.8
+1234 silly lockFile 22c6b485-minimist-0-0-8 minimist@0.0.8
+1235 silly resolved [ { name: 'minimist',
+1235 silly resolved     version: '0.0.8',
+1235 silly resolved     description: 'parse argument options',
+1235 silly resolved     main: 'index.js',
+1235 silly resolved     devDependencies: { tape: '~1.0.4', tap: '~0.4.0' },
+1235 silly resolved     scripts: { test: 'tap test/*.js' },
+1235 silly resolved     testling: { files: 'test/*.js', browsers: [Object] },
+1235 silly resolved     repository: { type: 'git', url: 'git://github.com/substack/minimist.git' },
+1235 silly resolved     homepage: 'https://github.com/substack/minimist',
+1235 silly resolved     keywords: [ 'argv', 'getopt', 'parser', 'optimist' ],
+1235 silly resolved     author:
+1235 silly resolved      { name: 'James Halliday',
+1235 silly resolved        email: 'mail@substack.net',
+1235 silly resolved        url: 'http://substack.net' },
+1235 silly resolved     license: 'MIT',
+1235 silly resolved     readme: '# minimist\n\nparse argument options\n\nThis module is the guts of optimist\'s argument parser without all the\nfanciful decoration.\n\n[![browser support](https://ci.testling.com/substack/minimist.png)](http://ci.testling.com/substack/minimist)\n\n[![build status](https://secure.travis-ci.org/substack/minimist.png)](http://travis-ci.org/substack/minimist)\n\n# example\n\n``` js\nvar argv = require(\'minimist\')(process.argv.slice(2));\nconsole.dir(argv);\n```\n\n```\n$ node example/parse.js -a beep -b boop\n{ _: [], a: \'beep\', b: \'boop\' }\n```\n\n```\n$ node example/parse.js -x 3 -y 4 -n5 -abc --beep=boop foo bar baz\n{ _: [ \'foo\', \'bar\', \'baz\' ],\n  x: 3,\n  y: 4,\n  n: 5,\n  a: true,\n  b: true,\n  c: true,\n  beep: \'boop\' }\n```\n\n# methods\n\n``` js\nvar parseArgs = require(\'minimist\')\n```\n\n## var argv = parseArgs(args, opts={})\n\nReturn an argument object `argv` populated with the array arguments from `args`.\n\n`argv._` contains all the arguments that didn\'t have an option associated with\nthem.\n\nNumeric-looking arguments will be returned as numbers unless `opts.string` or\n`opts.boolean` is set for that argument name.\n\nAny arguments after `\'--\'` will not be parsed and will end up in `argv._`.\n\noptions can be:\n\n* `opts.string` - a string or array of strings argument names to always treat as\nstrings\n* `opts.boolean` - a string or array of strings to always treat as booleans\n* `opts.alias` - an object mapping string names to strings or arrays of string\nargument names to use as aliases\n* `opts.default` - an object mapping string argument names to default values\n\n# install\n\nWith [npm](https://npmjs.org) do:\n\n```\nnpm install minimist\n```\n\n# license\n\nMIT\n',
+1235 silly resolved     readmeFilename: 'readme.markdown',
+1235 silly resolved     bugs: { url: 'https://github.com/substack/minimist/issues' },
+1235 silly resolved     _id: 'minimist@0.0.8',
+1235 silly resolved     _from: 'minimist@0.0.8' } ]
+1236 info install minimist@0.0.8 into /home/nik/code/xos/node_modules/karma-phantomjs-launcher/node_modules/phantomjs/node_modules/mkdirp
+1237 info installOne minimist@0.0.8
+1238 info /home/nik/code/xos/node_modules/karma-phantomjs-launcher/node_modules/phantomjs/node_modules/mkdirp/node_modules/minimist unbuild
+1239 verbose tar unpack /home/nik/.npm/minimist/0.0.8/package.tgz
+1240 silly lockFile 175b4d5f-les-mkdirp-node-modules-minimist tar:///home/nik/code/xos/node_modules/karma-phantomjs-launcher/node_modules/phantomjs/node_modules/mkdirp/node_modules/minimist
+1241 verbose lock tar:///home/nik/code/xos/node_modules/karma-phantomjs-launcher/node_modules/phantomjs/node_modules/mkdirp/node_modules/minimist /home/nik/.npm/175b4d5f-les-mkdirp-node-modules-minimist.lock
+1242 silly lockFile 5da164d8-k-npm-minimist-0-0-8-package-tgz tar:///home/nik/.npm/minimist/0.0.8/package.tgz
+1243 verbose lock tar:///home/nik/.npm/minimist/0.0.8/package.tgz /home/nik/.npm/5da164d8-k-npm-minimist-0-0-8-package-tgz.lock
+1244 silly gunzTarPerm modes [ '755', '644' ]
+1245 silly gunzTarPerm extractEntry package.json
+1246 silly gunzTarPerm extractEntry LICENSE
+1247 silly gunzTarPerm extractEntry index.js
+1248 silly gunzTarPerm extractEntry .travis.yml
+1249 silly gunzTarPerm extractEntry example/parse.js
+1250 silly gunzTarPerm extractEntry readme.markdown
+1251 silly gunzTarPerm extractEntry test/dash.js
+1252 silly gunzTarPerm extractEntry test/default_bool.js
+1253 silly gunzTarPerm extractEntry test/dotted.js
+1254 silly gunzTarPerm extractEntry test/long.js
+1255 silly gunzTarPerm extractEntry test/parse.js
+1256 silly gunzTarPerm extractEntry test/parse_modified.js
+1257 silly gunzTarPerm extractEntry test/short.js
+1258 silly gunzTarPerm extractEntry test/whitespace.js
+1259 silly lockFile 175b4d5f-les-mkdirp-node-modules-minimist tar:///home/nik/code/xos/node_modules/karma-phantomjs-launcher/node_modules/phantomjs/node_modules/mkdirp/node_modules/minimist
+1260 silly lockFile 175b4d5f-les-mkdirp-node-modules-minimist tar:///home/nik/code/xos/node_modules/karma-phantomjs-launcher/node_modules/phantomjs/node_modules/mkdirp/node_modules/minimist
+1261 silly lockFile 5da164d8-k-npm-minimist-0-0-8-package-tgz tar:///home/nik/.npm/minimist/0.0.8/package.tgz
+1262 silly lockFile 5da164d8-k-npm-minimist-0-0-8-package-tgz tar:///home/nik/.npm/minimist/0.0.8/package.tgz
+1263 info preinstall minimist@0.0.8
+1264 verbose readDependencies using package.json deps
+1265 verbose readDependencies using package.json deps
+1266 silly resolved []
+1267 verbose about to build /home/nik/code/xos/node_modules/karma-phantomjs-launcher/node_modules/phantomjs/node_modules/mkdirp/node_modules/minimist
+1268 info build /home/nik/code/xos/node_modules/karma-phantomjs-launcher/node_modules/phantomjs/node_modules/mkdirp/node_modules/minimist
+1269 verbose linkStuff [ false,
+1269 verbose linkStuff   false,
+1269 verbose linkStuff   false,
+1269 verbose linkStuff   '/home/nik/code/xos/node_modules/karma-phantomjs-launcher/node_modules/phantomjs/node_modules/mkdirp/node_modules' ]
+1270 info linkStuff minimist@0.0.8
+1271 verbose linkBins minimist@0.0.8
+1272 verbose linkMans minimist@0.0.8
+1273 verbose rebuildBundles minimist@0.0.8
+1274 info install minimist@0.0.8
+1275 info postinstall minimist@0.0.8
+1276 verbose about to build /home/nik/code/xos/node_modules/karma-phantomjs-launcher/node_modules/phantomjs/node_modules/mkdirp
+1277 info build /home/nik/code/xos/node_modules/karma-phantomjs-launcher/node_modules/phantomjs/node_modules/mkdirp
+1278 verbose linkStuff [ false,
+1278 verbose linkStuff   false,
+1278 verbose linkStuff   false,
+1278 verbose linkStuff   '/home/nik/code/xos/node_modules/karma-phantomjs-launcher/node_modules/phantomjs/node_modules' ]
+1279 info linkStuff mkdirp@0.5.0
+1280 verbose linkBins mkdirp@0.5.0
+1281 verbose link bins [ { mkdirp: 'bin/cmd.js' },
+1281 verbose link bins   '/home/nik/code/xos/node_modules/karma-phantomjs-launcher/node_modules/phantomjs/node_modules/.bin',
+1281 verbose link bins   false ]
+1282 verbose linkMans mkdirp@0.5.0
+1283 verbose rebuildBundles mkdirp@0.5.0
+1284 verbose rebuildBundles [ 'minimist' ]
+1285 info install mkdirp@0.5.0
+1286 info postinstall mkdirp@0.5.0
+1287 http 304 https://registry.npmjs.org/inherits
+1288 silly registry.get cb [ 304,
+1288 silly registry.get   { date: 'Sun, 28 Dec 2014 01:14:42 GMT',
+1288 silly registry.get     server: 'Apache',
+1288 silly registry.get     via: '1.1 varnish',
+1288 silly registry.get     'last-modified': 'Sun, 28 Dec 2014 01:13:11 GMT',
+1288 silly registry.get     'cache-control': 'max-age=60',
+1288 silly registry.get     etag: '"9QY38ZTAA040M0IB8DZOWK7DH"',
+1288 silly registry.get     age: '7',
+1288 silly registry.get     'x-served-by': 'cache-lhr6335-LHR',
+1288 silly registry.get     'x-cache': 'HIT',
+1288 silly registry.get     'x-cache-hits': '7',
+1288 silly registry.get     'x-timer': 'S1419729282.255545,VS0,VE0',
+1288 silly registry.get     vary: 'Accept',
+1288 silly registry.get     'content-length': '0',
+1288 silly registry.get     'keep-alive': 'timeout=10, max=49',
+1288 silly registry.get     connection: 'Keep-Alive' } ]
+1289 verbose etag inherits from cache
+1290 silly addNameRange number 2 { name: 'inherits', range: '>=2.0.0-0 <2.1.0-0', hasData: true }
+1291 silly addNameRange versions [ 'inherits', [ '1.0.0', '2.0.0', '2.0.1' ] ]
+1292 verbose addNamed [ 'inherits', '2.0.1' ]
+1293 verbose addNamed [ '2.0.1', '2.0.1' ]
+1294 silly lockFile 2b2e8f1b-inherits-2-0-1 inherits@2.0.1
+1295 verbose lock inherits@2.0.1 /home/nik/.npm/2b2e8f1b-inherits-2-0-1.lock
+1296 silly lockFile 2b2e8f1b-inherits-2-0-1 inherits@2.0.1
+1297 silly lockFile 2b2e8f1b-inherits-2-0-1 inherits@2.0.1
+1298 silly lockFile e2566bb4-inherits-2-0-0 inherits@~2.0.0
+1299 silly lockFile e2566bb4-inherits-2-0-0 inherits@~2.0.0
+1300 http 200 https://registry.npmjs.org/ini
+1301 silly registry.get cb [ 200,
+1301 silly registry.get   { date: 'Sun, 28 Dec 2014 01:14:42 GMT',
+1301 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+1301 silly registry.get     etag: '"9H89M0KTPMPEUKAO05M5XC631"',
+1301 silly registry.get     'content-type': 'application/json',
+1301 silly registry.get     'cache-control': 'max-age=60',
+1301 silly registry.get     'content-length': '13672',
+1301 silly registry.get     'accept-ranges': 'bytes',
+1301 silly registry.get     via: '1.1 varnish',
+1301 silly registry.get     age: '19',
+1301 silly registry.get     'x-served-by': 'cache-lhr6320-LHR',
+1301 silly registry.get     'x-cache': 'HIT',
+1301 silly registry.get     'x-cache-hits': '1',
+1301 silly registry.get     'x-timer': 'S1419729282.199812,VS0,VE0',
+1301 silly registry.get     vary: 'Accept',
+1301 silly registry.get     'keep-alive': 'timeout=10, max=50',
+1301 silly registry.get     connection: 'Keep-Alive' } ]
+1302 silly addNameRange number 2 { name: 'ini', range: '>=1.2.0-0 <2.0.0-0', hasData: true }
+1303 silly addNameRange versions [ 'ini',
+1303 silly addNameRange   [ '1.0.0',
+1303 silly addNameRange     '1.0.1',
+1303 silly addNameRange     '1.0.2',
+1303 silly addNameRange     '1.0.3',
+1303 silly addNameRange     '1.0.4',
+1303 silly addNameRange     '1.0.5',
+1303 silly addNameRange     '1.1.0',
+1303 silly addNameRange     '1.2.0',
+1303 silly addNameRange     '1.2.1',
+1303 silly addNameRange     '1.3.0',
+1303 silly addNameRange     '1.3.1',
+1303 silly addNameRange     '1.3.2' ] ]
+1304 verbose addNamed [ 'ini', '1.3.2' ]
+1305 verbose addNamed [ '1.3.2', '1.3.2' ]
+1306 silly lockFile 88d66d88-ini-1-3-2 ini@1.3.2
+1307 verbose lock ini@1.3.2 /home/nik/.npm/88d66d88-ini-1-3-2.lock
+1308 silly lockFile 7f3495e1-stry-npmjs-org-ini-ini-1-3-2-tgz https://registry.npmjs.org/ini/-/ini-1.3.2.tgz
+1309 verbose lock https://registry.npmjs.org/ini/-/ini-1.3.2.tgz /home/nik/.npm/7f3495e1-stry-npmjs-org-ini-ini-1-3-2-tgz.lock
+1310 verbose addRemoteTarball [ 'https://registry.npmjs.org/ini/-/ini-1.3.2.tgz',
+1310 verbose addRemoteTarball   '9ebf4a44daf9d89acd07aab9f89a083d887f6dec' ]
+1311 info retry fetch attempt 1 at 03:14:42
+1312 verbose fetch to= /home/nik/tmp/npm-8154-Eu97Y2jN/registry.npmjs.org/ini/-/ini-1.3.2.tgz
+1313 http GET https://registry.npmjs.org/ini/-/ini-1.3.2.tgz
+1314 http 200 https://registry.npmjs.org/uid-number
+1315 silly registry.get cb [ 200,
+1315 silly registry.get   { date: 'Sun, 28 Dec 2014 01:14:42 GMT',
+1315 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R14B04)',
+1315 silly registry.get     etag: '"4X3ZCQ0H4TS4A93ZVS8UJFH7V"',
+1315 silly registry.get     'content-type': 'application/json',
+1315 silly registry.get     'cache-control': 'max-age=60',
+1315 silly registry.get     'content-length': '6280',
+1315 silly registry.get     'accept-ranges': 'bytes',
+1315 silly registry.get     via: '1.1 varnish',
+1315 silly registry.get     age: '19',
+1315 silly registry.get     'x-served-by': 'cache-lhr6320-LHR',
+1315 silly registry.get     'x-cache': 'HIT',
+1315 silly registry.get     'x-cache-hits': '1',
+1315 silly registry.get     'x-timer': 'S1419729282.376604,VS0,VE0',
+1315 silly registry.get     vary: 'Accept',
+1315 silly registry.get     'keep-alive': 'timeout=10, max=49',
+1315 silly registry.get     connection: 'Keep-Alive' } ]
+1316 silly lockFile 6a024130--uid-number-uid-number-0-0-5-tgz https://registry.npmjs.org/uid-number/-/uid-number-0.0.5.tgz
+1317 verbose lock https://registry.npmjs.org/uid-number/-/uid-number-0.0.5.tgz /home/nik/.npm/6a024130--uid-number-uid-number-0-0-5-tgz.lock
+1318 verbose addRemoteTarball [ 'https://registry.npmjs.org/uid-number/-/uid-number-0.0.5.tgz',
+1318 verbose addRemoteTarball   '5a3db23ef5dbd55b81fce0ec9a2ac6fccdebb81e' ]
+1319 info retry fetch attempt 1 at 03:14:42
+1320 verbose fetch to= /home/nik/tmp/npm-8154-Eu97Y2jN/registry.npmjs.org/uid-number/-/uid-number-0.0.5.tgz
+1321 http GET https://registry.npmjs.org/uid-number/-/uid-number-0.0.5.tgz
+1322 http 200 https://registry.npmjs.org/osenv
+1323 silly registry.get cb [ 200,
+1323 silly registry.get   { date: 'Sun, 28 Dec 2014 01:14:42 GMT',
+1323 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+1323 silly registry.get     etag: '"938IDTKGE2W2Y01RNP3I8LS1V"',
+1323 silly registry.get     'content-type': 'application/json',
+1323 silly registry.get     'cache-control': 'max-age=60',
+1323 silly registry.get     'content-length': '5868',
+1323 silly registry.get     'accept-ranges': 'bytes',
+1323 silly registry.get     via: '1.1 varnish',
+1323 silly registry.get     age: '0',
+1323 silly registry.get     'x-served-by': 'cache-lhr6335-LHR',
+1323 silly registry.get     'x-cache': 'HIT',
+1323 silly registry.get     'x-cache-hits': '1',
+1323 silly registry.get     'x-timer': 'S1419729282.347494,VS0,VE83',
+1323 silly registry.get     vary: 'Accept',
+1323 silly registry.get     'keep-alive': 'timeout=10, max=48',
+1323 silly registry.get     connection: 'Keep-Alive' } ]
+1324 silly addNameRange number 2 { name: 'osenv', range: '>=0.1.0-0 <0.2.0-0', hasData: true }
+1325 silly addNameRange versions [ 'osenv', [ '0.0.1', '0.0.2', '0.0.3', '0.1.0' ] ]
+1326 verbose addNamed [ 'osenv', '0.1.0' ]
+1327 verbose addNamed [ '0.1.0', '0.1.0' ]
+1328 silly lockFile 8f25476a-osenv-0-1-0 osenv@0.1.0
+1329 verbose lock osenv@0.1.0 /home/nik/.npm/8f25476a-osenv-0-1-0.lock
+1330 silly lockFile 15bd4c83--npmjs-org-osenv-osenv-0-1-0-tgz https://registry.npmjs.org/osenv/-/osenv-0.1.0.tgz
+1331 verbose lock https://registry.npmjs.org/osenv/-/osenv-0.1.0.tgz /home/nik/.npm/15bd4c83--npmjs-org-osenv-osenv-0-1-0-tgz.lock
+1332 verbose addRemoteTarball [ 'https://registry.npmjs.org/osenv/-/osenv-0.1.0.tgz',
+1332 verbose addRemoteTarball   '61668121eec584955030b9f470b1d2309504bfcb' ]
+1333 info retry fetch attempt 1 at 03:14:42
+1334 verbose fetch to= /home/nik/tmp/npm-8154-Eu97Y2jN/registry.npmjs.org/osenv/-/osenv-0.1.0.tgz
+1335 http GET https://registry.npmjs.org/osenv/-/osenv-0.1.0.tgz
+1336 http 304 https://registry.npmjs.org/semver
+1337 silly registry.get cb [ 304,
+1337 silly registry.get   { date: 'Sun, 28 Dec 2014 01:14:42 GMT',
+1337 silly registry.get     server: 'Apache',
+1337 silly registry.get     via: '1.1 varnish',
+1337 silly registry.get     'last-modified': 'Sun, 28 Dec 2014 01:14:42 GMT',
+1337 silly registry.get     'cache-control': 'max-age=60',
+1337 silly registry.get     etag: '"1AOWBCQ9DGKZE0ECQB8S2VBHW"',
+1337 silly registry.get     age: '7',
+1337 silly registry.get     'x-served-by': 'cache-lhr6320-LHR',
+1337 silly registry.get     'x-cache': 'HIT',
+1337 silly registry.get     'x-cache-hits': '1',
+1337 silly registry.get     'x-timer': 'S1419729282.469118,VS0,VE1',
+1337 silly registry.get     vary: 'Accept',
+1337 silly registry.get     'content-length': '0',
+1337 silly registry.get     'keep-alive': 'timeout=10, max=48',
+1337 silly registry.get     connection: 'Keep-Alive' } ]
+1338 verbose etag semver from cache
+1339 silly addNameRange number 2 { name: 'semver',
+1339 silly addNameRange   range: '>=2.0.0-0 <3.0.0-0||>=3.0.0-0 <4.0.0-0||>=4.0.0-0 <5.0.0-0',
+1339 silly addNameRange   hasData: true }
+1340 silly addNameRange versions [ 'semver',
+1340 silly addNameRange   [ '1.0.0',
+1340 silly addNameRange     '1.0.1',
+1340 silly addNameRange     '1.0.2',
+1340 silly addNameRange     '1.0.3',
+1340 silly addNameRange     '1.0.4',
+1340 silly addNameRange     '1.0.5',
+1340 silly addNameRange     '1.0.6',
+1340 silly addNameRange     '1.0.7',
+1340 silly addNameRange     '1.0.8',
+1340 silly addNameRange     '1.0.9',
+1340 silly addNameRange     '1.0.10',
+1340 silly addNameRange     '1.0.11',
+1340 silly addNameRange     '1.0.12',
+1340 silly addNameRange     '1.0.13',
+1340 silly addNameRange     '1.0.14',
+1340 silly addNameRange     '1.1.0',
+1340 silly addNameRange     '1.1.1',
+1340 silly addNameRange     '1.1.2',
+1340 silly addNameRange     '1.1.3',
+1340 silly addNameRange     '1.1.4',
+1340 silly addNameRange     '2.0.0-alpha',
+1340 silly addNameRange     '2.0.0-beta',
+1340 silly addNameRange     '2.0.1',
+1340 silly addNameRange     '2.0.2',
+1340 silly addNameRange     '2.0.3',
+1340 silly addNameRange     '2.0.4',
+1340 silly addNameRange     '2.0.5',
+1340 silly addNameRange     '2.0.6',
+1340 silly addNameRange     '2.0.7',
+1340 silly addNameRange     '2.0.8',
+1340 silly addNameRange     '2.0.9',
+1340 silly addNameRange     '2.0.10',
+1340 silly addNameRange     '2.0.11',
+1340 silly addNameRange     '2.1.0',
+1340 silly addNameRange     '2.2.0',
+1340 silly addNameRange     '2.2.1',
+1340 silly addNameRange     '2.3.0',
+1340 silly addNameRange     '2.3.1',
+1340 silly addNameRange     '2.3.2',
+1340 silly addNameRange     '3.0.0',
+1340 silly addNameRange     '3.0.1',
+1340 silly addNameRange     '4.0.0',
+1340 silly addNameRange     '4.0.2',
+1340 silly addNameRange     '4.0.3',
+1340 silly addNameRange     '4.1.0',
+1340 silly addNameRange     '4.1.1',
+1340 silly addNameRange     '4.2.0' ] ]
+1341 verbose addNamed [ 'semver', '4.2.0' ]
+1342 verbose addNamed [ '4.2.0', '4.2.0' ]
+1343 silly lockFile 5a34b860-semver-4-2-0 semver@4.2.0
+1344 verbose lock semver@4.2.0 /home/nik/.npm/5a34b860-semver-4-2-0.lock
+1345 silly lockFile b903d113-pmjs-org-semver-semver-4-2-0-tgz https://registry.npmjs.org/semver/-/semver-4.2.0.tgz
+1346 verbose lock https://registry.npmjs.org/semver/-/semver-4.2.0.tgz /home/nik/.npm/b903d113-pmjs-org-semver-semver-4-2-0-tgz.lock
+1347 verbose addRemoteTarball [ 'https://registry.npmjs.org/semver/-/semver-4.2.0.tgz',
+1347 verbose addRemoteTarball   'a571fd4adbe974fe32bd9cb4c5e249606f498423' ]
+1348 info retry fetch attempt 1 at 03:14:42
+1349 verbose fetch to= /home/nik/tmp/npm-8154-Eu97Y2jN/registry.npmjs.org/semver/-/semver-4.2.0.tgz
+1350 http GET https://registry.npmjs.org/semver/-/semver-4.2.0.tgz
+1351 http 200 https://registry.npmjs.org/once
+1352 silly registry.get cb [ 200,
+1352 silly registry.get   { date: 'Sun, 28 Dec 2014 01:14:42 GMT',
+1352 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+1352 silly registry.get     etag: '"Y6HMSCYOJMGAZF2UNWWCBLSR"',
+1352 silly registry.get     'content-type': 'application/json',
+1352 silly registry.get     'cache-control': 'max-age=60',
+1352 silly registry.get     'content-length': '5319',
+1352 silly registry.get     'accept-ranges': 'bytes',
+1352 silly registry.get     via: '1.1 varnish',
+1352 silly registry.get     age: '23',
+1352 silly registry.get     'x-served-by': 'cache-lhr6335-LHR',
+1352 silly registry.get     'x-cache': 'HIT',
+1352 silly registry.get     'x-cache-hits': '1',
+1352 silly registry.get     'x-timer': 'S1419729282.523832,VS0,VE0',
+1352 silly registry.get     vary: 'Accept',
+1352 silly registry.get     'keep-alive': 'timeout=10, max=47',
+1352 silly registry.get     connection: 'Keep-Alive' } ]
+1353 silly addNameRange number 2 { name: 'once', range: '>=1.3.0-0 <1.4.0-0', hasData: true }
+1354 silly addNameRange versions [ 'once', [ '1.1.1', '1.2.0', '1.3.0', '1.3.1' ] ]
+1355 verbose addNamed [ 'once', '1.3.1' ]
+1356 verbose addNamed [ '1.3.1', '1.3.1' ]
+1357 silly lockFile f243a731-once-1-3-1 once@1.3.1
+1358 verbose lock once@1.3.1 /home/nik/.npm/f243a731-once-1-3-1.lock
+1359 silly lockFile f243a731-once-1-3-1 once@1.3.1
+1360 silly lockFile f243a731-once-1-3-1 once@1.3.1
+1361 silly lockFile 078063e6-once-1-3-0 once@~1.3.0
+1362 silly lockFile 078063e6-once-1-3-0 once@~1.3.0
+1363 verbose about to build /home/nik/code/xos/node_modules/karma-phantomjs-launcher/node_modules/phantomjs/node_modules/npmconf
+1364 info /home/nik/code/xos/node_modules/karma-phantomjs-launcher/node_modules/phantomjs/node_modules/npmconf unbuild
+1365 info preuninstall npmconf@2.0.9
+1366 info uninstall npmconf@2.0.9
+1367 verbose false,/home/nik/code/xos/node_modules,/home/nik/code/xos/node_modules/karma-phantomjs-launcher/node_modules/phantomjs/node_modules unbuild npmconf@2.0.9
+1368 info postuninstall npmconf@2.0.9
+1369 verbose about to build /home/nik/code/xos/node_modules/karma-phantomjs-launcher/node_modules/phantomjs
+1370 info /home/nik/code/xos/node_modules/karma-phantomjs-launcher/node_modules/phantomjs unbuild
+1371 info preuninstall phantomjs@1.9.13
+1372 info uninstall phantomjs@1.9.13
+1373 verbose false,/home/nik/code/xos/node_modules,/home/nik/code/xos/node_modules/karma-phantomjs-launcher/node_modules unbuild phantomjs@1.9.13
+1374 verbose /home/nik/code/xos/node_modules/karma-phantomjs-launcher/node_modules/.bin,[object Object] binRoot
+1375 info postuninstall phantomjs@1.9.13
+1376 verbose about to build /home/nik/code/xos/node_modules/karma-phantomjs-launcher
+1377 info /home/nik/code/xos/node_modules/karma-phantomjs-launcher unbuild
+1378 info preuninstall karma-phantomjs-launcher@0.1.4
+1379 info uninstall karma-phantomjs-launcher@0.1.4
+1380 verbose true,/home/nik/code/xos/node_modules,/home/nik/code/xos/node_modules unbuild karma-phantomjs-launcher@0.1.4
+1381 info postuninstall karma-phantomjs-launcher@0.1.4
+1382 error Error: EACCES, open '/home/nik/.npm/once/1.3.1/package/package.json'
+1382 error  { [Error: EACCES, open '/home/nik/.npm/once/1.3.1/package/package.json']
+1382 error   errno: 3,
+1382 error   code: 'EACCES',
+1382 error   path: '/home/nik/.npm/once/1.3.1/package/package.json',
+1382 error   parent: 'npmconf' }
+1383 error Please try running this command again as root/Administrator.
+1384 error System Linux 3.13.0-43-generic
+1385 error command "/usr/bin/node" "/usr/bin/npm" "install" "karma-phantomjs-launcher" "--save-dev"
+1386 error cwd /home/nik/code/xos
+1387 error node -v v0.10.29
+1388 error npm -v 1.4.14
+1389 error path /home/nik/.npm/once/1.3.1/package/package.json
+1390 error code EACCES
+1391 error errno 3
+1392 error stack Error: EACCES, open '/home/nik/.npm/once/1.3.1/package/package.json'
+1393 verbose exit [ 3, true ]
